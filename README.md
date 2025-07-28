@@ -3,8 +3,6 @@ Analytics on Wolves (EPL) with web scraping, data visualization and analysis wit
 
 Below are samples of my work:
 
-![PvR 10 34 23 PM](https://github.com/user-attachments/assets/8dadbb21-2e6e-4fdc-8902-9d552eb2b6a1)
+<img width="2500" height="1409" alt="Page7" src="https://github.com/user-attachments/assets/07036d21-3a78-421b-a158-163642651f77" />
 
-<img width="3041" height="2955" alt="wolves_progressive_passes_manager_split 10 34 03 PM" src="https://github.com/user-attachments/assets/85c79e6b-8cbb-4554-bfdf-2a73573e58bb" />
-
-<img width="637" height="484" alt="Screenshot 2025-07-18 at 8 19 17 PM" src="https://github.com/user-attachments/assets/4be554d8-0946-4ef7-846a-fd3dfa82270d" />
+<img width="2500" height="1409" alt="Page1" src="https://github.com/user-attachments/assets/10455441-f971-4dd2-9910-6fd0e527b886" />
