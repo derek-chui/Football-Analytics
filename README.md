@@ -9,10 +9,10 @@ In this repository all the projects, as well as the tools resources that helped 
 <details>
   <summary>1.1 - Match Outcomes vs. Progressive Passes (By Tier)</summary>
   
-  Sources: FBref
-  Code: 'wolves1a.ipynb'
-  Summary: For my first project and being a fan I decided to analyse data from Wolves. Here was the first thing I notice right off the bat:
-  
+  **Sources**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/matchlogs/c9/passing/Wolverhampton-Wanderers-Match-Logs-Premier-League)  
+  **Code**: [`wolves1a.ipynb`](./wolves1a.ipynb)  
+  **Summary**:  
+  For my first project and being a fan I decided to analyse data from Wolves. Here was the first thing I notice right off the bat:
   - Winless in all 17 in games with 32+ PrgP
   - 12 wins in 21 in games with 31≥ PrgP
   - Undefeated in all 12 games against the bottom 14, in games with ≤31 PrgP
@@ -26,9 +26,10 @@ In this repository all the projects, as well as the tools resources that helped 
 <details>
   <summary>1.2 - Match Outcomes vs. PrgP (By Manager), Final Third Passes, Crosses, Passing Distance</summary>
   
-  Sources: FBref
-  Code: 'wolves1b.ipynb'
-  Summary: Reached out to Matt Penn for some help, who is an insights data scientist at the FA. He mentioned that it could be due to a change in managers. I looked into this, but it didn't matter whether it was GON or VP:
+  **Sources**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/matchlogs/c9/passing/Wolverhampton-Wanderers-Match-Logs-Premier-League), [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/matchlogs/c9/misc/Wolverhampton-Wanderers-Match-Logs-Premier-League)
+  **Code**: [`wolves1b.ipynb`](./wolves1b.ipynb)  
+  **Summary**:  
+  Reached out to Matt Penn for some help, who is an insights data scientist at the FA. He mentioned that it could be due to a change in managers. I looked into this, but it didn't matter whether it was GON or VP:
 
   - Both managers were winless in games with 32+ PrgP
   - Pereira won 10 out of 13, all games with 31≥ PrgP
@@ -40,10 +41,10 @@ In this repository all the projects, as well as the tools resources that helped 
 <details>
   <summary>1.3 - Player Progressive Carries, Passes, and Receptions</summary>
   
-  Sources: FBref
-  Code: 'wolves2a.ipynb'
-  Summary: To understand the correlation with progression and recent results from 1.1 and 2, in 1.3 I looked into each player's contribution to progression.
-
+  **Sources**: [FBref](https://fbref.com/en/squads/8cec06e1/Wolverhampton-Wanderers-Stats)  
+  **Code**: [`wolves2a.ipynb`](./wolves2a.ipynb)  
+  **Summary**:  
+  To understand the correlation with progression and recent results from 1.1 and 2, in 1.3 I looked into each player's contribution to progression.
   - When plotted against minutes played, starters like Cunha (Sold), RAN (Sold), Gomes, Semedo (Left) all stood out.
   - Interesting results came from PrgC, PrgP, and PrgR per 90. When plotted, supersubs / rotational players like R. Games, Sarabia (Left), Guedes (Sold), and Hwang outperformed the starters.
   - It's clear that Pereira uses these players later in the game for higher progression, but on the flip side cause more turnovers, which could explain some of the games lost.
@@ -55,10 +56,10 @@ In this repository all the projects, as well as the tools resources that helped 
 <details>
   <summary>1.4 - Scouted Player Progressions</summary>
   
-  Sources: FBref, Twitter (@jay_wwfc07)
-  Code: 'wolves2b.ipynb'
-  Summary: A look into scouted / players linked with Wolves may give us a better idea of where Wolves may be heading in terms of progression next season. I used @jay_wwfc07's scouted list on twitter as reference.
-
+  **Sources**: [FBref](https://fbref.com/en/squads/8cec06e1/Wolverhampton-Wanderers-Stats), [Twitter](https://x.com/jay_wwfc07/status/1949467837384597551)
+  **Code**: [`wolves2b.ipynb`](./wolves2b.ipynb)  
+  **Summary**:  
+  A look into scouted / players linked with Wolves may give us a better idea of where Wolves may be heading in terms of progression next season. I used [@jay_wwfc07's scouted list](https://x.com/jay_wwfc07/status/1949467837384597551) on twitter as reference.
   - Milan Van Ewijk from Coventry have similar progressive profiles as RAN (Sold), and Rodrigo Gomes, so does Blas with Cunha.
   - Adli has high progressive carries, which is needed if Wolves decide to continue with high PrgP games. Which I still don't understand.
 
