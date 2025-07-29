@@ -1,0 +1,1176 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='wolves_passing_matchlogs (wolves_passing_matchlogs)' inline='true' name='federated.0q7i0gm0h13u4y1310b001q9nxas' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='wolves_passing_matchlogs' name='excel-direct.1memxmh1pvoviv0zloxkr0ww8bzi'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/derekchui/Desktop/wolves_passing_matchlogs.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1memxmh1pvoviv0zloxkr0ww8bzi' name='wolves_passing_matchlogs' table='[wolves_passing_matchlogs$]' type='table'>
+          <columns gridOrigin='A1:AF41:no:A1:AF41:2' header='yes' lost='0' outcome='1' processed='1013'>
+            <column datatype='date' name='For Wolverhampton Wanderers Date' ordinal='0' />
+            <column datatype='datetime' name='For Wolverhampton Wanderers Time' ordinal='1' />
+            <column datatype='string' name='For Wolverhampton Wanderers Round' ordinal='2' />
+            <column datatype='string' name='For Wolverhampton Wanderers Day' ordinal='3' />
+            <column datatype='string' name='For Wolverhampton Wanderers Venue' ordinal='4' />
+            <column datatype='string' name='For Wolverhampton Wanderers Result' ordinal='5' />
+            <column datatype='integer' name='For Wolverhampton Wanderers GF' ordinal='6' />
+            <column datatype='integer' name='For Wolverhampton Wanderers GA' ordinal='7' />
+            <column datatype='string' name='For Wolverhampton Wanderers Opponent' ordinal='8' />
+            <column datatype='integer' name='Total Cmp' ordinal='9' />
+            <column datatype='integer' name='Total Att' ordinal='10' />
+            <column datatype='real' name='Total Cmp%' ordinal='11' />
+            <column datatype='integer' name='Total TotDist' ordinal='12' />
+            <column datatype='integer' name='Total PrgDist' ordinal='13' />
+            <column datatype='integer' name='Short Cmp' ordinal='14' />
+            <column datatype='integer' name='Short Att' ordinal='15' />
+            <column datatype='real' name='Short Cmp%' ordinal='16' />
+            <column datatype='integer' name='Medium Cmp' ordinal='17' />
+            <column datatype='integer' name='Medium Att' ordinal='18' />
+            <column datatype='real' name='Medium Cmp%' ordinal='19' />
+            <column datatype='integer' name='Long Cmp' ordinal='20' />
+            <column datatype='integer' name='Long Att' ordinal='21' />
+            <column datatype='real' name='Long Cmp%' ordinal='22' />
+            <column datatype='integer' name='Unnamed: 23_level_0 Ast' ordinal='23' />
+            <column datatype='real' name='Unnamed: 24_level_0 xAG' ordinal='24' />
+            <column datatype='real' name='Unnamed: 25_level_0 xA' ordinal='25' />
+            <column datatype='integer' name='Unnamed: 26_level_0 KP' ordinal='26' />
+            <column datatype='integer' name='Unnamed: 27_level_0 3-Jan' ordinal='27' />
+            <column datatype='integer' name='Unnamed: 28_level_0 PPA' ordinal='28' />
+            <column datatype='integer' name='Unnamed: 29_level_0 CrsPA' ordinal='29' />
+            <column datatype='integer' name='Unnamed: 30_level_0 PrgP' ordinal='30' />
+            <column datatype='string' name='Unnamed: 31_level_0 Match Report' ordinal='31' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AF41:no:A1:AF41:2&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1013</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Wolverhampton Wanderers Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[For Wolverhampton Wanderers Date]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>For Wolverhampton Wanderers Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Wolverhampton Wanderers Time</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[For Wolverhampton Wanderers Time]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>For Wolverhampton Wanderers Time</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Wolverhampton Wanderers Round</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[For Wolverhampton Wanderers Round]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>For Wolverhampton Wanderers Round</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Wolverhampton Wanderers Day</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[For Wolverhampton Wanderers Day]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>For Wolverhampton Wanderers Day</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Wolverhampton Wanderers Venue</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[For Wolverhampton Wanderers Venue]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>For Wolverhampton Wanderers Venue</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Wolverhampton Wanderers Result</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[For Wolverhampton Wanderers Result]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>For Wolverhampton Wanderers Result</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Wolverhampton Wanderers GF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[For Wolverhampton Wanderers GF]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>For Wolverhampton Wanderers GF</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Wolverhampton Wanderers GA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[For Wolverhampton Wanderers GA]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>For Wolverhampton Wanderers GA</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Wolverhampton Wanderers Opponent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[For Wolverhampton Wanderers Opponent]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>For Wolverhampton Wanderers Opponent</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cmp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Cmp]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Total Cmp</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Att</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Att]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Total Att</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cmp%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Cmp%]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Total Cmp%</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total TotDist</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total TotDist]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Total TotDist</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total PrgDist</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total PrgDist]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Total PrgDist</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short Cmp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Short Cmp]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Short Cmp</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short Att</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Short Att]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Short Att</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short Cmp%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Short Cmp%]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Short Cmp%</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medium Cmp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Medium Cmp]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Medium Cmp</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medium Att</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Medium Att]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Medium Att</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medium Cmp%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Medium Cmp%]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Medium Cmp%</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long Cmp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long Cmp]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Long Cmp</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long Att</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long Att]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Long Att</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long Cmp%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Long Cmp%]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Long Cmp%</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 23_level_0 Ast</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 23_level_0 Ast]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Unnamed: 23_level_0 Ast</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 24_level_0 xAG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unnamed: 24_level_0 xAG]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Unnamed: 24_level_0 xAG</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 25_level_0 xA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unnamed: 25_level_0 xA]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Unnamed: 25_level_0 xA</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 26_level_0 KP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 26_level_0 KP]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Unnamed: 26_level_0 KP</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 27_level_0 3-Jan</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 27_level_0 3-Jan]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Unnamed: 27_level_0 3-Jan</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 28_level_0 PPA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 28_level_0 PPA]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Unnamed: 28_level_0 PPA</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 29_level_0 CrsPA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 29_level_0 CrsPA]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Unnamed: 29_level_0 CrsPA</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 30_level_0 PrgP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 30_level_0 PrgP]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Unnamed: 30_level_0 PrgP</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 31_level_0 Match Report</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Unnamed: 31_level_0 Match Report]</local-name>
+            <parent-name>[wolves_passing_matchlogs]</parent-name>
+            <remote-alias>Unnamed: 31_level_0 Match Report</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='wolves_passing_matchlogs' datatype='table' name='[__tableau_internal_object_id__].[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/qd/zmwxbd7j74dc0tnmftc7mnhm0000gn/T/tableau-temp/#TableauTemp_105uksn1jxobjm1co9p8c02syklq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/16/2025 03:02:51 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>For Wolverhampton Wanderers Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[For Wolverhampton Wanderers Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>For Wolverhampton Wanderers Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>For Wolverhampton Wanderers Time</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[For Wolverhampton Wanderers Time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>For Wolverhampton Wanderers Time</remote-alias>
+              <ordinal>1</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>For Wolverhampton Wanderers Round</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[For Wolverhampton Wanderers Round]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>For Wolverhampton Wanderers Round</remote-alias>
+              <ordinal>2</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>For Wolverhampton Wanderers Day</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[For Wolverhampton Wanderers Day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>For Wolverhampton Wanderers Day</remote-alias>
+              <ordinal>3</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>For Wolverhampton Wanderers Venue</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[For Wolverhampton Wanderers Venue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>For Wolverhampton Wanderers Venue</remote-alias>
+              <ordinal>4</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>For Wolverhampton Wanderers Result</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[For Wolverhampton Wanderers Result]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>For Wolverhampton Wanderers Result</remote-alias>
+              <ordinal>5</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>For Wolverhampton Wanderers GF</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[For Wolverhampton Wanderers GF]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>For Wolverhampton Wanderers GF</remote-alias>
+              <ordinal>6</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>For Wolverhampton Wanderers GA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[For Wolverhampton Wanderers GA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>For Wolverhampton Wanderers GA</remote-alias>
+              <ordinal>7</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>For Wolverhampton Wanderers Opponent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[For Wolverhampton Wanderers Opponent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>For Wolverhampton Wanderers Opponent</remote-alias>
+              <ordinal>8</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Cmp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Cmp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Cmp</remote-alias>
+              <ordinal>9</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Att</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Att]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Att</remote-alias>
+              <ordinal>10</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Cmp%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total Cmp%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Cmp%</remote-alias>
+              <ordinal>11</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total TotDist</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total TotDist]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total TotDist</remote-alias>
+              <ordinal>12</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total PrgDist</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total PrgDist]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total PrgDist</remote-alias>
+              <ordinal>13</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Short Cmp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Short Cmp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Short Cmp</remote-alias>
+              <ordinal>14</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Short Att</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Short Att]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Short Att</remote-alias>
+              <ordinal>15</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Short Cmp%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Short Cmp%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Short Cmp%</remote-alias>
+              <ordinal>16</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Medium Cmp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Medium Cmp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Medium Cmp</remote-alias>
+              <ordinal>17</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Medium Att</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Medium Att]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Medium Att</remote-alias>
+              <ordinal>18</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Medium Cmp%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Medium Cmp%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Medium Cmp%</remote-alias>
+              <ordinal>19</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Long Cmp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Long Cmp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Long Cmp</remote-alias>
+              <ordinal>20</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Long Att</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Long Att]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Long Att</remote-alias>
+              <ordinal>21</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Long Cmp%</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Long Cmp%]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Long Cmp%</remote-alias>
+              <ordinal>22</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 23_level_0 Ast</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Unnamed: 23_level_0 Ast]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 23_level_0 Ast</remote-alias>
+              <ordinal>23</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 24_level_0 xAG</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Unnamed: 24_level_0 xAG]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 24_level_0 xAG</remote-alias>
+              <ordinal>24</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 25_level_0 xA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Unnamed: 25_level_0 xA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 25_level_0 xA</remote-alias>
+              <ordinal>25</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 26_level_0 KP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Unnamed: 26_level_0 KP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 26_level_0 KP</remote-alias>
+              <ordinal>26</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 27_level_0 3-Jan</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Unnamed: 27_level_0 3-Jan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 27_level_0 3-Jan</remote-alias>
+              <ordinal>27</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 28_level_0 PPA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Unnamed: 28_level_0 PPA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 28_level_0 PPA</remote-alias>
+              <ordinal>28</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 29_level_0 CrsPA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Unnamed: 29_level_0 CrsPA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 29_level_0 CrsPA</remote-alias>
+              <ordinal>29</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 30_level_0 PrgP</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Unnamed: 30_level_0 PrgP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 30_level_0 PrgP</remote-alias>
+              <ordinal>30</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unnamed: 31_level_0 Match Report</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Unnamed: 31_level_0 Match Report]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unnamed: 31_level_0 Match Report</remote-alias>
+              <ordinal>31</ordinal>
+              <family>wolves_passing_matchlogs</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='wolves_passing_matchlogs' id='wolves!passing!matchlogs_F5F70A85BA6D4519B0F3C08C4F34A7CF'>
+            <properties context=''>
+              <relation connection='excel-direct.1memxmh1pvoviv0zloxkr0ww8bzi' name='wolves_passing_matchlogs' table='[wolves_passing_matchlogs$]' type='table'>
+                <columns gridOrigin='A1:AF41:no:A1:AF41:2' header='yes' lost='0' outcome='1' processed='1013'>
+                  <column datatype='date' name='For Wolverhampton Wanderers Date' ordinal='0' />
+                  <column datatype='datetime' name='For Wolverhampton Wanderers Time' ordinal='1' />
+                  <column datatype='string' name='For Wolverhampton Wanderers Round' ordinal='2' />
+                  <column datatype='string' name='For Wolverhampton Wanderers Day' ordinal='3' />
+                  <column datatype='string' name='For Wolverhampton Wanderers Venue' ordinal='4' />
+                  <column datatype='string' name='For Wolverhampton Wanderers Result' ordinal='5' />
+                  <column datatype='integer' name='For Wolverhampton Wanderers GF' ordinal='6' />
+                  <column datatype='integer' name='For Wolverhampton Wanderers GA' ordinal='7' />
+                  <column datatype='string' name='For Wolverhampton Wanderers Opponent' ordinal='8' />
+                  <column datatype='integer' name='Total Cmp' ordinal='9' />
+                  <column datatype='integer' name='Total Att' ordinal='10' />
+                  <column datatype='real' name='Total Cmp%' ordinal='11' />
+                  <column datatype='integer' name='Total TotDist' ordinal='12' />
+                  <column datatype='integer' name='Total PrgDist' ordinal='13' />
+                  <column datatype='integer' name='Short Cmp' ordinal='14' />
+                  <column datatype='integer' name='Short Att' ordinal='15' />
+                  <column datatype='real' name='Short Cmp%' ordinal='16' />
+                  <column datatype='integer' name='Medium Cmp' ordinal='17' />
+                  <column datatype='integer' name='Medium Att' ordinal='18' />
+                  <column datatype='real' name='Medium Cmp%' ordinal='19' />
+                  <column datatype='integer' name='Long Cmp' ordinal='20' />
+                  <column datatype='integer' name='Long Att' ordinal='21' />
+                  <column datatype='real' name='Long Cmp%' ordinal='22' />
+                  <column datatype='integer' name='Unnamed: 23_level_0 Ast' ordinal='23' />
+                  <column datatype='real' name='Unnamed: 24_level_0 xAG' ordinal='24' />
+                  <column datatype='real' name='Unnamed: 25_level_0 xA' ordinal='25' />
+                  <column datatype='integer' name='Unnamed: 26_level_0 KP' ordinal='26' />
+                  <column datatype='integer' name='Unnamed: 27_level_0 3-Jan' ordinal='27' />
+                  <column datatype='integer' name='Unnamed: 28_level_0 PPA' ordinal='28' />
+                  <column datatype='integer' name='Unnamed: 29_level_0 CrsPA' ordinal='29' />
+                  <column datatype='integer' name='Unnamed: 30_level_0 PrgP' ordinal='30' />
+                  <column datatype='string' name='Unnamed: 31_level_0 Match Report' ordinal='31' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='wolves_passing_matchlogs (wolves_passing_matchlogs)' name='federated.0q7i0gm0h13u4y1310b001q9nxas' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0q7i0gm0h13u4y1310b001q9nxas'>
+            <column datatype='string' name='[For Wolverhampton Wanderers Result]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total TotDist]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Unnamed: 29_level_0 CrsPA]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Unnamed: 30_level_0 PrgP]' role='measure' type='quantitative' />
+            <column-instance column='[Total TotDist]' derivation='Avg' name='[avg:Total TotDist:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Unnamed: 29_level_0 CrsPA]' derivation='Avg' name='[avg:Unnamed: 29_level_0 CrsPA:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Unnamed: 30_level_0 PrgP]' derivation='Avg' name='[avg:Unnamed: 30_level_0 PrgP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[For Wolverhampton Wanderers Result]' derivation='None' name='[none:For Wolverhampton Wanderers Result:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0q7i0gm0h13u4y1310b001q9nxas].[none:For Wolverhampton Wanderers Result:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:For Wolverhampton Wanderers Result:nk]' />
+              <groupfilter function='member' level='[none:For Wolverhampton Wanderers Result:nk]' member='&quot;12/6/2020&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0q7i0gm0h13u4y1310b001q9nxas].[none:For Wolverhampton Wanderers Result:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0q7i0gm0h13u4y1310b001q9nxas].[avg:Unnamed: 29_level_0 CrsPA:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0q7i0gm0h13u4y1310b001q9nxas].[avg:Total TotDist:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0q7i0gm0h13u4y1310b001q9nxas].[avg:Unnamed: 30_level_0 PrgP:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0q7i0gm0h13u4y1310b001q9nxas].[none:For Wolverhampton Wanderers Result:nk]</rows>
+        <cols>([federated.0q7i0gm0h13u4y1310b001q9nxas].[avg:Unnamed: 30_level_0 PrgP:qk] + ([federated.0q7i0gm0h13u4y1310b001q9nxas].[avg:Unnamed: 29_level_0 CrsPA:qk] + [federated.0q7i0gm0h13u4y1310b001q9nxas].[avg:Total TotDist:qk]))</cols>
+      </table>
+      <simple-id uuid='{3C195F82-2351-41A2-83E1-3ED8DD2F8D10}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{547690EE-1480-41A5-A468-7F03975E60AB}' />
+    </window>
+  </windows>
+</workbook>
