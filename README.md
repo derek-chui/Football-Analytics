@@ -25,6 +25,10 @@ Click on the arrows to select and expand each project for more details!
     This doesn't really make much sense. More progression typically don't 
     correlate to less wins, but the data shows otherwise.
 
+  <p align="center">
+    <img src="./Project%201/Project%201.1/1.1.png" alt="1.1" width="75%" />
+  </p>
+
 </details>
 
 <details>
