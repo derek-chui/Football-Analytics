@@ -8,7 +8,7 @@ Click on the arrows to select and expand each project for more details!
 
 **1 - Wolverhampton Wanderers Analysis (24/25 Season)**
 
-- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/Wolverhampton-Wanderers-Stats)
+- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
 - **Folder**: [Project 1](./Project%201/)
 - **Summary**: For my first project and being a fan I decided to analyse data from Wolves. I was already familiar with the squad and its problems so this was a natural starting point.
 
@@ -40,7 +40,7 @@ Click on the arrows to select and expand each project for more details!
     - Both managers were winless in games with 32+ PrgP (which makes sense because Wolves were winless in all 17 in games with 32+ PrgP anyways in 1.1)
     - Pereira won 10 out of 13, all games with 31≥ PrgP
   
-    Same thing with final third passes, crosses, and passing distance, where more of those correlated to more losses.
+    Same thing with final third passes, crosses, and passing distance, where more of those correlated to more losses. Those results are at the bottom of the 1.2 code file.
 
   <p align="center">
     <img src="./Project%201/Project%201.2/1.2.png" alt="1.2" width="75%" />
