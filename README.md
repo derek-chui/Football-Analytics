@@ -80,3 +80,27 @@ Click on the arrows to select and expand each project for more details!
   </p>
 
 </details>
+
+<details>
+  <summary>1.5 - Posession vs. Goal Difference (Bottom 14 & Manager)</summary>
+
+  - **Code**: [project1_5.ipynb](./Project%201/Project%201.5/project1_5.ipynb)  
+  - **Summary**:  
+    Inspired by previous progressive results, and [Soccermatic's possession samples](https://soccermatics.readthedocs.io/en/latest/lesson2/Possession.html), I plotted such relationships by filtering out top 6 teams (where progressiveness didn't matter) and noticed the following trends:
+
+    - No obvious relationship between possession and goal different when all games are plotted.
+    - However when games against the top 6 are filtered out, data reveals that lower possession (and logically, progression) is related to positive goal difference, even for both Gary O'Neil and Vitor Pereira.
+    - As an example, O'Neil was winless in games with 54%+ possession, which made up the bulk of his losses (against the bottom 14).
+    - Pereira was unbeaten in games with <54% possession, which also made up the bulk of his wins (against the bottom 14).
+    - Again, the only wins O'Neil had only game from the games with 54%+ possession.
+    - On the flip side, all of Pereira's losses against the bottom 14 originated from games with <54% possession.
+
+    All this provides valuable insights to concerns in progression as mentioned in 1.1 and 1.2, with possession backing up the correlation. Evidently, less progressive passes are able to be made if there's less possession of the ball, for obvious reasons. I'm interested to see if Pereira will still decide to play high possession and high progressiveness against bottom 14 teams, despite the negative results in that department.
+    
+    I'm very confident that with low possession and lower amounts of (but higher quality) progressiveness against the bottom 14, most of these games are very winnable. If Wolves were to do that 24/25, European football would have very much been achievable, let alone surviving relegation.
+
+  <p align="center">
+    <img src="./Project%201/Project%201.5/1.5.png" alt="1.5" width="75%" />
+  </p>
+
+</details>
