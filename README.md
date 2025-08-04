@@ -82,11 +82,11 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
-  <summary>1.5 - Posession vs. Goal Difference (Bottom 14 & Manager)</summary>
+  <summary>1.5 - Possession vs. Goal Difference (Bottom 14 & Manager)</summary>
 
   - **Code**: [project1_5.ipynb](./Project%201/Project%201.5/project1_5.ipynb)  
   - **Summary**:  
-    Inspired by previous progressive results, and [Soccermatic's possession samples](https://soccermatics.readthedocs.io/en/latest/lesson2/Possession.html), I plotted such relationships by filtering out top 6 teams (where progressiveness didn't matter) and noticed the following trends:
+    Drawing inspiration from previous progressive results, and [Soccermatic's possession samples](https://soccermatics.readthedocs.io/en/latest/lesson2/Possession.html), I plotted such relationships by filtering out top 6 teams (where progressiveness didn't matter) and noticed the following trends:
 
     - No obvious relationship between possession and goal different when all games are plotted.
     - However when games against the top 6 are filtered out, data reveals that lower possession (and logically, progression) is related to positive goal difference, even for both Gary O'Neil and Vitor Pereira.
