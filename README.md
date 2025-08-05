@@ -96,11 +96,32 @@ Click on the arrows to select and expand each project for more details!
     - On the flip side, all of Pereira's losses against the bottom 14 originated from games with <54% possession.
 
     All this provides valuable insights to concerns in progression as mentioned in 1.1 and 1.2, with possession backing up the correlation. Evidently, less progressive passes are able to be made if there's less possession of the ball, for obvious reasons. I'm interested to see if Pereira will still decide to play high possession and high progressiveness against bottom 14 teams, despite the negative results in that department.
+
+    Based on [this video from Tifo Football](https://x.com/TifoFootball_/status/1702577998421987506) at 6:35 via [Jake Kolliari](https://x.com/_JKDS_), non penalty xG difference is one of the biggest indicators in avoiding relegation. Lucky for me, Wolves never won a single penalty so whether the plots included penalties or not makes no difference.
     
     I'm very confident that with low possession and lower amounts of (but higher quality) progressiveness against the bottom 14, most of these games are very winnable. If Wolves were to do that 24/25, European football would have very much been achievable, let alone surviving relegation.
 
   <p align="center">
     <img src="./Project%201/Project%201.5/1.5.png" alt="1.5" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>1.6 - Progressive Passes by Game State</summary>
+
+  - **Code**: [project1_6.ipynb](./Project%201/Project%201.6/project1_6.ipynb)  
+  - **Summary**:  
+    Continuing on from previous progressive results, Joe from [Concept Scouting](https://x.com/ConceptScouting) suggested that I should look into game states (whether Wolves were ahead, level, or chasing) to determine "whether the PrgP is meaningful or just despirate". It's reasonable to say that Wolves are better to set up defensively and counter, rather than building out through repetitive progressions.
+
+    For each game, we sum up the minutes Wolves were ahead, level, or behind in a game. We can plot this relationship over the course of the season. Progressive passes vs dominant game state (the state Wolves spent the most of the game in) reveals that less PrgP are made when the team is ahead, and more when behind. It makes sense to be more aggressive when trailing. Wolves are also towards the progressive end even when level in goals. We know this since the level median is closer to behind than ahead. It's also not a coincidence that the outliers themselves also reflect this trend.
+
+    We can also plot minutes per game state. As expected, the more time spent ahead, the less PrgP, and more time spent behind, the more PrgP.
+
+    I think I've been looking at this wrong. In the beginning of this project I thought Wolves were losing games because of high PrgP, possession, etc. Now I can confidently say that Wolves are making more PrgP because they're behind, and obviously more games are lost when more time was spent behind, which makes more sense.
+
+  <p align="center">
+    <img src="./Project%201/Project%201.6/1.6.png" alt="1.6" width="75%" />
   </p>
 
 </details>
