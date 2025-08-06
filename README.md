@@ -4,9 +4,8 @@ This repo contains the projects, tools, and resources for football data analysis
 
 Click on the arrows to select and expand each project for more details!
 
-## Projects
-
-**1 - Wolverhampton Wanderers Analysis (24/25 Season)**
+## 1 - Wolverhampton Wanderers Analysis (24/25 Season)
+<!-- **1 - Wolverhampton Wanderers Analysis (24/25 Season)** -->
 
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
 - **Folder**: [Project 1](./Project%201/)
@@ -120,8 +119,16 @@ Click on the arrows to select and expand each project for more details!
 
     I think I've been looking at this wrong. In the beginning of this project I thought Wolves were losing games because of high PrgP, possession, etc. Now I can confidently say that Wolves are making more PrgP because they're behind, and obviously more games are lost when more time was spent behind, which makes more sense.
 
+    Unfortunately, this will mean the end of my first complete project.
+
   <p align="center">
     <img src="./Project%201/Project%201.6/1.6.png" alt="1.6" width="75%" />
   </p>
 
 </details>
+
+## 2 - Wolverhampton Wanderers Scouting (25/26 Season)
+
+- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
+- **Folder**: [Project 2](./Project%202/)
+- **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
