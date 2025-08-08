@@ -132,3 +132,20 @@ Click on the arrows to select and expand each project for more details!
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
 - **Folder**: [Project 2](./Project%202/)
 - **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
+
+<details>
+  <summary>2.1 - Left Wing Back Options</summary>
+
+  - **Code**: [project2-1.ipynb](./Project%202/Project%202.1/project2-1.ipynb)  
+  - **Summary**:  
+    With Ait Nouri leaving the Man City in the beginning of the window, there were big shoes to fill on the Left Wing Back Position. Hugo Bueno, who is homegrown and had just returned from a fairly decent loan under Van Persie at Feyenoord, was expected to step up. Wolfe was also signed from Alkmaar, and it looks like they will share minutes for the spot as of now.
+
+    The basic radar plot generated can be split in half for the LWB's offensive and defensive attributes. For instant, Progressive actions are a sum of progressive carries, passes, and receptions. These are scaled and normalized to the selection of players in question, so for example Ait Nouri (RAN) seems to have 100% Successful Take Ons but that's because he has the most of the three.
+
+    It's easy to notice why RAN was so successful under Pereira. As [Doherty mentioned in an interview](https://www.youtube.com/watch?v=ZbGNFc41OlU&ab_channel=Wolves), Pereira prefers wing backs to take on opponents 1v1 rather than passing with support (like Nuno). I'm expecting Bueno to start the first game against City, but interested to see what happens beyond that.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.1/2-1.png" alt="2.1" width="75%" />
+  </p>
+
+</details>
