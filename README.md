@@ -138,7 +138,7 @@ Click on the arrows to select and expand each project for more details!
 
   - **Code**: [project2-1.ipynb](./Project%202/Project%202.1/project2-1.ipynb)  
   - **Summary**:  
-    With Ait Nouri leaving the Man City in the beginning of the window, there were big shoes to fill on the Left Wing Back Position. Hugo Bueno, who is homegrown and had just returned from a fairly decent loan under Van Persie at Feyenoord, was expected to step up. Wolfe was also signed from Alkmaar, and it looks like they will share minutes for the spot as of now.
+    With Ait Nouri leaving the Man City in the beginning of the window, there were big shoes to fill on the left wing back position. Hugo Bueno, who is homegrown and had just returned from a fairly decent loan under Van Persie at Feyenoord, was expected to step up. Wolfe was also signed from Alkmaar, and it looks like they will share minutes for the spot as of now.
 
     The basic radar plot generated can be split in half for the LWB's offensive and defensive attributes. For instant, Progressive actions are a sum of progressive carries, passes, and receptions. These are scaled and normalized to the selection of players in question, so for example Ait Nouri (RAN) seems to have 100% Successful Take Ons but that's because he has the most of the three.
 
