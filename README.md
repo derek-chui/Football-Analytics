@@ -149,3 +149,40 @@ Click on the arrows to select and expand each project for more details!
   </p>
 
 </details>
+
+<details>
+  <summary>2.2 - Detailed Right Wing Back Comparisons</summary>
+
+  - **Code**: [project2-2.ipynb](./Project%202/Project%202.2/project2-2.ipynb)  
+  - **Summary**:  
+    This is probably one of the most detailed sub projects so far and was a pain to code out.
+
+    There's currently a dilemma for the right wing back (RWB) position at Wolves. Like Ait Nouri, Semedo had just left and there are large shoes to fill once again. Other options are Hoever (KJH), who just like Hugo Bueno in 2.1 just returned from loan (Auxerre). On the other hand with Rodrigo Gomes who had a few good rotational minutes, scoring in both games against Leicester. Pedro Lima has potential but with limited minutes he could be going out on loan.
+
+    Many think KJH and R. Gomes aren't exactly premier league proven, and Wolves have been searching for an established wing back. Almost aquiring Pubill (who played with Hugo Bueno recently at the U21 Euros), however the deal was hijacked last minute by Athletico. Another rumor that stands out would be Sanchez (also played with both at U21 Euros), who as of writing is reluctant to sign for Wolves for the same reason: lack of European football and ambition.
+
+    It's no suprise that their agents are using Wolves as a chip to lure other more ambitious clubs to sign. And it's also no suprise that KJH would get the starting role against City this weekend. We can compare the departed, current, and rumored players in a donut bar chart to see the overall trend / type of RWB Wolves tend to prefer.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.2/2-2-1.png" alt="2.2" width="75%" />
+  </p>
+
+    We split the donut into offensive and defensive attributes. Each player is compared to another and naturally higher numbers float towards the edge. In the rank grid to the right, we can see how Ratiu and Sanchez have some of the best stats. Ratiu is top for shot creating actions and successful take ons, both as I've mentioned in 2.1 are crutial to Pereira's play style. On the other hand, Sanchez tops in tackles, interceptions, blocks, and expected goal contributions. Ratiu also finishes top in the podium, with 2 1st place finishes and 5 2nd / 3rd finishes.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.2/2-2-2.png" alt="2.2" width="75%" />
+  </p>
+
+    The individual player donuts also show the same thing. I think R. Gomes would be a phenominal rotational / supersub player this season, turning tackles / interceptions into progressive actions later in the game. You can also see some of the weakesses Ratiu or even KJH would be able to cover up with Semedo now gone.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.2/2-2-3.png" alt="2.2" width="75%" />
+  </p>
+
+    Below are further metrics and distributions that I thought could add to this projects.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.2/2-2-4.png" alt="2.2" width="75%" />
+  </p>
+
+</details>
