@@ -166,20 +166,20 @@ Click on the arrows to select and expand each project for more details!
   <p align="center">
     <img src="./Project%202/Project%202.2/2-2-1.png" alt="2.2" width="75%" />
   </p>
-
-    We split the donut into offensive and defensive attributes. Each player is compared to another and naturally higher numbers float towards the edge. In the rank grid to the right, we can see how Ratiu and Sanchez have some of the best stats. Ratiu is top for shot creating actions and successful take ons, both as I've mentioned in 2.1 are crutial to Pereira's play style. On the other hand, Sanchez tops in tackles, interceptions, blocks, and expected goal contributions. Ratiu also finishes top in the podium, with 2 1st place finishes and 5 2nd / 3rd finishes.
+  
+  We split the donut into offensive and defensive attributes. Each player is compared to another and naturally higher numbers float towards the edge. In the rank grid to the right, we can see how Ratiu and Sanchez have some of the best stats. Ratiu is top for shot creating actions and successful take ons, both as I've mentioned in 2.1 are crutial to Pereira's play style. On the other hand, Sanchez tops in tackles, interceptions, blocks, and expected goal contributions. Ratiu also finishes top in the podium, with 2 1st place finishes and 5 2nd / 3rd finishes.
 
   <p align="center">
     <img src="./Project%202/Project%202.2/2-2-2.png" alt="2.2" width="75%" />
   </p>
 
-    The individual player donuts also show the same thing. I think R. Gomes would be a phenominal rotational / supersub player this season, turning tackles / interceptions into progressive actions later in the game. You can also see some of the weakesses Ratiu or even KJH would be able to cover up with Semedo now gone.
+  The individual player donuts also show the same thing. I think R. Gomes would be a phenominal rotational / supersub player this season, turning tackles / interceptions into progressive actions later in the game. You can also see some of the weakesses Ratiu or even KJH would be able to cover up with Semedo now gone.
 
   <p align="center">
     <img src="./Project%202/Project%202.2/2-2-3.png" alt="2.2" width="75%" />
   </p>
 
-    Below are further metrics and distributions that I thought could add to this projects.
+  Below are further metrics and distributions that I thought could add to this project.
 
   <p align="center">
     <img src="./Project%202/Project%202.2/2-2-4.png" alt="2.2" width="75%" />
