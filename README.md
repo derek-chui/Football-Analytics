@@ -13,7 +13,7 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>2.3 - Replacing Cunha</summary>
 
-  - **Code**: [project2-2.ipynb](./Project%202/Project%202.2/project2-2.ipynb)  
+  - **Code**: [project2-3.ipynb](./Project%202/Project%202.3/project2-3.ipynb)  
   - **Summary**:  
     With Cunha leaving to United, I'm interested to see how Wolves will replace the 62.5m euro man. And realistically, his stats won't be replicated at Wolves for a while. Out of all 10 categories, when compared to departing, current, and rumored Wolves players (12), Cunha tops 4 of them, and is 3rd in two others. With a +6.4 difference in non penalty goals and expected goals, the next closest of the bunch is Akturkoglu with +1.3, who stands out as one of the best replacements, and would play well along side the likes of Arias and Lopez. As seen below, he also has the most podium finishes after Cunha.
 
