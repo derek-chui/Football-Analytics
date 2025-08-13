@@ -4,6 +4,97 @@ This repo contains the projects, tools, and resources for football data analysis
 
 Click on the arrows to select and expand each project for more details!
 
+## 2 - Wolverhampton Wanderers Scouting (25/26 Season)
+
+- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
+- **Folder**: [Project 2](./Project%202/)
+- **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
+
+<details>
+  <summary>2.3 - Replacing Cunha</summary>
+
+  - **Code**: [project2-2.ipynb](./Project%202/Project%202.2/project2-2.ipynb)  
+  - **Summary**:  
+    With Cunha leaving to United, I'm interested to see how Wolves will replace the 62.5m euro man. And realistically, his stats won't be replicated at Wolves for a while. Out of all 10 categories, when compared to departing, current, and rumored Wolves players (12), Cunha tops 4 of them, and is 3rd in two others. With a +6.4 difference in non penalty goals and expected goals, the next closest of the bunch is Akturkoglu with +1.3, who stands out as one of the best replacements, and would play well along side the likes of Arias and Lopez. As seen below, he also has the most podium finishes after Cunha.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-1.png" alt="2.3" width="75%" />
+  </p>
+
+  We can highlight these players (another good pick would be Ben Doak) and split them by shooting, progression, and pressing. It's easy to notice the similarities between Matheus and Kerem. Identical expected goal contributions and shots on target per 90, similar progressively and both fairly aggressive. Despite his lower take ons and npG-xG, Kerem makes up for in touches in the opposite pen and interceptions. Again Ben Doak shares similar stats in the Championship last season. I believe these two are arguably better picks than the likes of Amine Adli and Matthis Abline, both who are more popular choices. 
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-2.png" alt="2.3" width="75%" />
+  </p>
+
+  Here Cunha and Akturkoglu both are the only shot dominant players, which is something we're lacking after Cunha imo. Bellegarde and Munetsi provide depth to both midfield and CAM, hence their press heavy characteristics, espeically for attacking players. Progressive architypes are pretty common, since Wolves already have Arias and Lopez, but Doak would be a good addition as well. Adli and Abline are good too but I would personally perfer Kerem and Ben. That way, Wolves would have a Cunha like player and sufficient progressive options (as well as press heavy like Munetsi).
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-3.png" alt="2.3" width="75%" />
+  </p>
+
+  Below are further metrics and distributions of all the players referenced and used for comparison.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-4.png" alt="2.3" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>2.2 - Detailed Right Wing Back Comparisons</summary>
+
+  - **Code**: [project2-2.ipynb](./Project%202/Project%202.2/project2-2.ipynb)  
+  - **Summary**:  
+    This is probably one of the most detailed sub projects so far and was a pain to code out.
+
+    There's currently a dilemma for the right wing back (RWB) position at Wolves. Like Ait Nouri, Semedo had just left and there are large shoes to fill once again. Other options are Hoever (KJH), who just like Hugo Bueno in 2.1 just returned from loan (Auxerre). On the other hand with Rodrigo Gomes who had a few good rotational minutes, scoring in both games against Leicester. Pedro Lima has potential but with limited minutes he could be going out on loan.
+
+    Many think KJH and R. Gomes aren't exactly premier league proven, and Wolves have been searching for an established wing back. Almost aquiring Pubill (who played with Hugo Bueno recently at the U21 Euros), however the deal was hijacked last minute by Athletico. Another rumor that stands out would be Sanchez (also played with both at U21 Euros), who as of writing is reluctant to sign for Wolves for the same reason: lack of European football and ambition.
+
+    It's no suprise that their agents are using Wolves as a chip to lure other more ambitious clubs to sign. And it's also no suprise that KJH would get the starting role against City this weekend. We can compare the departed, current, and rumored players in a donut bar chart to see the overall trend / type of RWB Wolves tend to prefer.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.2/2-2-1.png" alt="2.2" width="75%" />
+  </p>
+  
+  We split the donut into offensive and defensive attributes. Each player is compared to another and naturally higher numbers float towards the edge. In the rank grid to the right, we can see how Ratiu and Sanchez have some of the best stats. Ratiu is top for shot creating actions and successful take ons, both as I've mentioned in 2.1 are crutial to Pereira's play style. On the other hand, Sanchez tops in tackles, interceptions, blocks, and expected goal contributions. Ratiu also finishes top in the podium, with 2 1st place finishes and 5 2nd / 3rd finishes.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.2/2-2-2.png" alt="2.2" width="75%" />
+  </p>
+
+  The individual player donuts also show the same thing. I think R. Gomes would be a phenominal rotational / supersub player this season, turning tackles / interceptions into progressive actions later in the game. You can also see some of the weakesses Ratiu or even KJH would be able to cover up with Semedo now gone.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.2/2-2-3.png" alt="2.2" width="75%" />
+  </p>
+
+  Below are further metrics and distributions that I thought could add to this project.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.2/2-2-4.png" alt="2.2" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>2.1 - Left Wing Back Options</summary>
+
+  - **Code**: [project2-1.ipynb](./Project%202/Project%202.1/project2-1.ipynb)  
+  - **Summary**:  
+    With Ait Nouri leaving the Man City in the beginning of the window, there were big shoes to fill on the left wing back position. Hugo Bueno, who is homegrown and had just returned from a fairly decent loan under Van Persie at Feyenoord, was expected to step up. Wolfe was also signed from Alkmaar, and it looks like they will share minutes for the spot as of now.
+
+    The basic radar plot generated can be split in half for the LWB's offensive and defensive attributes. For instant, Progressive actions are a sum of progressive carries, passes, and receptions. These are scaled and normalized to the selection of players in question, so for example Ait Nouri (RAN) seems to have 100% Successful Take Ons but that's because he has the most of the three.
+
+    It's easy to notice why RAN was so successful under Pereira. As [Doherty mentioned in an interview](https://www.youtube.com/watch?v=ZbGNFc41OlU&ab_channel=Wolves), Pereira prefers wing backs to take on opponents 1v1 rather than passing with support (like Nuno). I'm expecting Bueno to start the first game against City, but interested to see what happens beyond that.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.1/2-1.png" alt="2.1" width="75%" />
+  </p>
+
+</details>
+
 ## 1 - Wolverhampton Wanderers Analysis (24/25 Season)
 <!-- **1 - Wolverhampton Wanderers Analysis (24/25 Season)** -->
 
@@ -123,97 +214,6 @@ Click on the arrows to select and expand each project for more details!
 
   <p align="center">
     <img src="./Project%201/Project%201.6/1.6.png" alt="1.6" width="75%" />
-  </p>
-
-</details>
-
-## 2 - Wolverhampton Wanderers Scouting (25/26 Season)
-
-- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
-- **Folder**: [Project 2](./Project%202/)
-- **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
-
-<details>
-  <summary>2.1 - Left Wing Back Options</summary>
-
-  - **Code**: [project2-1.ipynb](./Project%202/Project%202.1/project2-1.ipynb)  
-  - **Summary**:  
-    With Ait Nouri leaving the Man City in the beginning of the window, there were big shoes to fill on the left wing back position. Hugo Bueno, who is homegrown and had just returned from a fairly decent loan under Van Persie at Feyenoord, was expected to step up. Wolfe was also signed from Alkmaar, and it looks like they will share minutes for the spot as of now.
-
-    The basic radar plot generated can be split in half for the LWB's offensive and defensive attributes. For instant, Progressive actions are a sum of progressive carries, passes, and receptions. These are scaled and normalized to the selection of players in question, so for example Ait Nouri (RAN) seems to have 100% Successful Take Ons but that's because he has the most of the three.
-
-    It's easy to notice why RAN was so successful under Pereira. As [Doherty mentioned in an interview](https://www.youtube.com/watch?v=ZbGNFc41OlU&ab_channel=Wolves), Pereira prefers wing backs to take on opponents 1v1 rather than passing with support (like Nuno). I'm expecting Bueno to start the first game against City, but interested to see what happens beyond that.
-
-  <p align="center">
-    <img src="./Project%202/Project%202.1/2-1.png" alt="2.1" width="75%" />
-  </p>
-
-</details>
-
-<details>
-  <summary>2.2 - Detailed Right Wing Back Comparisons</summary>
-
-  - **Code**: [project2-2.ipynb](./Project%202/Project%202.2/project2-2.ipynb)  
-  - **Summary**:  
-    This is probably one of the most detailed sub projects so far and was a pain to code out.
-
-    There's currently a dilemma for the right wing back (RWB) position at Wolves. Like Ait Nouri, Semedo had just left and there are large shoes to fill once again. Other options are Hoever (KJH), who just like Hugo Bueno in 2.1 just returned from loan (Auxerre). On the other hand with Rodrigo Gomes who had a few good rotational minutes, scoring in both games against Leicester. Pedro Lima has potential but with limited minutes he could be going out on loan.
-
-    Many think KJH and R. Gomes aren't exactly premier league proven, and Wolves have been searching for an established wing back. Almost aquiring Pubill (who played with Hugo Bueno recently at the U21 Euros), however the deal was hijacked last minute by Athletico. Another rumor that stands out would be Sanchez (also played with both at U21 Euros), who as of writing is reluctant to sign for Wolves for the same reason: lack of European football and ambition.
-
-    It's no suprise that their agents are using Wolves as a chip to lure other more ambitious clubs to sign. And it's also no suprise that KJH would get the starting role against City this weekend. We can compare the departed, current, and rumored players in a donut bar chart to see the overall trend / type of RWB Wolves tend to prefer.
-
-  <p align="center">
-    <img src="./Project%202/Project%202.2/2-2-1.png" alt="2.2" width="75%" />
-  </p>
-  
-  We split the donut into offensive and defensive attributes. Each player is compared to another and naturally higher numbers float towards the edge. In the rank grid to the right, we can see how Ratiu and Sanchez have some of the best stats. Ratiu is top for shot creating actions and successful take ons, both as I've mentioned in 2.1 are crutial to Pereira's play style. On the other hand, Sanchez tops in tackles, interceptions, blocks, and expected goal contributions. Ratiu also finishes top in the podium, with 2 1st place finishes and 5 2nd / 3rd finishes.
-
-  <p align="center">
-    <img src="./Project%202/Project%202.2/2-2-2.png" alt="2.2" width="75%" />
-  </p>
-
-  The individual player donuts also show the same thing. I think R. Gomes would be a phenominal rotational / supersub player this season, turning tackles / interceptions into progressive actions later in the game. You can also see some of the weakesses Ratiu or even KJH would be able to cover up with Semedo now gone.
-
-  <p align="center">
-    <img src="./Project%202/Project%202.2/2-2-3.png" alt="2.2" width="75%" />
-  </p>
-
-  Below are further metrics and distributions that I thought could add to this project.
-
-  <p align="center">
-    <img src="./Project%202/Project%202.2/2-2-4.png" alt="2.2" width="75%" />
-  </p>
-
-</details>
-
-<details>
-  <summary>2.3 - Replacing Cunha</summary>
-
-  - **Code**: [project2-2.ipynb](./Project%202/Project%202.2/project2-2.ipynb)  
-  - **Summary**:  
-    With Cunha leaving to United, I'm interested to see how Wolves will replace the 62.5m euro man. And realistically, his stats won't be replicated at Wolves for a while. Out of all 10 categories, when compared to departing, current, and rumored Wolves players (12), Cunha tops 4 of them, and is 3rd in two others. With a +6.4 difference in non penalty goals and expected goals, the next closest of the bunch is Akturkoglu with +1.3, who stands out as one of the best replacements, and would play well along side the likes of Arias and Lopez. As seen below, he also has the most podium finishes after Cunha.
-
-  <p align="center">
-    <img src="./Project%202/Project%202.3/2-3-1.png" alt="2.3" width="75%" />
-  </p>
-
-  We can highlight these players (another good pick would be Ben Doak) and split them by shooting, progression, and pressing. It's easy to notice the similarities between Matheus and Kerem. Identical expected goal contributions and shots on target per 90, similar progressively and both fairly aggressive. Despite his lower take ons and npG-xG, Kerem makes up for in touches in the opposite pen and interceptions. Again Ben Doak shares similar stats in the Championship last season. I believe these two are arguably better picks than the likes of Amine Adli and Matthis Abline, both who are more popular choices. 
-
-  <p align="center">
-    <img src="./Project%202/Project%202.3/2-3-2.png" alt="2.3" width="75%" />
-  </p>
-
-  Here Cunha and Akturkoglu both are the only shot dominant players, which is something we're lacking after Cunha imo. Bellegarde and Munetsi provide depth to both midfield and CAM, hence their press heavy characteristics, espeically for attacking players. Progressive architypes are pretty common, since Wolves already have Arias and Lopez, but Doak would be a good addition as well. Adli and Abline are good too but I would personally perfer Kerem and Ben. That way, Wolves would have a Cunha like player and sufficient progressive options (as well as press heavy like Munetsi).
-
-  <p align="center">
-    <img src="./Project%202/Project%202.3/2-3-3.png" alt="2.3" width="75%" />
-  </p>
-
-  Below are further metrics and distributions of all the players referenced and used for comparison.
-
-  <p align="center">
-    <img src="./Project%202/Project%202.3/2-3-4.png" alt="2.3" width="75%" />
   </p>
 
 </details>
