@@ -186,3 +186,34 @@ Click on the arrows to select and expand each project for more details!
   </p>
 
 </details>
+
+<details>
+  <summary>2.3 - Replacing Cunha</summary>
+
+  - **Code**: [project2-2.ipynb](./Project%202/Project%202.2/project2-2.ipynb)  
+  - **Summary**:  
+    With Cunha leaving to United, I'm interested to see how Wolves will replace the 62.5m euro man. And realistically, his stats won't be replicated at Wolves for a while. Out of all 10 categories, when compared to departing, current, and rumored Wolves players (12), Cunha tops 4 of them, and is 3rd in two others. With a +6.4 difference in non penalty goals and expected goals, the next closest of the bunch is Akturkoglu with +1.3, who stands out as one of the best replacements, and would play well along side the likes of Arias and Lopez. As seen below, he also has the most podium finishes after Cunha.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-1.png" alt="2.3" width="75%" />
+  </p>
+
+  We can highlight these players (another good pick would be Ben Doak) and split them by shooting, progression, and pressing. It's easy to notice the similarities between Matheus and Kerem. Identical expected goal contributions and shots on target per 90, similar progressively and both fairly aggressive. Despite his lower take ons and npG-xG, Kerem makes up for in touches in the opposite pen and interceptions. Again Ben Doak shares similar stats in the Championship last season. I believe these two are arguably better picks than the likes of Amine Adli and Matthis Abline, both who are more popular choices. 
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-2.png" alt="2.3" width="75%" />
+  </p>
+
+  Here Cunha and Akturkoglu both are the only shot dominant players, which is something we're lacking after Cunha imo. Bellegarde and Munetsi provide depth to both midfield and CAM, hence their press heavy characteristics, espeically for attacking players. Progressive architypes are pretty common, since Wolves already have Arias and Lopez, but Doak would be a good addition as well. Adli and Abline are good too but I would personally perfer Kerem and Ben. That way, Wolves would have a Cunha like player and sufficient progressive options (as well as press heavy like Munetsi).
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-3.png" alt="2.3" width="75%" />
+  </p>
+
+  Below are further metrics and distributions of all the players referenced and used for comparison.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-4.png" alt="2.3" width="75%" />
+  </p>
+
+</details>
