@@ -4,7 +4,72 @@ This repo contains the projects, tools, and resources for football data analysis
 
 Click on the arrows to select and expand each project for more details!
 
-## 2 - Wolverhampton Wanderers Scouting (25/26 Season)
+## Favorite Projects
+
+<details>
+  <summary>2.3 - Replacing Cunha</summary>
+
+  - **Code**: [project2-3.ipynb](./Project%202/Project%202.3/project2-3.ipynb)  
+  - **Summary**:  
+    With Cunha leaving to United, I'm interested to see how Wolves will replace the 62.5m euro man. And realistically, his stats won't be replicated at Wolves for a while. Out of all 10 categories, when compared to departing, current, and rumored Wolves players (12), Cunha tops 4 of them, and is 3rd in two others. With a +6.4 difference in non penalty goals and expected goals, the next closest of the bunch is Akturkoglu with +1.3, who stands out as one of the best replacements, and would play well along side the likes of Arias and Lopez. As seen below, he also has the most podium finishes after Cunha.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-1.png" alt="2.3" width="75%" />
+  </p>
+
+  We can highlight these players (another good pick would be Ben Doak) and split them by shooting, progression, and pressing. It's easy to notice the similarities between Matheus and Kerem. Identical expected goal contributions and shots on target per 90, similar progressively and both fairly aggressive. Despite his lower take ons and npG-xG, Kerem makes up for in touches in the opposite pen and interceptions. Again Ben Doak shares similar stats in the Championship last season. I believe these two are arguably better picks than the likes of Amine Adli and Matthis Abline, both who are more popular choices. 
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-2.png" alt="2.3" width="75%" />
+  </p>
+
+  Here Cunha and Akturkoglu both are the only shot dominant players, which is something we're lacking after Cunha imo. Bellegarde and Munetsi provide depth to both midfield and CAM, hence their press heavy characteristics, espeically for attacking players. Progressive architypes are pretty common, since Wolves already have Arias and Lopez, but Doak would be a good addition as well. Adli and Abline are good too but I would personally perfer Kerem and Ben. That way, Wolves would have a Cunha like player and sufficient progressive options (as well as press heavy like Munetsi).
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-3.png" alt="2.3" width="75%" />
+  </p>
+
+  Below are further metrics and distributions of all the players referenced and used for comparison.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.3/2-3-4.png" alt="2.3" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>1.6 - Progressive Passes by Game State</summary>
+
+  - **Code**: [project1_6.ipynb](./Project%201/Project%201.6/project1_6.ipynb)  
+  - **Summary**:  
+    Continuing on from previous progressive results, Joe from [Concept Scouting](https://x.com/ConceptScouting) suggested that I should look into game states (whether Wolves were ahead, level, or chasing) to determine "whether the PrgP is meaningful or just despirate". It's reasonable to say that Wolves are better to set up defensively and counter, rather than building out through repetitive progressions.
+
+    For each game, we sum up the minutes Wolves were ahead, level, or behind in a game. We can plot this relationship over the course of the season. Progressive passes vs dominant game state (the state Wolves spent the most of the game in) reveals that less PrgP are made when the team is ahead, and more when behind. It makes sense to be more aggressive when trailing. Wolves are also towards the progressive end even when level in goals. We know this since the level median is closer to behind than ahead. It's also not a coincidence that the outliers themselves also reflect this trend.
+
+    We can also plot minutes per game state. As expected, the more time spent ahead, the less PrgP, and more time spent behind, the more PrgP.
+
+    I think I've been looking at this wrong. In the beginning of this project I thought Wolves were losing games because of high PrgP, possession, etc. Now I can confidently say that Wolves are making more PrgP because they're behind, and obviously more games are lost when more time was spent behind, which makes more sense.
+
+    Unfortunately, this will mean the end of my first complete project.
+
+  <p align="center">
+    <img src="./Project%201/Project%201.6/1.6.png" alt="1.6" width="75%" />
+  </p>
+</details>
+
+## [In Progress] 4 - Wolverhampton Wanderers Gameweek Preview (25/26 Season)
+
+- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/Wolverhampton-Wanderers-Stats)
+- **Folder**: [Project 4](./Project%204/)
+- **Summary**: Season long project to assess the squad weekly as well as the opposition. Making sensible predictions based on previous results and conditions. Varying in game analysis, and a post game review. Will vary by gameweek.
+
+## [In Progress] 3 - Outlying Player Valuations by On Field Actions
+
+- **Source(s)**: [FBref](https://fbref.com/en/), [Transfermarkt](https://www.transfermarkt.com/)
+- **Folder**: [Project 3](./Project%203/)
+- **Summary**: Dedicated to finding outlying players across different leagues in various on field actions. For example, goal contributions by market value for strikers, wingers, or attacking midfielders. Then finding the best value per goal contribution. 
+
+## [In Progress] 2 - Wolverhampton Wanderers Scouting (25/26 Season)
 
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
 - **Folder**: [Project 2](./Project%202/)
@@ -35,7 +100,7 @@ Click on the arrows to select and expand each project for more details!
     <img src="./Project%202/Project%202.4/2-4-3.png" alt="2.4" width="75%" />
   </p>
 
-  Below are further metrics and distributions of all the players referenced and used for comparison. You can see ho the wide backs are more progressive than the center backs (Agbadou), hence in search of a LCB the focus is a little more towards ball distribution, making Renan a great candidate.
+  Below are further metrics and distributions of all the players referenced and used for comparison. You can see how the wide backs are more progressive than the center backs (Agbadou), hence in search of a LCB the focus is a little more towards ball distribution, making Renan a great candidate.
 
   <p align="center">
     <img src="./Project%202/Project%202.4/2-4-4.png" alt="2.4" width="75%" />
@@ -136,70 +201,22 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: For my first project and being a fan I decided to analyse data from Wolves. I was already familiar with the squad and its problems so this was a natural starting point.
 
 <details>
-  <summary>1.1 - Match Outcomes vs. Progressive Passes (By Tier)</summary>
-   
-  - **Code**: [project1_1.ipynb](./Project%201/Project%201.1/project1_1.ipynb)
-  - **Summary**: A lot of the games were lost due to progression. Maybe even too much of it:
-  
-    - Winless in all 17 in games with 32+ PrgP
-    - 12 wins in 21 in games with 31≥ PrgP
-    - Undefeated in all 12 games against the bottom 14, in games with ≤31 PrgP
-    
-    This doesn't really make much sense. More progression typically don't 
-    correlate to less wins, but the data shows otherwise.
+  <summary>1.6 - Progressive Passes by Game State</summary>
 
-  <p align="center">
-    <img src="./Project%201/Project%201.1/1.1.png" alt="1.1" width="75%" />
-  </p>
-
-</details>
-
-<details>
-  <summary>1.2 - Match Outcomes vs. PrgP (By Manager), Final Third Passes, Crosses, Passing Distance</summary>
-
-  - **Code**: [project1_2.ipynb](./Project%201/Project%201.2/project1_2.ipynb)
-  - **Summary**:   Reached out to [Matt Penn](https://www.linkedin.com/in/matthew-penn-732551232/) for some help, who is an insights data scientist at the FA. He mentioned that it could be due to a change in managers. I looked into this, but it didn't matter whether it was GON or VP:
-    
-    - Both managers were winless in games with 32+ PrgP (which makes sense because Wolves were winless in all 17 in games with 32+ PrgP anyways in 1.1)
-    - Pereira won 10 out of 13, all games with 31≥ PrgP
-  
-    Same thing with final third passes, crosses, and passing distance, where more of those correlated to more losses. Those results are at the bottom of the 1.2 code file.
-
-  <p align="center">
-    <img src="./Project%201/Project%201.2/1.2.png" alt="1.2" width="75%" />
-  </p>
-
-</details>
-
-<details>
-  <summary>1.3 - Player Progressive Carries, Passes, and Receptions</summary>
-
-  - **Code**: [project1_3.ipynb](./Project%201/Project%201.3/project1_3.ipynb)
+  - **Code**: [project1_6.ipynb](./Project%201/Project%201.6/project1_6.ipynb)  
   - **Summary**:  
-    To understand the correlation with progression and recent results from 1.1 and 2, in 1.3 I looked into each player's contribution to progression.
-    
-    - When plotted against minutes played, starters like Cunha (Sold), RAN (Sold), Gomes, Semedo (Left) all stood out.
-    - Interesting results came from PrgC, PrgP, and PrgR per 90. When plotted, supersubs / rotational players like R. Games, Sarabia (Left), Guedes (Sold), and Hwang outperformed the starters.
-    - It's clear that Pereira uses these players later in the game for higher progression, but on the flip side cause more turnovers, which could explain some of the games lost.
+    Continuing on from previous progressive results, Joe from [Concept Scouting](https://x.com/ConceptScouting) suggested that I should look into game states (whether Wolves were ahead, level, or chasing) to determine "whether the PrgP is meaningful or just despirate". It's reasonable to say that Wolves are better to set up defensively and counter, rather than building out through repetitive progressions.
+
+    For each game, we sum up the minutes Wolves were ahead, level, or behind in a game. We can plot this relationship over the course of the season. Progressive passes vs dominant game state (the state Wolves spent the most of the game in) reveals that less PrgP are made when the team is ahead, and more when behind. It makes sense to be more aggressive when trailing. Wolves are also towards the progressive end even when level in goals. We know this since the level median is closer to behind than ahead. It's also not a coincidence that the outliers themselves also reflect this trend.
+
+    We can also plot minutes per game state. As expected, the more time spent ahead, the less PrgP, and more time spent behind, the more PrgP.
+
+    I think I've been looking at this wrong. In the beginning of this project I thought Wolves were losing games because of high PrgP, possession, etc. Now I can confidently say that Wolves are making more PrgP because they're behind, and obviously more games are lost when more time was spent behind, which makes more sense.
+
+    Unfortunately, this will mean the end of my first complete project.
 
   <p align="center">
-    <img src="./Project%201/Project%201.3/1.3.png" alt="1.3" width="75%" />
-  </p>
-
-</details>
-
-<details>
-  <summary>1.4 - Scouted Player Progressions</summary>
-
-  - **Code**: [project1_4.ipynb](./Project%201/Project%201.4/project1_4.ipynb)  
-  - **Summary**:  
-    A look into scouted / players linked with Wolves may give us a better idea of where Wolves may be heading in terms of progression next season. I used [@jay_wwfc07's scouted list](https://x.com/jay_wwfc07/status/1949467837384597551) on twitter as reference.
-
-    - Milan Van Ewijk from Coventry have similar progressive profiles as RAN, and Rodrigo Gomes, so does Blas with Cunha.
-    - Adli has high progressive carries, which is needed if Wolves decide to continue with high PrgP games. Which I still don't understand.
-
-  <p align="center">
-    <img src="./Project%201/Project%201.4/1.4.png" alt="1.4" width="75%" />
+    <img src="./Project%201/Project%201.6/1.6.png" alt="1.6" width="75%" />
   </p>
 
 </details>
@@ -231,22 +248,70 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
-  <summary>1.6 - Progressive Passes by Game State</summary>
+  <summary>1.4 - Scouted Player Progressions</summary>
 
-  - **Code**: [project1_6.ipynb](./Project%201/Project%201.6/project1_6.ipynb)  
+  - **Code**: [project1_4.ipynb](./Project%201/Project%201.4/project1_4.ipynb)  
   - **Summary**:  
-    Continuing on from previous progressive results, Joe from [Concept Scouting](https://x.com/ConceptScouting) suggested that I should look into game states (whether Wolves were ahead, level, or chasing) to determine "whether the PrgP is meaningful or just despirate". It's reasonable to say that Wolves are better to set up defensively and counter, rather than building out through repetitive progressions.
+    A look into scouted / players linked with Wolves may give us a better idea of where Wolves may be heading in terms of progression next season. I used [@jay_wwfc07's scouted list](https://x.com/jay_wwfc07/status/1949467837384597551) on twitter as reference.
 
-    For each game, we sum up the minutes Wolves were ahead, level, or behind in a game. We can plot this relationship over the course of the season. Progressive passes vs dominant game state (the state Wolves spent the most of the game in) reveals that less PrgP are made when the team is ahead, and more when behind. It makes sense to be more aggressive when trailing. Wolves are also towards the progressive end even when level in goals. We know this since the level median is closer to behind than ahead. It's also not a coincidence that the outliers themselves also reflect this trend.
-
-    We can also plot minutes per game state. As expected, the more time spent ahead, the less PrgP, and more time spent behind, the more PrgP.
-
-    I think I've been looking at this wrong. In the beginning of this project I thought Wolves were losing games because of high PrgP, possession, etc. Now I can confidently say that Wolves are making more PrgP because they're behind, and obviously more games are lost when more time was spent behind, which makes more sense.
-
-    Unfortunately, this will mean the end of my first complete project.
+    - Milan Van Ewijk from Coventry have similar progressive profiles as RAN, and Rodrigo Gomes, so does Blas with Cunha.
+    - Adli has high progressive carries, which is needed if Wolves decide to continue with high PrgP games. Which I still don't understand.
 
   <p align="center">
-    <img src="./Project%201/Project%201.6/1.6.png" alt="1.6" width="75%" />
+    <img src="./Project%201/Project%201.4/1.4.png" alt="1.4" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>1.3 - Player Progressive Carries, Passes, and Receptions</summary>
+
+  - **Code**: [project1_3.ipynb](./Project%201/Project%201.3/project1_3.ipynb)
+  - **Summary**:  
+    To understand the correlation with progression and recent results from 1.1 and 2, in 1.3 I looked into each player's contribution to progression.
+    
+    - When plotted against minutes played, starters like Cunha (Sold), RAN (Sold), Gomes, Semedo (Left) all stood out.
+    - Interesting results came from PrgC, PrgP, and PrgR per 90. When plotted, supersubs / rotational players like R. Games, Sarabia (Left), Guedes (Sold), and Hwang outperformed the starters.
+    - It's clear that Pereira uses these players later in the game for higher progression, but on the flip side cause more turnovers, which could explain some of the games lost.
+
+  <p align="center">
+    <img src="./Project%201/Project%201.3/1.3.png" alt="1.3" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>1.2 - Match Outcomes vs. PrgP (By Manager), Final Third Passes, Crosses, Passing Distance</summary>
+
+  - **Code**: [project1_2.ipynb](./Project%201/Project%201.2/project1_2.ipynb)
+  - **Summary**:   Reached out to [Matt Penn](https://www.linkedin.com/in/matthew-penn-732551232/) for some help, who is an insights data scientist at the FA. He mentioned that it could be due to a change in managers. I looked into this, but it didn't matter whether it was GON or VP:
+    
+    - Both managers were winless in games with 32+ PrgP (which makes sense because Wolves were winless in all 17 in games with 32+ PrgP anyways in 1.1)
+    - Pereira won 10 out of 13, all games with 31≥ PrgP
+  
+    Same thing with final third passes, crosses, and passing distance, where more of those correlated to more losses. Those results are at the bottom of the 1.2 code file.
+
+  <p align="center">
+    <img src="./Project%201/Project%201.2/1.2.png" alt="1.2" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>1.1 - Match Outcomes vs. Progressive Passes (By Tier)</summary>
+   
+  - **Code**: [project1_1.ipynb](./Project%201/Project%201.1/project1_1.ipynb)
+  - **Summary**: A lot of the games were lost due to progression. Maybe even too much of it:
+  
+    - Winless in all 17 in games with 32+ PrgP
+    - 12 wins in 21 in games with 31≥ PrgP
+    - Undefeated in all 12 games against the bottom 14, in games with ≤31 PrgP
+    
+    This doesn't really make much sense. More progression typically don't 
+    correlate to less wins, but the data shows otherwise.
+
+  <p align="center">
+    <img src="./Project%201/Project%201.1/1.1.png" alt="1.1" width="75%" />
   </p>
 
 </details>
