@@ -11,6 +11,39 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
 
 <details>
+  <summary>2.4 - CB Depth Situation</summary>
+
+  - **Code**: [project2-4.ipynb](./Project%202/Project%202.4/project2-4.ipynb)  
+  - **Summary**:
+    The starting center back roles are primarily sorted. But then comes the issue of squad depth. It's no suprise the backline to start the season would likely consist of Toti, Agbadou, and Doherty, with Mosquera slowly implemented back into the squad, mainly use to his shaky injury record. That said, we are one injury away from a defensive crisis. With only Santiago Bueno as backup, there isn't anyone else to fill that LCB position if Toti gets injured.
+
+    Renan, Disasi, and Kelly are among the few players linked to this role. Both Disasi and Kelly are out of favor in their respective clubs. Disasi is a potential option with Wolves considering a deal with him and striker Fofana. Kelly is another fair choice, with high defensive work rates as well as progressive distributions. However with his wage being upwards of 80k I don't see this happening. This leaves us with Renan, who has some of the best ball distribution stats of the bunch.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.4/2-4-1.png" alt="2.4" width="75%" />
+  </p>
+
+  Lets focus on Renan: 4.1 tackles and interceptions, 4.7 recoveries, 7.1 progressive actions and 5 final third entries (all per 90). Granted this was during his time at Internacional last year, but the point still stands. It's also important to mention Toti's impressive 1.05 OF - xOF, which stands for the difference between his on off goal difference and expected on off goal difference. He not only has a positive xOF, but exceeds that threshold when on the pitch.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.4/2-4-2.png" alt="2.4" width="75%" />
+  </p>
+
+  And it shows here too, with Toti having the best team impact score of all sampled players. The only progressive player currently is Doherty, so higher progression is always welcomed in wider center back roles, such as Renan and Disasi.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.4/2-4-3.png" alt="2.4" width="75%" />
+  </p>
+
+  Below are further metrics and distributions of all the players referenced and used for comparison. You can see ho the wide backs are more progressive than the center backs (Agbadou), hence in search of a LCB the focus is a little more towards ball distribution, making Renan a great candidate.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.4/2-4-4.png" alt="2.4" width="75%" />
+  </p>
+
+</details>
+
+<details>
   <summary>2.3 - Replacing Cunha</summary>
 
   - **Code**: [project2-3.ipynb](./Project%202/Project%202.3/project2-3.ipynb)  
@@ -42,7 +75,7 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
-  <summary>2.2 - Detailed Right Wing Back Comparisons</summary>
+  <summary>2.2 - RWBs Lacking Quality</summary>
 
   - **Code**: [project2-2.ipynb](./Project%202/Project%202.2/project2-2.ipynb)  
   - **Summary**:  
@@ -79,7 +112,7 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
-  <summary>2.1 - Left Wing Back Options</summary>
+  <summary>2.1 - Wolfe or Bueno?</summary>
 
   - **Code**: [project2-1.ipynb](./Project%202/Project%202.1/project2-1.ipynb)  
   - **Summary**:  
