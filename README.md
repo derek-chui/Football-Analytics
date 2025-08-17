@@ -38,6 +38,41 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
+  <summary>Matchweek 1 Review: City (Home)</summary>
+
+  - **Code**: [postMatchweek1.ipynb](./Project%204/Matchweek%201/postMatchweek1.ipynb)  
+  - **Summary**:
+    Despite the dissappointing 0-4 result, I believe it's revealing and there's a lot of new insights we can take from this game. Apart from a few major mistakes at the back, the team didn't look to bad imho.
+
+    I'm suprised how central our attack was compared to last time we played city. A 48% centrality bias compared to last time's 13%. A few shots from Munetsi's offside as well as Larsen. Note that all these shows are clustered very close together as well. What impressed me however was Hoever, who not only dealt with Doku fairly well with Doherty (especially compared to last time) and made several progressive passes and crosses on the bottom wing of the graph. In fact, all 4 SCA crosses originated from the right side.
+    
+    Part of me wonders if there would've been better chances for Larsen if those crosses from the right were passes instead.
+
+    What's concerning is the lack of progression from the left hand side / top wing. Wolfe and Bellegarde didn't contribute much to the attack. Neither did Hugo Bueno later on.
+
+  <p align="center">
+    <img src="./Project%204/Matchweek%201/4-1-5.png" alt="4.1" width="75%" />
+  </p>
+
+  City also attacked fairly centrally, especially compared to last time. Obviously this is because of Haaland returning vs City playing KDB up top before. Fairly even distribution in passing. Less action on the left / top wing from Doku as mentioned. Much deeper build up play compared to us, but tbf that's what you expect from a team like City.
+
+  <p align="center">
+    <img src="./Project%204/Matchweek%201/4-1-6.png" alt="4.1" width="75%" />
+  </p>
+
+  I mean the results speak for themselves on the plot below. Our options on the bench aren't bad either: Mosquera, Hugo Bueno, Rodrigo Gomes, Arias, Lopez, as well as Tchatchoua coming in soon. Hopefully it will only be up from here and both Agbadou & Sa gets in the right mindset.
+
+  <p align="center">
+    <img src="./Project%204/Matchweek%201/4-1-7.png" alt="4.1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./Project%204/Matchweek%201/4-1-8.png" alt="4.1" width="75%" />
+  </p>
+
+</details>
+
+<details>
   <summary>1.6 - Progressive Passes by Game State</summary>
 
   - **Code**: [project1_6.ipynb](./Project%201/Project%201.6/project1_6.ipynb)  
@@ -57,8 +92,14 @@ Click on the arrows to select and expand each project for more details!
   </p>
 </details>
 
+## [In Progress] 4 - Wolverhampton Wanderers Gameweek Review (25/26 Season)
+
+- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/Wolverhampton-Wanderers-Stats), [Sofascore](https://www.sofascore.com/team/football/wolverhampton/3)
+- **Folder**: [Project 4](./Project%204/)
+- **Summary**: Season long project to assess the squad weekly as well as the opposition. Making sensible predictions based on previous results and conditions. Varying in game analysis, and a post game review. Will vary by gameweek.
+
 <details>
-  <summary>Matchweek 1: City (Home)</summary>
+  <summary>Matchweek 1 Preview: City (Home)</summary>
 
   - **Code**: [matchweek1.ipynb](./Project%204/Matchweek%201/matchweek1.ipynb)  
   - **Summary**:
@@ -90,41 +131,37 @@ Click on the arrows to select and expand each project for more details!
 
 </details>
 
-## [In Progress] 4 - Wolverhampton Wanderers Gameweek Review (25/26 Season)
-
-- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/Wolverhampton-Wanderers-Stats), [Sofascore](https://www.sofascore.com/team/football/wolverhampton/3)
-- **Folder**: [Project 4](./Project%204/)
-- **Summary**: Season long project to assess the squad weekly as well as the opposition. Making sensible predictions based on previous results and conditions. Varying in game analysis, and a post game review. Will vary by gameweek.
-
 <details>
-  <summary>Matchweek 1: City (Home)</summary>
+  <summary>Matchweek 1 Review: City (Home)</summary>
 
-  - **Code**: [matchweek1.ipynb](./Project%204/Matchweek%201/matchweek1.ipynb)  
+  - **Code**: [postPatchweek1.ipynb](./Project%204/Matchweek%201/postMatchweek1.ipynb)  
   - **Summary**:
-    The first gameweek is coming up this weekend with a tough opponent to start of the season. Wolves only won 1 game against the top 6 last season (Villa). City was also the one to end our 6 game winstreak back in May, and we haven't won a single game since then. To be fair, the drop in form was after relegation is avoided and there's nothing to play for. 
+    Despite the dissappointing 0-4 result, I believe it's revealing and there's a lot of new insights we can take from this game. Apart from a few major mistakes at the back, the team didn't look to bad imho.
 
-    A good way to gauge this would be to look at our previous match up, which was a 1 - 0 defeat away at City. This first diagram shows us the lanes of attack Wolves where the most shot creating actions happened. Both the top and bottom half were frequent, with lack of central progressions (with the centrality bias being 13%).
+    I'm suprised how central our attack was compared to last time we played city. A 48% centrality bias compared to last time's 13%. A few shots from Munetsi's offside as well as Larsen. Note that all these shows are clustered very close together as well. What impressed me however was Hoever, who not only dealt with Doku fairly well with Doherty (especially compared to last time) and made several progressive passes and crosses on the bottom wing of the graph. In fact, all 4 SCA crosses originated from the right side.
     
-    The most used attacking zone was the bottom half space of the final third, as circled and highlighted below, so I wouldn't be suprised if that space would be targeted once again. Ait Nouri's shot from the left (top half space) that hit the woodwork then a shot on target to follow up is noted as well. Obviously he playes for Man City now.
+    Part of me wonders if there would've been better chances for Larsen if those crosses from the right were passes instead.
+
+    What's concerning is the lack of progression from the left hand side / top wing. Wolfe and Bellegarde didn't contribute much to the attack. Neither did Hugo Bueno later on.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-3.png" alt="4.1" width="75%" />
+    <img src="./Project%204/Matchweek%201/4-1-5.png" alt="4.1" width="75%" />
   </p>
 
-  With City, our top half space defensively was heavily exploited. Doku's 13 progressive carries (next highest for City that game was 3), 5 shot creating actions, and 4/10 successful take ons allow him to dominate the left side. This would very likely happen again. Doesn't matter if KJH or Rodrigo Gomes, Wolves are pretty much cooked unless something crazy happens. City's 25% centrality bias perhaps influenced the only goal from De Bruyne. Both Doherty (or Mosquera) and Hoever (or Rodrigo Gomes) will have to put in a huge shift on Saturday to stop Doku (and Cherki, Marmoush, Foden, etc).  
+  City also attacked fairly centrally, especially compared to last time. Obviously this is because of Haaland returning vs City playing KDB up top before. Fairly even distribution in passing. Less action on the left / top wing from Doku as mentioned. Much deeper build up play compared to us, but tbf that's what you expect from a team like City.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-4.png" alt="4.1" width="75%" />
+    <img src="./Project%204/Matchweek%201/4-1-6.png" alt="4.1" width="75%" />
   </p>
 
-  Here at the bottom also shows the passes, dribbles, and crosses leading up to the shot itself. And the patterns in frequency reveals itself once again. I tried to use sofascore [here](./Project%204/Matchweek%201/sofaScoreTest.ipynb) but couldn't figure out how to scale it properly after scraping so I just gave up. All these points I had to [click manually](https://fcpythonvideocoder.netlify.app/) from the highlights. 
+  I mean the results speak for themselves on the plot below. Our options on the bench aren't bad either: Mosquera, Hugo Bueno, Rodrigo Gomes, Arias, Lopez, as well as Tchatchoua coming in soon. Hopefully it will only be up from here and both Agbadou & Sa gets in the right mindset.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-1.png" alt="4.1" width="75%" />
+    <img src="./Project%204/Matchweek%201/4-1-7.png" alt="4.1" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-2.png" alt="4.1" width="75%" />
+    <img src="./Project%204/Matchweek%201/4-1-8.png" alt="4.1" width="75%" />
   </p>
 
 </details>
