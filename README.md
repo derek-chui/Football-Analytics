@@ -179,6 +179,39 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
 
 <details>
+  <summary>2.5 - New Wing Back Choices</summary>
+
+  - **Code**: [project2-5.ipynb](./Project%202/Project%202.5/tchatchoua.ipynb)  
+  - **Summary**:
+    With new wing back signings Tchatchoua and Wolfe, lets revisit their metrics with different situations.
+
+    Many argue that Tchatchoua has lacking qualities other than speed because his stats a underwhelming to say the leastt. On the other hand, what he excels on covers what Hoever is missing. Both 82nd %tile in Take on Success and 71st %tile in % Defensive Third Tackles reflects that he is great a 1 on 1 play (both with or without the ball), which is something Pereira admires. His frequency of progressive actions is also solid: 4.34 touches on average per PrgA.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.5/2-5-1.png" alt="2.5" width="75%" />
+  </p>
+
+  Hoever (KJH) on the other hand is more defensively sound that most people think. Suprisingly, his actions in the middle third (37.43%) is nearly just as much as his defensive third (39.97%). He also has a high attacking ratio for a wing back at 24.64%. Ultimately, he has a better chance of a shot creating action by passing rather than crossing. The good thing is that we saw all these qualities in the recent City game, as mentioned in the [matchweek 1 review](./Project%204/Matchweek%201/postMatchweek1.ipynb).
+
+  <p align="center">
+    <img src="./Project%202/Project%202.5/2-5-2.png" alt="2.5" width="75%" />
+  </p>
+
+  Wolfe is interesting because he had a mediocure game against City. But his 98th percentile for dribblers tackled is often overlooked. Good amount of touches in the pen, and is solid in goal creations. Interesting to see that he made no crosses into the penalty box in the last 365 days, and lacking carries (23% compared to Hugo Buenos 60%).
+
+  <p align="center">
+    <img src="./Project%202/Project%202.5/2-5-3.png" alt="2.5" width="75%" />
+  </p>
+
+  Lastly, Bueno arguably has better progression than Wolfe. 96th percentile on take on success and the best of all Wolves WBs in terms of touches per progressive actions. Also very high quality actions into the penalty box, so every pass, cross, and carry into the penalty box has a very high chance to turning into a shot creating action.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.5/2-5-4.png" alt="2.5" width="75%" />
+  </p>
+
+</details>
+
+<details>
   <summary>2.4 - CB Depth Situation</summary>
 
   - **Code**: [project2-4.ipynb](./Project%202/Project%202.4/project2-4.ipynb)  
