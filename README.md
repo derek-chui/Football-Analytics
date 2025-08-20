@@ -179,6 +179,29 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
 
 <details>
+  <summary>2.6 - Beyond Larsen</summary>
+
+  - **Code**: [project2-6.ipynb](./Project%202/Project%202.6/project2-6.ipynb)  
+  - **Summary**:
+    Despite just signing for Wolves, Larsen is already being pursuited by the likes of Newcastle. It's no doubt that he (along with Andre and Joao Gomes) will be staying for long after this season.
+
+    There are a also links with Uche at Getafe, who I believe will pair well with Larsen. He is able to do will in areas Larsen can't: Progressive Actions, Take Ons, Touches in the Pen, and Shot Creating Actions.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.6/2-6-1.png" alt="2.6" width="75%" />
+  </p>
+
+  Of course, Larsen's goals per shot ratio is way above average. 60% of his shots are on target. 25% of his shots are goals. This means he scores every 4 shots he makes. This ratio is better than Haaland btw (I think hes around 21%).
+
+  To be honest, the likes of Kalajdzic and Silva are both overlooked as well. Who knows how well they will play when they get a chance.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.6/2-6-2.png" alt="2.6" width="75%" />
+  </p>
+
+</details>
+
+<details>
   <summary>2.5 - New Wing Back Choices</summary>
 
   - **Code**: [project2-5.ipynb](./Project%202/Project%202.5/tchatchoua.ipynb)  
