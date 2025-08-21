@@ -99,34 +99,34 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Season long project to assess the squad weekly as well as the opposition. Making sensible predictions based on previous results and conditions. Varying in game analysis, and a post game review. Will vary by gameweek.
 
 <details>
-  <summary>Matchweek 1 Preview: City (Home)</summary>
+  <summary>Matchweek 2 Preview: Bournemouth (Away)</summary>
 
-  - **Code**: [matchweek1.ipynb](./Project%204/Matchweek%201/matchweek1.ipynb)  
+  - **Code**: [preMW2.ipynb](./Project%204/Matchweek%202/preMW2.ipynb)  
   - **Summary**:
-    The first gameweek is coming up this weekend with a tough opponent to start of the season. Wolves only won 1 game against the top 6 last season (Villa). City was also the one to end our 6 game winstreak back in May, and we haven't won a single game since then. To be fair, the drop in form was after relegation is avoided and there's nothing to play for. 
+    With a 0-4 loss to City, Wolves are looking to bounce back against Bournemouth. Concerns for Agbadou and Jose Sa's form remains, but hopefully it will being to pick up. Bournemouth played Liverpool and Semenyo was the start of the show, scoring two goals from the right. It's no doubt the likes of KJH and Doc will have to put a shift in to stop that from happening. As a preview lets take a look at our last meeting against Bournemouth in the Premier League:
 
-    A good way to gauge this would be to look at our previous match up, which was a 1 - 0 defeat away at City. This first diagram shows us the lanes of attack Wolves where the most shot creating actions happened. Both the top and bottom half were frequent, with lack of central progressions (with the centrality bias being 13%).
-    
-    The most used attacking zone was the bottom half space of the final third, as circled and highlighted below, so I wouldn't be suprised if that space would be targeted once again. Ait Nouri's shot from the left (top half space) that hit the woodwork then a shot on target to follow up is noted as well. Obviously he playes for Man City now.
+    The SCA map for Wolves reveals that our attack was mainly focused on the right, with 6 shots in the bottom half space. Bellegarde and Semedo (now KJH) driving up and providing support to the likes of Cunha and Munetsi. Compared to City, there was also way more build up play (74% 1/3 share v 90%). Hopefully KJH will be able to perform like last time against City, obviously with more quality crosses. I won't be suprised if Tchatchoua gets featured later in the game.
+
+    The left hand side was fairly quiet that game. With Wolfe not making much of an impact against City, I'd like to see Hugo Bueno get more game time against Bournemouth. Perhaps Wolfe will perform better with a player like Arias in front of him, as mentioned by [@molineuxmusings](https://x.com/molineuxmusings/status/1957365672670896230). We could also potentially see Fer Lopez making creative player later in the game after Bellegarde subs off.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-3.png" alt="4.1" width="75%" />
+    <img src="./Project%204/Matchweek%202/4-2-1.png" alt="4.2" width="75%" />
   </p>
 
-  With City, our top half space defensively was heavily exploited. Doku's 13 progressive carries (next highest for City that game was 3), 5 shot creating actions, and 4/10 successful take ons allow him to dominate the left side. This would very likely happen again. Doesn't matter if KJH or Rodrigo Gomes, Wolves are pretty much cooked unless something crazy happens. City's 25% centrality bias perhaps influenced the only goal from De Bruyne. Both Doherty (or Mosquera) and Hoever (or Rodrigo Gomes) will have to put in a huge shift on Saturday to stop Doku (and Cherki, Marmoush, Foden, etc).  
+  Bournemouth had no shortage of chances either. With Zabarnyi being shown a red early in the game, Bournemouth was lacking options in attack later in the game. Semenyo and Ouattara make a few good rights on the left against Doc, but the Wolves defence was able to hold it together. It's also important to note that they had a deeper build up play, favoring threaded passes or crosses past the halfway line, some of them even from Kepa. The likes of Toti, and Mosquera (should he start) will be pivotal in preventing the likes of Semenyo from progressing.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-4.png" alt="4.1" width="75%" />
+    <img src="./Project%204/Matchweek%202/4-2-2.png" alt="4.2" width="75%" />
   </p>
 
-  Here at the bottom also shows the passes, dribbles, and crosses leading up to the shot itself. And the patterns in frequency reveals itself once again. I tried to use sofascore [here](./Project%204/Matchweek%201/sofaScoreTest.ipynb) but couldn't figure out how to scale it properly after scraping so I just gave up. All these points I had to [click manually](https://fcpythonvideocoder.netlify.app/) from the highlights. 
+  These maps really just confirm what I've just mentioned. Most of the shots from Wolves are concentrated towards the right, so are the crosses and dribbles. Bournemouth seemingly have actions all over the place. Both sides would really benefit from pacey players using the wider areas more.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-1.png" alt="4.1" width="75%" />
+    <img src="./Project%204/Matchweek%202/4-2-3.png" alt="4.2" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-2.png" alt="4.1" width="75%" />
+    <img src="./Project%204/Matchweek%202/4-2-4.png" alt="4.2" width="75%" />
   </p>
 
 </details>
@@ -162,6 +162,39 @@ Click on the arrows to select and expand each project for more details!
 
   <p align="center">
     <img src="./Project%204/Matchweek%201/4-1-8.png" alt="4.1" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>Matchweek 1 Preview: City (Home)</summary>
+
+  - **Code**: [matchweek1.ipynb](./Project%204/Matchweek%201/matchweek1.ipynb)  
+  - **Summary**:
+    The first gameweek is coming up this weekend with a tough opponent to start of the season. Wolves only won 1 game against the top 6 last season (Villa). City was also the one to end our 6 game winstreak back in May, and we haven't won a single game since then. To be fair, the drop in form was after relegation is avoided and there's nothing to play for. 
+
+    A good way to gauge this would be to look at our previous match up, which was a 1 - 0 defeat away at City. This first diagram shows us the lanes of attack Wolves where the most shot creating actions happened. Both the top and bottom half were frequent, with lack of central progressions (with the centrality bias being 13%).
+    
+    The most used attacking zone was the bottom half space of the final third, as circled and highlighted below, so I wouldn't be suprised if that space would be targeted once again. Ait Nouri's shot from the left (top half space) that hit the woodwork then a shot on target to follow up is noted as well. Obviously he playes for Man City now.
+
+  <p align="center">
+    <img src="./Project%204/Matchweek%201/4-1-3.png" alt="4.1" width="75%" />
+  </p>
+
+  With City, our top half space defensively was heavily exploited. Doku's 13 progressive carries (next highest for City that game was 3), 5 shot creating actions, and 4/10 successful take ons allow him to dominate the left side. This would very likely happen again. Doesn't matter if KJH or Rodrigo Gomes, Wolves are pretty much cooked unless something crazy happens. City's 25% centrality bias perhaps influenced the only goal from De Bruyne. Both Doherty (or Mosquera) and Hoever (or Rodrigo Gomes) will have to put in a huge shift on Saturday to stop Doku (and Cherki, Marmoush, Foden, etc).  
+
+  <p align="center">
+    <img src="./Project%204/Matchweek%201/4-1-4.png" alt="4.1" width="75%" />
+  </p>
+
+  Here at the bottom also shows the passes, dribbles, and crosses leading up to the shot itself. And the patterns in frequency reveals itself once again. I tried to use sofascore [here](./Project%204/Matchweek%201/sofaScoreTest.ipynb) but couldn't figure out how to scale it properly after scraping so I just gave up. All these points I had to [click manually](https://fcpythonvideocoder.netlify.app/) from the highlights. 
+
+  <p align="center">
+    <img src="./Project%204/Matchweek%201/4-1-1.png" alt="4.1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./Project%204/Matchweek%201/4-1-2.png" alt="4.1" width="75%" />
   </p>
 
 </details>
