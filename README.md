@@ -4,6 +4,12 @@ This repo contains the projects, tools, and resources for football data analysis
 
 Click on the arrows to select and expand each project for more details!
 
+## Contents
+- [Project 4 - Wolves Gameweek Review 25/26](#in-progress-4---wolverhampton-wanderers-gameweek-review-2526-season)
+- [Project 3 - Outlying Player Valuations](#in-progress-3---outlying-player-valuations-by-on-field-actions)
+- [Project 2 - Wolves Scouting 25/26](#in-progress-2---wolverhampton-wanderers-scouting-2526-season)
+- [Project 1 - Wolves 24/25 Analysis](#1---wolverhampton-wanderers-analysis-2425-season)
+
 ## Favorite Projects
 
 <details>
