@@ -5,13 +5,17 @@ This repo contains the projects, tools, and resources for football data analysis
 Click on the arrows to select and expand each project for more details!
 
 ## Contents
-- [Project 4 - Wolves Gameweek Review 25/26](#in-progress-4---wolverhampton-wanderers-gameweek-review-2526-season)
-- [Project 3 - Outlying Player Valuations](#in-progress-3---outlying-player-valuations-by-on-field-actions)
-- [Project 2 - Wolves Scouting 25/26](#in-progress-2---wolverhampton-wanderers-scouting-2526-season)
-- [Project 1 - Wolves 24/25 Analysis](#1---wolverhampton-wanderers-analysis-2425-season)
 
-## Favorite Projects
+### Regularly Updated
+- [Match Reviews](#match-reviews)
+- [Player Dashboard](#player-dashboard)
 
+### Featured Projects
+- [(In Progress) Project 3 - Outlying Player Valuations](#3---outlying-player-valuations)
+- [Project 2 - 2025 Summer Squad Assessment](#2---2025-summer-squad-assessment)
+- [Project 1 - Progression Analysis (24/25)](#1---progression-analysis-2425)
+
+### Personal Favorites
 <details>
   <summary>2.3 - Replacing Cunha</summary>
 
@@ -46,7 +50,7 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>Matchweek 1 Review: City (Home)</summary>
 
-  - **Code**: [postMatchweek1.ipynb](./Project%204/Matchweek%201/postMatchweek1.ipynb)  
+  - **Code**: [postMatchweek1.ipynb](./match-reviews/Matchweek%201/postMatchweek1.ipynb)  
   - **Summary**:
     Despite the dissappointing 0-4 result, I believe it's revealing and there's a lot of new insights we can take from this game. Apart from a few major mistakes at the back, the team didn't look to bad imho.
 
@@ -57,23 +61,23 @@ Click on the arrows to select and expand each project for more details!
     What's concerning is the lack of progression from the left hand side / top wing. Wolfe and Bellegarde didn't contribute much to the attack. Neither did Hugo Bueno later on.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-5.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-5.png" alt="4.1" width="75%" />
   </p>
 
   City also attacked fairly centrally, especially compared to last time. Obviously this is because of Haaland returning vs City playing KDB up top before. Fairly even distribution in passing. Less action on the left / top wing from Doku as mentioned. Much deeper build up play compared to us, but tbf that's what you expect from a team like City.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-6.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-6.png" alt="4.1" width="75%" />
   </p>
 
   I mean the results speak for themselves on the plot below. Our options on the bench aren't bad either: Mosquera, Hugo Bueno, Rodrigo Gomes, Arias, Lopez, as well as Tchatchoua coming in soon. Hopefully it will only be up from here and both Agbadou & Sa gets in the right mindset.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-7.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-7.png" alt="4.1" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-8.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-8.png" alt="4.1" width="75%" />
   </p>
 
 </details>
@@ -98,16 +102,43 @@ Click on the arrows to select and expand each project for more details!
   </p>
 </details>
 
-## [In Progress] 4 - Wolverhampton Wanderers Gameweek Review (25/26 Season)
 
-- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/Wolverhampton-Wanderers-Stats), [Sofascore](https://www.sofascore.com/team/football/wolverhampton/3)
-- **Folder**: [Project 4](./Project%204/)
-- **Summary**: Season long project to assess the squad weekly as well as the opposition. Making sensible predictions based on previous results and conditions. Varying in game analysis, and a post game review. Will vary by gameweek.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Match Reviews
+
+- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/Wolverhampton-Wanderers-Stats), [Sofascore](https://www.sofascore.com/team/football/wolverhampton/3), [Fotmob](https://www.fotmob.com/teams/8602/overview/wolverhampton-wanderers)
+- **Folder**: [match-reviews](./match-reviews/)
+- **Summary**: Recurring project to review previous games and key takeaways.
 
 <details>
-  <summary>Matchweek 2 Preview: Bournemouth (Away)</summary>
+  <summary>(PL 24/25) BOU 0 - WOL 1</summary>
 
-  - **Code**: [preMW2.ipynb](./Project%204/Matchweek%202/preMW2.ipynb)  
+  - **Code**: [preMW2.ipynb](./match-reviews/Matchweek%202/preMW2.ipynb)  
   - **Summary**:
     With a 0-4 loss to City, Wolves are looking to bounce back against Bournemouth. Concerns for Agbadou and Jose Sa's form remains, but hopefully it will being to pick up. Bournemouth played Liverpool and Semenyo was the start of the show, scoring two goals from the right. It's no doubt the likes of KJH and Doc will have to put a shift in to stop that from happening. As a preview lets take a look at our last meeting against Bournemouth in the Premier League:
 
@@ -116,31 +147,31 @@ Click on the arrows to select and expand each project for more details!
     The left hand side was fairly quiet that game. With Wolfe not making much of an impact against City, I'd like to see Hugo Bueno get more game time against Bournemouth. Perhaps Wolfe will perform better with a player like Arias in front of him, as mentioned by [@molineuxmusings](https://x.com/molineuxmusings/status/1957365672670896230). We could also potentially see Fer Lopez making creative player later in the game after Bellegarde subs off.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%202/4-2-1.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/Matchweek%202/4-2-1.png" alt="4.2" width="75%" />
   </p>
 
   Bournemouth had no shortage of chances either. With Zabarnyi being shown a red early in the game, Bournemouth was lacking options in attack later in the game. Semenyo and Ouattara make a few good rights on the left against Doc, but the Wolves defence was able to hold it together. It's also important to note that they had a deeper build up play, favoring threaded passes or crosses past the halfway line, some of them even from Kepa. The likes of Toti, and Mosquera (should he start) will be pivotal in preventing the likes of Semenyo from progressing.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%202/4-2-2.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/Matchweek%202/4-2-2.png" alt="4.2" width="75%" />
   </p>
 
   These maps really just confirm what I've just mentioned. Most of the shots from Wolves are concentrated towards the right, so are the crosses and dribbles. Bournemouth seemingly have actions all over the place. Both sides would really benefit from pacey players using the wider areas more.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%202/4-2-3.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/Matchweek%202/4-2-3.png" alt="4.2" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./Project%204/Matchweek%202/4-2-4.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/Matchweek%202/4-2-4.png" alt="4.2" width="75%" />
   </p>
 
 </details>
 
 <details>
-  <summary>Matchweek 1 Review: City (Home)</summary>
+  <summary>(PL 25/26) WOL 0 - MCI 4</summary>
 
-  - **Code**: [postPatchweek1.ipynb](./Project%204/Matchweek%201/postMatchweek1.ipynb)  
+  - **Code**: [postPatchweek1.ipynb](./match-reviews/Matchweek%201/postMatchweek1.ipynb)  
   - **Summary**:
     Despite the dissappointing 0-4 result, I believe it's revealing and there's a lot of new insights we can take from this game. Apart from a few major mistakes at the back, the team didn't look to bad imho.
 
@@ -151,31 +182,31 @@ Click on the arrows to select and expand each project for more details!
     What's concerning is the lack of progression from the left hand side / top wing. Wolfe and Bellegarde didn't contribute much to the attack. Neither did Hugo Bueno later on.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-5.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-5.png" alt="4.1" width="75%" />
   </p>
 
   City also attacked fairly centrally, especially compared to last time. Obviously this is because of Haaland returning vs City playing KDB up top before. Fairly even distribution in passing. Less action on the left / top wing from Doku as mentioned. Much deeper build up play compared to us, but tbf that's what you expect from a team like City.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-6.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-6.png" alt="4.1" width="75%" />
   </p>
 
   I mean the results speak for themselves on the plot below. Our options on the bench aren't bad either: Mosquera, Hugo Bueno, Rodrigo Gomes, Arias, Lopez, as well as Tchatchoua coming in soon. Hopefully it will only be up from here and both Agbadou & Sa gets in the right mindset.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-7.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-7.png" alt="4.1" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-8.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-8.png" alt="4.1" width="75%" />
   </p>
 
 </details>
 
 <details>
-  <summary>Matchweek 1 Preview: City (Home)</summary>
+  <summary>(PL 24/25) WOL 0 - MCI 1</summary>
 
-  - **Code**: [matchweek1.ipynb](./Project%204/Matchweek%201/matchweek1.ipynb)  
+  - **Code**: [matchweek1.ipynb](./match-reviews/Matchweek%201/matchweek1.ipynb)  
   - **Summary**:
     The first gameweek is coming up this weekend with a tough opponent to start of the season. Wolves only won 1 game against the top 6 last season (Villa). City was also the one to end our 6 game winstreak back in May, and we haven't won a single game since then. To be fair, the drop in form was after relegation is avoided and there's nothing to play for. 
 
@@ -184,38 +215,74 @@ Click on the arrows to select and expand each project for more details!
     The most used attacking zone was the bottom half space of the final third, as circled and highlighted below, so I wouldn't be suprised if that space would be targeted once again. Ait Nouri's shot from the left (top half space) that hit the woodwork then a shot on target to follow up is noted as well. Obviously he playes for Man City now.
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-3.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-3.png" alt="4.1" width="75%" />
   </p>
 
   With City, our top half space defensively was heavily exploited. Doku's 13 progressive carries (next highest for City that game was 3), 5 shot creating actions, and 4/10 successful take ons allow him to dominate the left side. This would very likely happen again. Doesn't matter if KJH or Rodrigo Gomes, Wolves are pretty much cooked unless something crazy happens. City's 25% centrality bias perhaps influenced the only goal from De Bruyne. Both Doherty (or Mosquera) and Hoever (or Rodrigo Gomes) will have to put in a huge shift on Saturday to stop Doku (and Cherki, Marmoush, Foden, etc).  
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-4.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-4.png" alt="4.1" width="75%" />
   </p>
 
-  Here at the bottom also shows the passes, dribbles, and crosses leading up to the shot itself. And the patterns in frequency reveals itself once again. I tried to use sofascore [here](./Project%204/Matchweek%201/sofaScoreTest.ipynb) but couldn't figure out how to scale it properly after scraping so I just gave up. All these points I had to [click manually](https://fcpythonvideocoder.netlify.app/) from the highlights. 
+  Here at the bottom also shows the passes, dribbles, and crosses leading up to the shot itself. And the patterns in frequency reveals itself once again. I tried to use sofascore [here](./match-reviews/Matchweek%201/sofaScoreTest.ipynb) but couldn't figure out how to scale it properly after scraping so I just gave up. All these points I had to [click manually](https://fcpythonvideocoder.netlify.app/) from the highlights. 
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-1.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-1.png" alt="4.1" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./Project%204/Matchweek%201/4-1-2.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/Matchweek%201/4-1-2.png" alt="4.1" width="75%" />
   </p>
 
 </details>
 
-## [In Progress] 3 - Outlying Player Valuations by On Field Actions
+## Player Dashboard
+
+- **Source(s)**: [FBref](https://fbref.com/en/), [Sofascore](https://www.sofascore.com/), [Fotmob](https://www.fotmob.com/)
+- **Folder**: [player-dashboard](./player-dashboard/)
+- **Summary**: Recurring project to scout and analyze players with various metrics and visualizations.
+
+
+
+
+
+
+
+
+
+
+
+
+## 3 - Outlying Player Valuations
 
 - **Source(s)**: [FBref](https://fbref.com/en/), [Transfermarkt](https://www.transfermarkt.com/)
 - **Folder**: [Project 3](./Project%203/)
 - **Summary**: Dedicated to finding outlying players across different leagues in various on field actions. For example, goal contributions by market value for strikers, wingers, or attacking midfielders. Then finding the best value per goal contribution. 
 
-## [In Progress] 2 - Wolverhampton Wanderers Scouting (25/26 Season)
+## 2 - 2025 Summer Squad Assessment
 
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
 - **Folder**: [Project 2](./Project%202/)
 - **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
+
+<details>
+  <summary>2.7 - Bentley over Sa?</summary>
+
+  - **Code**: [project2-6.ipynb](./Project%202/Project%202.6/project2-6.ipynb)  
+  - **Summary**:
+    Like Agbadou, Sa had an abysmal performance against City. Basically unable to save any shots on target that game. Many argued that Sa might be currently the worst keeper in the Prem, suggested that even Bentley should start over him.
+
+    The stats don't lie either: 43% of shots on target turn into goals when Sa is playing. Granted, Sa has fairly difficult shots to face, but his save percentage is way below average and is definitely underperforming. Johnstone isn't any better either. Not only have he been facing much easier shows, his save % is just about the same. Bentley really stands out from the three. Granted, these stats are from the championship, but who knows what kind of performances he's able to bring?
+
+    Only 38% of shots on target turn into goals, much more difficult shots, and higher save %. Granted he's not a sweeper, but is underperforming less than the likes of Sa and Johnstone. Interested to see if he gets a chance in between the sticks this season.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.7/2-7-1.png" alt="2.7" width="75%" />
+  </p>
+
+  This marks the end of project 2 as well. While the transfer window isn't closed for two weeks and Wolves are still rumored with several players (Krejci & Uche), the complete Wolves squad is assessed in this project. Future rumors and links, new players and those of interest, will be broken down under the [Player Dashboard](#player-dashboard), which will be continuously updated, similar to the [Match Reviews](#match-reviews). For my next project I'm going full moneyball and finding overlooked / outlying players based on different in game metrics.
+
+</details>
 
 <details>
   <summary>2.6 - Beyond Larsen</summary>
@@ -253,7 +320,7 @@ Click on the arrows to select and expand each project for more details!
     <img src="./Project%202/Project%202.5/2-5-1.png" alt="2.5" width="75%" />
   </p>
 
-  Hoever (KJH) on the other hand is more defensively sound that most people think. Suprisingly, his actions in the middle third (37.43%) is nearly just as much as his defensive third (39.97%). He also has a high attacking ratio for a wing back at 24.64%. Ultimately, he has a better chance of a shot creating action by passing rather than crossing. The good thing is that we saw all these qualities in the recent City game, as mentioned in the [matchweek 1 review](./Project%204/Matchweek%201/postMatchweek1.ipynb).
+  Hoever (KJH) on the other hand is more defensively sound that most people think. Suprisingly, his actions in the middle third (37.43%) is nearly just as much as his defensive third (39.97%). He also has a high attacking ratio for a wing back at 24.64%. Ultimately, he has a better chance of a shot creating action by passing rather than crossing. The good thing is that we saw all these qualities in the recent City game, as mentioned in the [matchweek 1 review](./match-reviews/Matchweek%201/postMatchweek1.ipynb).
 
   <p align="center">
     <img src="./Project%202/Project%202.5/2-5-2.png" alt="2.5" width="75%" />
@@ -391,7 +458,7 @@ Click on the arrows to select and expand each project for more details!
 
 </details>
 
-## 1 - Wolverhampton Wanderers Analysis (24/25 Season)
+## 1 - Progression Analysis (24/25)
 <!-- **1 - Wolverhampton Wanderers Analysis (24/25 Season)** -->
 
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
