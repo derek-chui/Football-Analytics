@@ -136,6 +136,41 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Recurring project to review previous games and key takeaways.
 
 <details>
+  <summary>(PL 25/26) BOU 1 - WOL 0</summary>
+
+  - **Code**: [8-23-2025.ipynb](./match-reviews/Matchweek%202/8-23-2025.ipynb)  
+  - **Summary**:
+    The game could've ended much worse. With Toti being sent off early in the second half, it's interesting to see that Wolves played better with 10 men. However the substitutions made while trailing behind were questionable, subbing off Arias for Santiago Bueno to retain a back 3, but with limited attacking power when an equalizer is needed over defensive abilities. Perhaps Pereira wanted to push Hugo Bueno and Tchatchoua further up for crosses chances, which did occur, but lacked aggression as the game went on.
+
+    It's sad to see the minimal amount of chances or creativity Wolves had, especially after taking Arias off. That being said, Hugo Bueno does look good with his crosses and progression. But why Agbadou taking the freekick and how Agbadou and Sa managed to bump into each other with zero pressure, I will never understand.
+
+    Suprisingly, most of our shot creating actions came down the middle, which I feel is rare for Wolves.
+
+  <p align="center">
+    <img src="./match-reviews/Matchweek%202/4-2-5.png" alt="4.2" width="75%" />
+  </p>
+
+  I'm very suprised Bournemouth didn't score one or two more considering the insane amount of shot creating actions they had (51 v 22 for Wolves). A very left leaning attack consisting of Truffert, Brooks, and Semenyo compared to less pressure on the right. Which I'm guessing is why Hugo Bueno was able to push forward much more than Tchatchoua (who looked good today).
+
+  We can also see large amounts of shots clustered in a small area, as well as a few threaded passes down the middle.
+
+  <p align="center">
+    <img src="./match-reviews/Matchweek%202/4-2-6.png" alt="4.2" width="75%" />
+  </p>
+
+  I believe Hugo Bueno and Tchatchoua should be our starting wing backs. Toti, Agbadou, and hopefully Mosquera on the right. Larsen up top, Arias to the left, then the right could be a mix of Rodrigo Gomes and Fer Lopez, who both have qualities that I feel are overlooked by the squad.
+
+  <p align="center">
+    <img src="./match-reviews/Matchweek%202/4-2-7.png" alt="4.2" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./match-reviews/Matchweek%202/4-2-8.png" alt="4.2" width="75%" />
+  </p>
+
+</details>
+
+<details>
   <summary>(PL 24/25) BOU 0 - WOL 1</summary>
 
   - **Code**: [preMW2.ipynb](./match-reviews/Matchweek%202/preMW2.ipynb)  
