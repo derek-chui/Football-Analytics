@@ -83,6 +83,24 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
+  <summary>Ladislav Krejčí</summary>
+
+  - **Code**: [Ladislav-Krejčí.ipynb](./player-dashboard/CB/Ladislav-Krejčí.ipynb)  
+  - **Summary**:
+    It's been a fairly busy week on the transfer window for Wolves' standards, with the likes of Krejci and Uche having genuine agreements with both the club and the player, rather than being used as bait for bigger clubs (ahem, Pubill & Sanchez).
+
+    With Krejci very close to signing with Wolves at 35m, many question whether it's worth the hefty price (Wolves usually sign 10m-20m players) and who he will replace. While most set out to find a backup LCB (like Renan), with Toti, Agbadou, and Doc/Mosquera as the [backline](./Project%202/Project%202.4/project2-4.ipynb). But with Krejci coming in, he surely is starting quality. I'm thinking Toti, Krejci, and Agbadou on the right. The interesting thing is, Wolves really are in need of such a progressive center back. Other than Doherty, there isn't really another one at the club, so I understand this sort of signing.
+
+    Krejci has great distributions and if deployed on the left, I'm sure will pair very well with Hugo Bueno, who as I've mentioned, really impressed despite our [1-0 lost against Bournemouth yesterday](./match-reviews/Matchweek%202/8-23-2025.ipynb). His 96th percentile in progressive carrying distance really stands out for my case. Despite being a center back, he has more touches on average in the middle third (49.5%, or almost half) than defensive (46.7%). Therefore t's no suprise that he's a ball playing defender as well.
+
+    However, he does lack a lot of defensive workrates. 4th percentile in passes blocked, 5th percentile in dribblers tackled, and 8th for tackles in general. That doesn't mean he don't make quality challenges, but it isn't frequent for a center back. Funny thing is, we did see it in full display today with his game against Villareal, with Tajon Buchanan scoring a hattrick and a 5 - 0 loss while having Krejci as the LCB in a back four.
+
+  <p align="center">
+    <img src="./player-dashboard/CB/Ladislav-Krejčí.png" alt="Ladislav Krejčí" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>1.6 - Progressive Passes by Game State</summary>
 
   - **Code**: [project1_6.ipynb](./Project%201/Project%201.6/project1_6.ipynb)  
@@ -277,7 +295,23 @@ Click on the arrows to select and expand each project for more details!
 - **Folder**: [player-dashboard](./player-dashboard/)
 - **Summary**: Recurring project to scout and analyze players with various metrics and visualizations.
 
+<details>
+  <summary>Ladislav Krejčí</summary>
 
+  - **Code**: [Ladislav-Krejčí.ipynb](./player-dashboard/CB/Ladislav-Krejčí.ipynb)  
+  - **Summary**:
+    It's been a fairly busy week on the transfer window for Wolves' standards, with the likes of Krejci and Uche having genuine agreements with both the club and the player, rather than being used as bait for bigger clubs (ahem, Pubill & Sanchez).
+
+    With Krejci very close to signing with Wolves at 35m, many question whether it's worth the hefty price (Wolves usually sign 10m-20m players) and who he will replace. While most set out to find a backup LCB (like Renan), with Toti, Agbadou, and Doc/Mosquera as the [backline](./Project%202/Project%202.4/project2-4.ipynb). But with Krejci coming in, he surely is starting quality. I'm thinking Toti, Krejci, and Agbadou on the right. The interesting thing is, Wolves really are in need of such a progressive center back. Other than Doherty, there isn't really another one at the club, so I understand this sort of signing.
+
+    Krejci has great distributions and if deployed on the left, I'm sure will pair very well with Hugo Bueno, who as I've mentioned, really impressed despite our [1-0 lost against Bournemouth yesterday](./match-reviews/Matchweek%202/8-23-2025.ipynb). His 96th percentile in progressive carrying distance really stands out for my case. Despite being a center back, he has more touches on average in the middle third (49.5%, or almost half) than defensive (46.7%). Therefore t's no suprise that he's a ball playing defender as well.
+
+    However, he does lack a lot of defensive workrates. 4th percentile in passes blocked, 5th percentile in dribblers tackled, and 8th for tackles in general. That doesn't mean he don't make quality challenges, but it isn't frequent for a center back. Funny thing is, we did see it in full display today with his game against Villareal, with Tajon Buchanan scoring a hattrick and a 5 - 0 loss while having Krejci as the LCB in a back four.
+
+  <p align="center">
+    <img src="./player-dashboard/CB/Ladislav-Krejčí.png" alt="Ladislav Krejčí" width="75%" />
+  </p>
+</details>
 
 
 
