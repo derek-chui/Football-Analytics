@@ -296,6 +296,20 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Recurring project to scout and analyze players with various metrics and visualizations.
 
 <details>
+  <summary>Tolu Arokodare</summary>
+
+  - **Code**: [Tolu-Arokodare.ipynb](./player-dashboard/ST/Tolu-Arokodare.ipynb)  
+  - **Summary**:
+    With Uche's transfer seemingly being called off, Arokodare has been a focal point for the past few days. With a fee of around 20 to 25m with add ons, this could be a deal especially with Fabio Silva leaving for a similar amount. The eye test shows that Tolu has elite stats compared to many strikers. Things like shot and goal creating actions, expected goal involvements, and aerial wins. With him and JSL up front, with Hugo Bueno and Tchatchoua crossing in, and Arias providing threaded passes through the middle, there's no doubt that Wolves will be safe from relegation this season. With the likes of Kalajdzic, Lopez, Hwang, and Rodrigo Gomes as supersubs, there can be further chances later in the game
+
+    One main concern is the amount of missed chances. Personally I think this is one of those things that we'll have to figure out when he plays.
+
+  <p align="center">
+    <img src="./player-dashboard/ST/Tolu-Arokodare.png" alt="Tolu Arokodare" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>Ladislav Krejčí</summary>
 
   - **Code**: [Ladislav-Krejčí.ipynb](./player-dashboard/CB/Ladislav-Krejčí.ipynb)  
