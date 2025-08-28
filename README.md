@@ -407,6 +407,18 @@ Click on the arrows to select and expand each project for more details!
     <img src="./Project%202/Project%202.5/2-5-4.png" alt="2.5" width="75%" />
   </p>
 
+  Just realised I completely forgot about Rodrigo Gomes after his goal against West Ham in the FA cup yesterday. Despite being a very attackiong wingback, maybe even a winger, his defensive attributes are still solid. With 6.76 touches per defensive action (best of all wing backs here), it's also complemented by his progression. 3.47 touches per progressive actions and 2.33 touches per attacking third touch means that a good chunk of his actions are further up the pitch. 40.24% in the middle third backs it up. I loved his efforts in yesterdays game, where he even scored a rebound off Hwang's missed penalty. He will be crutial in cup games and as a supersub scoring / assisting equalizers / winners later in the game this season for sure.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.5/2-5-5.png" alt="2.5" width="75%" />
+  </p>
+
+Overall I would say Hugo Bueno and Tchatchoua should be starting wingbacks. I really like Bueno's progression and how aggressive he is. Despite Tchatchoua's below par stats, the energy he injects to the game provides much needed pace for the team.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.5/2-5-6.png" alt="2.5" width="75%" />
+  </p>
+
 </details>
 
 <details>
