@@ -349,9 +349,34 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
 
 <details>
+  <summary>2.8 - Arokodare's Finishing Problem</summary>
+
+  - **Code**: [stcomp.ipynb](./Project%202/Project%202.8/stcomp.ipynb)  
+  - **Summary**:
+  The other day while I was looking into [Arokodare](./player-dashboard/ST/Tolu-Arokodare.ipynb), I stumbled upon [this article](https://scoutedftbl.com/tolu-arokodare-goalscorer-cant-finish/). While on the surface his goals per 90 ratio is impressive, what's often overlook is how clinical he really is.
+
+  Let's take Larsen as an example. In a Wolves team that lacks creativity and chances, he really don't get flooded with opportunities to shoot. It's expected that his non penalty goals are 0.35, but in reality he overperforms by a lot, scoring 0.45 non penalty goal per game. Since his npxG < npG, he's doing better than expected. On the other hand, despite Arokodare scoring more, his expected goals (0.81) is far greater than his actual goals per game (0.62). This means that he's underperforming. Considering the amount of shots he took, he should've scored way more. Granted, Tolu Arokodare was given an insane amount of chances, basically with over 7.4 progressive passing receptions at Genk compared to 4.06 with Larsen.
+
+  I'm a little worried that Wolves being not as progressive as Genk will mean that Tolu will suffer from the lack of opportunities, and when he does get them, have a much bigger chance of being less clinical than he should be.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.8/2-8-1.png" alt="2.8" width="75%" />
+  </p>
+
+  Let's also take a look at Arokodare's number of shots per game, which is nearly 5 per 90. 32.7% of them are on target, and 12.4% of them are goals. On the other hand, Larsen has 60.7% shots on target and 23% of shots turn into goals. The numbers are quite telling when you put it out like that.
+
+  <p align="center">
+    <img src="./Project%202/Project%202.8/2-8-2.png" alt="2.8" width="75%" />
+  </p>
+
+  This marks the end of project 2 as well. While the transfer window isn't closed until next week and Wolves are still in need of a CAM and CM, the complete Wolves squad is assessed in this project. Future rumors and links, new players and those of interest, will be broken down under the [Player Dashboard](#player-dashboard), which will be continuously updated, similar to the [Match Reviews](#match-reviews). For my next project I'm going full moneyball and finding overlooked / outlying players based on different in game metrics.
+
+</details>
+
+<details>
   <summary>2.7 - Bentley over Sa?</summary>
 
-  - **Code**: [project2-6.ipynb](./Project%202/Project%202.6/project2-6.ipynb)  
+  - **Code**: [project2-7.ipynb](./Project%202/Project%202.7/project2-7.ipynb)  
   - **Summary**:
     Like Agbadou, Sa had an abysmal performance against City. Basically unable to save any shots on target that game. Many argued that Sa might be currently the worst keeper in the Prem, suggested that even Bentley should start over him.
 
@@ -362,8 +387,6 @@ Click on the arrows to select and expand each project for more details!
   <p align="center">
     <img src="./Project%202/Project%202.7/2-7-1.png" alt="2.7" width="75%" />
   </p>
-
-  This marks the end of project 2 as well. While the transfer window isn't closed for two weeks and Wolves are still rumored with several players (Krejci & Uche), the complete Wolves squad is assessed in this project. Future rumors and links, new players and those of interest, will be broken down under the [Player Dashboard](#player-dashboard), which will be continuously updated, similar to the [Match Reviews](#match-reviews). For my next project I'm going full moneyball and finding overlooked / outlying players based on different in game metrics.
 
 </details>
 
@@ -393,7 +416,7 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>2.5 - New Wing Back Choices</summary>
 
-  - **Code**: [project2-5.ipynb](./Project%202/Project%202.5/tchatchoua.ipynb)  
+  - **Code**: [tchatchoua.ipynb](./Project%202/Project%202.5/tchatchoua.ipynb)  
   - **Summary**:
     With new wing back signings Tchatchoua and Wolfe, lets revisit their metrics with different situations.
 
