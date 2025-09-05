@@ -342,6 +342,33 @@ Click on the arrows to select and expand each project for more details!
 - **Folder**: [Project 3](./Project%203/)
 - **Summary**: Dedicated to finding outlying players across different leagues in various on field actions. For example, goal contributions by market value for strikers, wingers, or attacking midfielders. Then finding the best value per goal contribution. 
 
+<details>
+  <summary>3.1 - Striker Usage Rates</summary>
+
+  - **Code**: [project3-1.ipynb](./Project%203/Project%203.1/project3-1.ipynb)  
+  - **Summary**:
+    Saw [this video](https://www.youtube.com/watch?v=iydcB3OM6EE) the other day and I got me thinking about Usage Rates. While it's mainly used in the NBA, usage rates are a great way to show how often a player gets the ball (whether or not they're the main man) and how efficient / productive they are with it. In football, this can be calculated by the sum of miscontrols, dispossessions, incomplete passes, failed take ons, and shots
+
+    Some strikers get the ball a lot (like Cunha) and produce just as much results. Others get the ball a lot but doesn't convert them well, and so shouldn't really get the ball as much. There are also those that rarely get the ball, but makes it count whenever they do. In that case, they should be getting more of the ball, relative to the entire team.
+
+    Just like in the video mentioned, I plotted the SCA and Usage Per 90 for all recent Wolves strikers. It's no suprise that Cunha is in the top right, and clearly deserving the volume of involvement he gets. Tolu impresses as well, seemingly having a similar trajectory as Cunha.
+
+    On the other hand, those like Larsen, despite having both low usage and SCA, has high G+A, simply because he isn't that involved in the build up.
+
+    What stands out however, is Willian Jose. While his stint at Wolves as a short term replacement for Jimenez wasn't too successful, the shot creating actions he was able to generate, considering his very low usage, is impressive. This makes him on par with the likes of Tolu and Cunha.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.1/3-1-1.png" alt="3.1" width="75%" />
+  </p>
+
+  Now since this project is about player valuations, lets take a look at how well a player uses the ball with value. Once again we see Cunha having both high value and usage. Tolu has great usage considering his price range, so does Kalajdzic (who had just left to LASK on loan). Since price and usage don't grow at the same rate, naturally cheaper players will have the highest "value per million". But it's easier to see the ones that stand out by separating them by price range, as seen on the graphs below.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.1/3-1-2.png" alt="3.2" width="75%" />
+  </p>
+
+</details>
+
 ## 2 - 2025 Summer Squad Assessment
 
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
