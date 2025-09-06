@@ -364,7 +364,13 @@ Click on the arrows to select and expand each project for more details!
   Now since this project is about player valuations, lets take a look at how well a player uses the ball with value. Once again we see Cunha having both high value and usage. Tolu has great usage considering his price range, so does Kalajdzic (who had just left to LASK on loan). Since price and usage don't grow at the same rate, naturally cheaper players will have the highest "value per million". But it's easier to see the ones that stand out by separating them by price range, as seen on the graphs below.
 
   <p align="center">
-    <img src="./Project%203/Project%203.1/3-1-2.png" alt="3.2" width="75%" />
+    <img src="./Project%203/Project%203.1/3-1-2.png" alt="3.1" width="75%" />
+  </p>
+
+  The idea of usage rates is so underused in football. I won't be suprised to Wolves decided to go after Uche due to his usage rate.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.1/3-1-3.png" alt="3.1" width="75%" />
   </p>
 
 </details>
