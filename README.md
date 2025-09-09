@@ -343,6 +343,36 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Dedicated to finding outlying players across different leagues in various on field actions. For example, goal contributions by market value for strikers, wingers, or attacking midfielders. Then finding the best value per goal contribution. 
 
 <details>
+  <summary>3.2 - Attacking Midfielder Usage Rates</summary>
+
+  - **Code**: [project3-2.ipynb](./Project%203/Project%203.2/project3-2.ipynb)  
+  - **Summary**:
+    Fairly easy to transition to usage rates for attacking midfielders once strikers were completed. A few insights:
+
+    Both Jhon Arias and Fer Lopez top the charts. In simple terms, this means that they should be given the ball more often and will provide the most opportunities. Interesting enough, Arias actually has more SCA per 90 than Cunha, even with less usage rate than Cunha. So there is huge potential and upside to that if Arias manages to get the ball as much as Cunha did with Wolves in the prem. Lopez is one to watch as well. Compared to the likes of Guedes and Sarabia, his SCA is much higher than the both of them.
+
+    Not exactly too suprised to see Hwang having the least SCA (even less than Munetsi). 
+
+  <p align="center">
+    <img src="./Project%203/Project%203.2/3-2-1.png" alt="3.2" width="75%" />
+  </p>
+
+  I realize that this graph is still flawed. Since player value and usage rates don't exactly grow linearly, the lower valued players will usually float to the top. One way I can fix this now is to just split them up into price ranges and evaluate them from there, especially if they're out of order.
+
+  The 5 million price range revealed that Sarabia actually got a lot of the ball for his price point. If Fer Lopez can grow into that sort of high usage role, that would be great.
+
+  In the 10 - 20m price range, Arias stands out. He has the highest usage of all, despite not being the cheapest.
+
+  Overall, low value but high usage players include the likes of Arias, Lopez, Guedes, and Sarabia. Sarabia actually has similar usage rates as Cunha, despite being much cheaper.
+
+  Perhaps a better way to utilize usage rates is to see who is the "main man" on their team. History tells us that putting a bunch of main men together in a team don't really work well. But having one focal point that is effective, while having others that're efficient off the ball, is crutial in achieving balance within a team.
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.2/3-2-2.png" alt="3.2" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>3.1 - Striker Usage Rates</summary>
 
   - **Code**: [project3-1.ipynb](./Project%203/Project%203.1/project3-1.ipynb)  
