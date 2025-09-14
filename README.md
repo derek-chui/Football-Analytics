@@ -48,9 +48,9 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
-  <summary>Matchweek 1 Review: City (Home)</summary>
+  <summary>(PL 25/26) WOL 0 - MCI 4</summary>
 
-  - **Code**: [postMatchweek1.ipynb](./match-reviews/Matchweek%201/postMatchweek1.ipynb)  
+  - **Code**: [postPatchweek1.ipynb](./match-reviews/25-Matchweek-1/postMatchweek1.ipynb)  
   - **Summary**:
     Despite the dissappointing 0-4 result, I believe it's revealing and there's a lot of new insights we can take from this game. Apart from a few major mistakes at the back, the team didn't look to bad imho.
 
@@ -61,23 +61,23 @@ Click on the arrows to select and expand each project for more details!
     What's concerning is the lack of progression from the left hand side / top wing. Wolfe and Bellegarde didn't contribute much to the attack. Neither did Hugo Bueno later on.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-5.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/8-16-25-1.png" alt="4.1" width="75%" />
   </p>
 
   City also attacked fairly centrally, especially compared to last time. Obviously this is because of Haaland returning vs City playing KDB up top before. Fairly even distribution in passing. Less action on the left / top wing from Doku as mentioned. Much deeper build up play compared to us, but tbf that's what you expect from a team like City.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-6.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/8-16-25-2.png" alt="4.1" width="75%" />
   </p>
 
   I mean the results speak for themselves on the plot below. Our options on the bench aren't bad either: Mosquera, Hugo Bueno, Rodrigo Gomes, Arias, Lopez, as well as Tchatchoua coming in soon. Hopefully it will only be up from here and both Agbadou & Sa gets in the right mindset.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-7.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/8-16-25-3.png" alt="4.1" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-8.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/8-16-25-4.png" alt="4.1" width="75%" />
   </p>
 
 </details>
@@ -91,7 +91,7 @@ Click on the arrows to select and expand each project for more details!
 
     With Krejci very close to signing with Wolves at 35m, many question whether it's worth the hefty price (Wolves usually sign 10m-20m players) and who he will replace. While most set out to find a backup LCB (like Renan), with Toti, Agbadou, and Doc/Mosquera as the [backline](./Project%202/Project%202.4/project2-4.ipynb). But with Krejci coming in, he surely is starting quality. I'm thinking Toti, Krejci, and Agbadou on the right. The interesting thing is, Wolves really are in need of such a progressive center back. Other than Doherty, there isn't really another one at the club, so I understand this sort of signing.
 
-    Krejci has great distributions and if deployed on the left, I'm sure will pair very well with Hugo Bueno, who as I've mentioned, really impressed despite our [1-0 lost against Bournemouth yesterday](./match-reviews/Matchweek%202/8-23-2025.ipynb). His 96th percentile in progressive carrying distance really stands out for my case. Despite being a center back, he has more touches on average in the middle third (49.5%, or almost half) than defensive (46.7%). Therefore t's no suprise that he's a ball playing defender as well.
+    Krejci has great distributions and if deployed on the left, I'm sure will pair very well with Hugo Bueno, who as I've mentioned, really impressed despite our [1-0 lost against Bournemouth yesterday](./match-reviews/25-Matchweek-2/8-23-2025.ipynb). His 96th percentile in progressive carrying distance really stands out for my case. Despite being a center back, he has more touches on average in the middle third (49.5%, or almost half) than defensive (46.7%). Therefore t's no suprise that he's a ball playing defender as well.
 
     However, he does lack a lot of defensive workrates. 4th percentile in passes blocked, 5th percentile in dribblers tackled, and 8th for tackles in general. That doesn't mean he don't make quality challenges, but it isn't frequent for a center back. Funny thing is, we did see it in full display today with his game against Villareal, with Tajon Buchanan scoring a hattrick and a 5 - 0 loss while having Krejci as the LCB in a back four.
 
@@ -154,9 +154,53 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Recurring project to review previous games and key takeaways.
 
 <details>
+  <summary>(PL 25/26) NEW 1 - WOL 0</summary>
+
+  - **Code**: [9-13-2025.ipynb](./match-reviews/25-Matchweek-4/9-13-2025.ipynb)  
+  - **Summary**:
+  Losing the first four games of the season is starting to make many question whether Pereira knows what he's doing. But it's also important to know that there's 27 games to go. However I'm having a hard time understanding the substitution choices and starting XI. For some reason Pereira loves starting Hwang and Munetsi, while benching [more creative players](./Project%203/Project%203.2/project3-2.ipynb) like Fer Lopez, Rodrigo Gomes, or Bellegarde.
+
+  It's the same thing every season. Some manage does well towards the end of a season, getting us out of the relegation zone. Then a whole summer of selling important players without replacing them properly. Then sacking the manager for poor performances as a result of questionable decisions and a underprepared squad. What's next is to pray that the next manager can deal with what they already have.
+
+  The difference with this season compared to the past few, is that the promoted teams all look like they could survive. While the previous seasons all promoted teams got relegated right away. The quality of the league is certainly higher this season, and it feels like we're getting left behind.
+
+  <p align="center">
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-1.png" alt="4.4" width="75%" />
+  </p>
+
+  We can see the difference in chances and progressiveness on these graphs. Wolves barely made any solid progress. Apart from the first 10 seconds of the game, nothing really happened. Tolu and Krejci looked good, so does Rodrigo Gomes and Hugo Bueno (always liked these two, feels like they're overlooked). 
+
+  <p align="center">
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-2.png" alt="4.4" width="75%" />
+  </p>
+  Newcastle made an insane amount of shots down the midle, and a handful of those right outside the box. A lot of passing play on the wing areas as well.
+
+  <p align="center">
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-3.png" alt="4.4" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-4.png" alt="4.4" width="75%" />
+  </p>
+
+  Was playing around with the data and viz and came up with this. These show the spatial differences between the two teams, showing which zones are more dominant in attack compared to the other.
+
+  <p align="center">
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-5.png" alt="4.4" width="75%" />
+  </p>
+
+  This does the same, except for passing and crosses.
+
+  <p align="center">
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-6.png" alt="4.4" width="75%" />
+  </p>
+
+</details>
+
+<details>
   <summary>(PL 25/26) BOU 1 - WOL 0</summary>
 
-  - **Code**: [8-23-2025.ipynb](./match-reviews/Matchweek%202/8-23-2025.ipynb)  
+  - **Code**: [8-23-2025.ipynb](./match-reviews/25-Matchweek-2/8-23-2025.ipynb)  
   - **Summary**:
     The game could've ended much worse. With Toti being sent off early in the second half, it's interesting to see that Wolves played better with 10 men. However the substitutions made while trailing behind were questionable, subbing off Arias for Santiago Bueno to retain a back 3, but with limited attacking power when an equalizer is needed over defensive abilities. Perhaps Pereira wanted to push Hugo Bueno and Tchatchoua further up for crosses chances, which did occur, but lacked aggression as the game went on.
 
@@ -165,7 +209,7 @@ Click on the arrows to select and expand each project for more details!
     Suprisingly, most of our shot creating actions came down the middle, which I feel is rare for Wolves.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%202/4-2-5.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/25-Matchweek-2/8-23-25-1.png" alt="4.2" width="75%" />
   </p>
 
   I'm very suprised Bournemouth didn't score one or two more considering the insane amount of shot creating actions they had (51 v 22 for Wolves). A very left leaning attack consisting of Truffert, Brooks, and Semenyo compared to less pressure on the right. Which I'm guessing is why Hugo Bueno was able to push forward much more than Tchatchoua (who looked good today).
@@ -173,17 +217,17 @@ Click on the arrows to select and expand each project for more details!
   We can also see large amounts of shots clustered in a small area, as well as a few threaded passes down the middle.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%202/4-2-6.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/25-Matchweek-2/8-23-25-2.png" alt="4.2" width="75%" />
   </p>
 
   I believe Hugo Bueno and Tchatchoua should be our starting wing backs. Toti, Agbadou, and hopefully Mosquera on the right. Larsen up top, Arias to the left, then the right could be a mix of Rodrigo Gomes and Fer Lopez, who both have qualities that I feel are overlooked by the squad.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%202/4-2-7.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/25-Matchweek-2/8-23-25-3.png" alt="4.2" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%202/4-2-8.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/25-Matchweek-2/8-23-25-4.png" alt="4.2" width="75%" />
   </p>
 
 </details>
@@ -191,7 +235,7 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>(PL 24/25) BOU 0 - WOL 1</summary>
 
-  - **Code**: [preMW2.ipynb](./match-reviews/Matchweek%202/preMW2.ipynb)  
+  - **Code**: [preMW2.ipynb](./match-reviews/25-Matchweek-2/preMW2.ipynb)  
   - **Summary**:
     With a 0-4 loss to City, Wolves are looking to bounce back against Bournemouth. Concerns for Agbadou and Jose Sa's form remains, but hopefully it will being to pick up. Bournemouth played Liverpool and Semenyo was the start of the show, scoring two goals from the right. It's no doubt the likes of KJH and Doc will have to put a shift in to stop that from happening. As a preview lets take a look at our last meeting against Bournemouth in the Premier League:
 
@@ -200,23 +244,23 @@ Click on the arrows to select and expand each project for more details!
     The left hand side was fairly quiet that game. With Wolfe not making much of an impact against City, I'd like to see Hugo Bueno get more game time against Bournemouth. Perhaps Wolfe will perform better with a player like Arias in front of him, as mentioned by [@molineuxmusings](https://x.com/molineuxmusings/status/1957365672670896230). We could also potentially see Fer Lopez making creative player later in the game after Bellegarde subs off.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%202/4-2-1.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/25-Matchweek-2/2-22-25-1.png" alt="4.2" width="75%" />
   </p>
 
   Bournemouth had no shortage of chances either. With Zabarnyi being shown a red early in the game, Bournemouth was lacking options in attack later in the game. Semenyo and Ouattara make a few good rights on the left against Doc, but the Wolves defence was able to hold it together. It's also important to note that they had a deeper build up play, favoring threaded passes or crosses past the halfway line, some of them even from Kepa. The likes of Toti, and Mosquera (should he start) will be pivotal in preventing the likes of Semenyo from progressing.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%202/4-2-2.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/25-Matchweek-2/2-22-25-2.png" alt="4.2" width="75%" />
   </p>
 
   These maps really just confirm what I've just mentioned. Most of the shots from Wolves are concentrated towards the right, so are the crosses and dribbles. Bournemouth seemingly have actions all over the place. Both sides would really benefit from pacey players using the wider areas more.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%202/4-2-3.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/25-Matchweek-2/2-22-25-3.png" alt="4.2" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%202/4-2-4.png" alt="4.2" width="75%" />
+    <img src="./match-reviews/25-Matchweek-2/2-22-25-4.png" alt="4.2" width="75%" />
   </p>
 
 </details>
@@ -224,7 +268,7 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>(PL 25/26) WOL 0 - MCI 4</summary>
 
-  - **Code**: [postPatchweek1.ipynb](./match-reviews/Matchweek%201/postMatchweek1.ipynb)  
+  - **Code**: [postPatchweek1.ipynb](./match-reviews/25-Matchweek-1/postMatchweek1.ipynb)  
   - **Summary**:
     Despite the dissappointing 0-4 result, I believe it's revealing and there's a lot of new insights we can take from this game. Apart from a few major mistakes at the back, the team didn't look to bad imho.
 
@@ -235,23 +279,23 @@ Click on the arrows to select and expand each project for more details!
     What's concerning is the lack of progression from the left hand side / top wing. Wolfe and Bellegarde didn't contribute much to the attack. Neither did Hugo Bueno later on.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-5.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/8-16-25-1.png" alt="4.1" width="75%" />
   </p>
 
   City also attacked fairly centrally, especially compared to last time. Obviously this is because of Haaland returning vs City playing KDB up top before. Fairly even distribution in passing. Less action on the left / top wing from Doku as mentioned. Much deeper build up play compared to us, but tbf that's what you expect from a team like City.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-6.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/8-16-25-2.png" alt="4.1" width="75%" />
   </p>
 
   I mean the results speak for themselves on the plot below. Our options on the bench aren't bad either: Mosquera, Hugo Bueno, Rodrigo Gomes, Arias, Lopez, as well as Tchatchoua coming in soon. Hopefully it will only be up from here and both Agbadou & Sa gets in the right mindset.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-7.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/8-16-25-3.png" alt="4.1" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-8.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/8-16-25-4.png" alt="4.1" width="75%" />
   </p>
 
 </details>
@@ -259,7 +303,7 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>(PL 24/25) WOL 0 - MCI 1</summary>
 
-  - **Code**: [matchweek1.ipynb](./match-reviews/Matchweek%201/matchweek1.ipynb)  
+  - **Code**: [matchweek1.ipynb](./match-reviews/25-Matchweek-1/matchweek1.ipynb)  
   - **Summary**:
     The first gameweek is coming up this weekend with a tough opponent to start of the season. Wolves only won 1 game against the top 6 last season (Villa). City was also the one to end our 6 game winstreak back in May, and we haven't won a single game since then. To be fair, the drop in form was after relegation is avoided and there's nothing to play for. 
 
@@ -268,23 +312,23 @@ Click on the arrows to select and expand each project for more details!
     The most used attacking zone was the bottom half space of the final third, as circled and highlighted below, so I wouldn't be suprised if that space would be targeted once again. Ait Nouri's shot from the left (top half space) that hit the woodwork then a shot on target to follow up is noted as well. Obviously he playes for Man City now.
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-3.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/5-12-25-3.png" alt="4.1" width="75%" />
   </p>
 
   With City, our top half space defensively was heavily exploited. Doku's 13 progressive carries (next highest for City that game was 3), 5 shot creating actions, and 4/10 successful take ons allow him to dominate the left side. This would very likely happen again. Doesn't matter if KJH or Rodrigo Gomes, Wolves are pretty much cooked unless something crazy happens. City's 25% centrality bias perhaps influenced the only goal from De Bruyne. Both Doherty (or Mosquera) and Hoever (or Rodrigo Gomes) will have to put in a huge shift on Saturday to stop Doku (and Cherki, Marmoush, Foden, etc).  
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-4.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/5-12-25-4.png" alt="4.1" width="75%" />
   </p>
 
-  Here at the bottom also shows the passes, dribbles, and crosses leading up to the shot itself. And the patterns in frequency reveals itself once again. I tried to use sofascore [here](./match-reviews/Matchweek%201/sofaScoreTest.ipynb) but couldn't figure out how to scale it properly after scraping so I just gave up. All these points I had to [click manually](https://fcpythonvideocoder.netlify.app/) from the highlights. 
+  Here at the bottom also shows the passes, dribbles, and crosses leading up to the shot itself. And the patterns in frequency reveals itself once again. I tried to use sofascore [here](./match-reviews/25-Matchweek-1/sofaScoreTest.ipynb) but couldn't figure out how to scale it properly after scraping so I just gave up. All these points I had to [click manually](https://fcpythonvideocoder.netlify.app/) from the highlights. 
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-1.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/5-12-25-1.png" alt="4.1" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./match-reviews/Matchweek%201/4-1-2.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-1/5-12-25-2.png" alt="4.1" width="75%" />
   </p>
 
 </details>
@@ -318,7 +362,7 @@ Click on the arrows to select and expand each project for more details!
 
     With Krejci very close to signing with Wolves at 35m, many question whether it's worth the hefty price (Wolves usually sign 10m-20m players) and who he will replace. While most set out to find a backup LCB (like Renan), with Toti, Agbadou, and Doc/Mosquera as the [backline](./Project%202/Project%202.4/project2-4.ipynb). But with Krejci coming in, he surely is starting quality. I'm thinking Toti, Krejci, and Agbadou on the right. The interesting thing is, Wolves really are in need of such a progressive center back. Other than Doherty, there isn't really another one at the club, so I understand this sort of signing.
 
-    Krejci has great distributions and if deployed on the left, I'm sure will pair very well with Hugo Bueno, who as I've mentioned, really impressed despite our [1-0 lost against Bournemouth yesterday](./match-reviews/Matchweek%202/8-23-2025.ipynb). His 96th percentile in progressive carrying distance really stands out for my case. Despite being a center back, he has more touches on average in the middle third (49.5%, or almost half) than defensive (46.7%). Therefore t's no suprise that he's a ball playing defender as well.
+    Krejci has great distributions and if deployed on the left, I'm sure will pair very well with Hugo Bueno, who as I've mentioned, really impressed despite our [1-0 lost against Bournemouth yesterday](./match-reviews/25-Matchweek-2/8-23-2025.ipynb). His 96th percentile in progressive carrying distance really stands out for my case. Despite being a center back, he has more touches on average in the middle third (49.5%, or almost half) than defensive (46.7%). Therefore t's no suprise that he's a ball playing defender as well.
 
     However, he does lack a lot of defensive workrates. 4th percentile in passes blocked, 5th percentile in dribblers tackled, and 8th for tackles in general. That doesn't mean he don't make quality challenges, but it isn't frequent for a center back. Funny thing is, we did see it in full display today with his game against Villareal, with Tajon Buchanan scoring a hattrick and a 5 - 0 loss while having Krejci as the LCB in a back four.
 
@@ -501,7 +545,7 @@ Click on the arrows to select and expand each project for more details!
     <img src="./Project%202/Project%202.5/2-5-1.png" alt="2.5" width="75%" />
   </p>
 
-  Hoever (KJH) on the other hand is more defensively sound that most people think. Suprisingly, his actions in the middle third (37.43%) is nearly just as much as his defensive third (39.97%). He also has a high attacking ratio for a wing back at 24.64%. Ultimately, he has a better chance of a shot creating action by passing rather than crossing. The good thing is that we saw all these qualities in the recent City game, as mentioned in the [matchweek 1 review](./match-reviews/Matchweek%201/postMatchweek1.ipynb).
+  Hoever (KJH) on the other hand is more defensively sound that most people think. Suprisingly, his actions in the middle third (37.43%) is nearly just as much as his defensive third (39.97%). He also has a high attacking ratio for a wing back at 24.64%. Ultimately, he has a better chance of a shot creating action by passing rather than crossing. The good thing is that we saw all these qualities in the recent City game, as mentioned in the [matchweek 1 review](./match-reviews/25-Matchweek-1/postMatchweek1.ipynb).
 
   <p align="center">
     <img src="./Project%202/Project%202.5/2-5-2.png" alt="2.5" width="75%" />
