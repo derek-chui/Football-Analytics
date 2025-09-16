@@ -101,6 +101,34 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
+  <summary>3.3 - Attacking Midfielder Progressive Actions</summary>
+
+  - **Code**: [project3-3.ipynb](./Project%203/Project%203.3/project3-3.ipynb)  
+  - **Summary**:
+    Beginning of this project I was trying to compare player actions with value but I've realised that it doesn't exactly work well with a metric like usage rates. For example, there could be someone that is valued at a lower price while having a high usage rate because he was the "main man" at their previous team, but it doesn't reflect their productivity well. However reflecting player actions with usage rates could prove useful. (Last subsection)[./Project%203/Project%203.2/project3-2.ipynb] I compared shot creating actions with CAMs, and in this one I will do the same but with Progressive Actions.
+
+    Progressive Actions are a combination of Progressive Carries, Passes, and Pass Receptions. It's a great insight, other than goal scoring threat metrics, that shows the value of an attacker that isn't necessarily directly involved with scoring goals.
+    
+    As previously mentioned, usage rates are measured based on miscontrolls, dispossessions, incomplete passes, failed take ons, and shots.
+
+    Graphing these metrics can help clubs spot productive and wasteful players, or whether a player should be getting the ball as much as they do.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-1.png" alt="3.3" width="75%" />
+  </p>
+
+  When plotted, it's easy to see who the most progressively efficient players are at the club. Players like Fer Lopez and Arias stand out. Obviously, they played in different and less demanding leagues, but this could be good insight to see what sort of value they can give should they get the ball more often. Players like Cunha or Sarabia would've had even better stats if they played in less challenging leagues.
+
+  Fer Lopez stands out to me as someone who is very productive on the ball. We saw this in 3.2 with shot creating actions, and it's no suprise we see the same in usage rates. I won't be suprised if it's the same for npxG+xA either. He also has the best PrgC and PrgP, but that's also considering he didn't play as much as the other players on the chart.
+
+  This can also apply to wing backs or midfielders. The likes of Rodrigo Gomes and Hugo Bueno would undoubtedly be among the more progressive and efficient players at the club.
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-2.png" alt="3.3" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>1.6 - Progressive Passes by Game State</summary>
 
   - **Code**: [project1_6.ipynb](./Project%201/Project%201.6/project1_6.ipynb)  
@@ -385,6 +413,56 @@ Click on the arrows to select and expand each project for more details!
 - **Source(s)**: [FBref](https://fbref.com/en/), [Transfermarkt](https://www.transfermarkt.com/)
 - **Folder**: [Project 3](./Project%203/)
 - **Summary**: Comparing various player on field actions with usage rates (how often the player has the ball). This will determine whether or not a player is productive / efficient with the ball and if the player deserves to have the ball as much as they do. Heavily inspired by [this video](https://www.youtube.com/watch?v=iydcB3OM6EE).
+
+<details>
+  <summary>3.4 - Wing Back Progressive Actions</summary>
+
+  - **Code**: [project3-4.ipynb](./Project%203/Project%203.4/project3-4.ipynb)  
+  - **Summary**:
+    Hugo Bueno and Rodrigo Gomes are both great progressive options in the wing back role. In fact I think they're both underutilized (like Fer Lopez) in the squad, and the loss against Newcastle only proves that.
+
+    Tchatchoua, despite not having the best stats, and not getting the ball much back in Verona, did have a good amount of Progressive Actions and made it count. Interested to see how this would change should he get the ball more often.
+
+    I also changed the circle size from G+A to player value, since G+A isn't as relevant with wing backs imo.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.4/3-4-1.png" alt="3.4" width="75%" />
+  </p>
+
+  Our current wing backs are arguably more progressive than previous ones, but there are other qualities that are lacking.
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.4/3-4-2.png" alt="3.4" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>3.3 - Attacking Midfielder Progressive Actions</summary>
+
+  - **Code**: [project3-3.ipynb](./Project%203/Project%203.3/project3-3.ipynb)  
+  - **Summary**:
+    Beginning of this project I was trying to compare player actions with value but I've realised that it doesn't exactly work well with a metric like usage rates. For example, there could be someone that is valued at a lower price while having a high usage rate because he was the "main man" at their previous team, but it doesn't reflect their productivity well. However reflecting player actions with usage rates could prove useful. (Last subsection)[./Project%203/Project%203.2/project3-2.ipynb] I compared shot creating actions with CAMs, and in this one I will do the same but with Progressive Actions.
+
+    Progressive Actions are a combination of Progressive Carries, Passes, and Pass Receptions. It's a great insight, other than goal scoring threat metrics, that shows the value of an attacker that isn't necessarily directly involved with scoring goals.
+    
+    As previously mentioned, usage rates are measured based on miscontrolls, dispossessions, incomplete passes, failed take ons, and shots.
+
+    Graphing these metrics can help clubs spot productive and wasteful players, or whether a player should be getting the ball as much as they do.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-1.png" alt="3.3" width="75%" />
+  </p>
+
+  When plotted, it's easy to see who the most progressively efficient players are at the club. Players like Fer Lopez and Arias stand out. Obviously, they played in different and less demanding leagues, but this could be good insight to see what sort of value they can give should they get the ball more often. Players like Cunha or Sarabia would've had even better stats if they played in less challenging leagues.
+
+  Fer Lopez stands out to me as someone who is very productive on the ball. We saw this in 3.2 with shot creating actions, and it's no suprise we see the same in usage rates. I won't be suprised if it's the same for npxG+xA either. He also has the best PrgC and PrgP, but that's also considering he didn't play as much as the other players on the chart.
+
+  This can also apply to wing backs or midfielders. The likes of Rodrigo Gomes and Hugo Bueno would undoubtedly be among the more progressive and efficient players at the club.
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-2.png" alt="3.3" width="75%" />
+  </p>
+</details>
 
 <details>
   <summary>3.2 - Attacking Midfielder Shot Creating Actions</summary>
