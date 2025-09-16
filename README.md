@@ -11,7 +11,7 @@ Click on the arrows to select and expand each project for more details!
 - [Player Dashboard](#player-dashboard)
 
 ### Featured Projects
-- [(In Progress) Project 3 - Outlying Player Valuations](#3---outlying-player-valuations)
+- [(In Progress) Project 3 - Players Actions v Usage Rates](#3---player-actions-v-usage-rates)
 - [Project 2 - 2025 Summer Squad Assessment](#2---2025-summer-squad-assessment)
 - [Project 1 - Progression Analysis (24/25)](#1---progression-analysis-2425)
 
@@ -380,14 +380,14 @@ Click on the arrows to select and expand each project for more details!
 
 
 
-## 3 - Outlying Player Valuations
+## 3 - Player Actions v Usage Rates
 
 - **Source(s)**: [FBref](https://fbref.com/en/), [Transfermarkt](https://www.transfermarkt.com/)
 - **Folder**: [Project 3](./Project%203/)
-- **Summary**: Dedicated to finding outlying players across different leagues in various on field actions. For example, goal contributions by market value for strikers, wingers, or attacking midfielders. Then finding the best value per goal contribution. 
+- **Summary**: Comparing various player on field actions with usage rates (how often the player has the ball). This will determine whether or not a player is productive / efficient with the ball and if the player deserves to have the ball as much as they do. Heavily inspired by [this video](https://www.youtube.com/watch?v=iydcB3OM6EE).
 
 <details>
-  <summary>3.2 - Attacking Midfielder Usage Rates</summary>
+  <summary>3.2 - Attacking Midfielder Shot Creating Actions</summary>
 
   - **Code**: [project3-2.ipynb](./Project%203/Project%203.2/project3-2.ipynb)  
   - **Summary**:
@@ -417,7 +417,7 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
-  <summary>3.1 - Striker Usage Rates</summary>
+  <summary>3.1 - Striker Shot Creating Actions</summary>
 
   - **Code**: [project3-1.ipynb](./Project%203/Project%203.1/project3-1.ipynb)  
   - **Summary**:
@@ -488,7 +488,7 @@ Click on the arrows to select and expand each project for more details!
     <img src="./Project%202/Project%202.8/2-8-3.png" alt="2.8" width="75%" />
   </p>
 
-  With the transfer window being closed, this marks the end of project 2 as well. Future rumors and links, new players and those of interest, will be broken down under the [Player Dashboard](#player-dashboard), which will be continuously updated, similar to the [Match Reviews](#match-reviews). For my next project I'm going full moneyball and finding overlooked / outlying players based on different in game metrics.
+  With the transfer window being closed, this marks the end of project 2 as well. Future rumors and links, new players and those of interest, will be broken down under the [Player Dashboard](#player-dashboard), which will be continuously updated, similar to the [Match Reviews](#match-reviews). For my next project I'm comparing various player on field actions with usage rates (how often the player has the ball). This will determine whether or not a player is productive / efficient with the ball and if the player deserves to have the ball as much as they do.
 
 </details>
 
@@ -817,3 +817,9 @@ Overall I would say Hugo Bueno and Tchatchoua should be starting wingbacks. I re
   </p>
 
 </details>
+
+## Miscellaneous
+
+- **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
+- **Folder**: [miscellaneous](./miscellaneous/)
+- **Summary**: Where uncategorized projects will be stored.
