@@ -368,6 +368,38 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Recurring project to scout and analyze players with various metrics and visualizations.
 
 <details>
+  <summary>Rodrigo Gomes</summary>
+
+  - **Code**: [Rodrigo-Gomes.ipynb](./player-dashboard/WB/Rodrigo-Gomes.ipynb)  
+  - **Summary**:
+    Similar to Hugo Bueno, Rodrigo Gomes is definitely underutilized. While I wouldn't say he's overlooked, the attacking quality he provides is hard to pass. If Tchatchoua fails to perform, I would give Rodrigo the starting role over him.
+
+    He's among the best in goal threat for wing backs, great at receiving the ball and passing it off into the box. If he gets his defensive abilities up to premier league standards, he would surely play a key role in the squad.
+
+  <p align="center">
+    <img src="./player-dashboard/WB/Rodrigo-Gomes.png" alt="Rodrigo Gomes" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>Hugo Bueno</summary>
+
+  - **Code**: [Hugo-Bueno.ipynb](./player-dashboard/WB/Hugo-Bueno.ipynb)  
+  - **Summary**:
+    The first few month of this new season made me genuinely believe that Hugo Bueno is the most overlooked player in the Wolves squad. Incredibly progressive, while being solid defensively.
+
+    Many of his top attributes: crosses into penalty area, progressive carries, and interceptions, are crutial in the wing back role Pereira is trying to play. His successful take ons are also among the best with wing backs.
+
+    [Project 3.4](Project%203.4/project3-4.ipynb) backs this up as a testament to his progression.
+
+    I won't be suprised if he leaves for a huge fee a few years down the line, much like Ait-Nouri.
+
+  <p align="center">
+    <img src="./player-dashboard/WB/Hugo-Bueno.png" alt="Hugo Bueno" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>Tolu Arokodare</summary>
 
   - **Code**: [Tolu-Arokodare.ipynb](./player-dashboard/ST/Tolu-Arokodare.ipynb)  
