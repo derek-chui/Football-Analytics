@@ -48,38 +48,75 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
-  <summary>(PL 25/26) WOL 0 - MCI 4</summary>
+  <summary>(PL 25/26) NEW 1 - WOL 0</summary>
 
-  - **Code**: [postPatchweek1.ipynb](./match-reviews/25-Matchweek-1/postMatchweek1.ipynb)  
+  - **Code**: [9-13-2025.ipynb](./match-reviews/25-Matchweek-4/9-13-2025.ipynb)  
   - **Summary**:
-    Despite the dissappointing 0-4 result, I believe it's revealing and there's a lot of new insights we can take from this game. Apart from a few major mistakes at the back, the team didn't look to bad imho.
+  Losing the first four games of the season is starting to make many question whether Pereira knows what he's doing. But it's also important to know that there's 27 games to go. However I'm having a hard time understanding the substitution choices and starting XI. For some reason Pereira loves starting Hwang and Munetsi, while benching [more creative players](./Project%203/Project%203.2/project3-2.ipynb) like Fer Lopez, Rodrigo Gomes, or Bellegarde.
 
-    I'm suprised how central our attack was compared to last time we played city. A 48% centrality bias compared to last time's 13%. A few shots from Munetsi's offside as well as Larsen. Note that all these shows are clustered very close together as well. What impressed me however was Hoever, who not only dealt with Doku fairly well with Doherty (especially compared to last time) and made several progressive passes and crosses on the bottom wing of the graph. In fact, all 4 SCA crosses originated from the right side.
-    
-    Part of me wonders if there would've been better chances for Larsen if those crosses from the right were passes instead.
+  It's the same thing every season. Some manage does well towards the end of a season, getting us out of the relegation zone. Then a whole summer of selling important players without replacing them properly. Then sacking the manager for poor performances as a result of questionable decisions and a underprepared squad. What's next is to pray that the next manager can deal with what they already have.
 
-    What's concerning is the lack of progression from the left hand side / top wing. Wolfe and Bellegarde didn't contribute much to the attack. Neither did Hugo Bueno later on.
+  The difference with this season compared to the past few, is that the promoted teams all look like they could survive. While the previous seasons all promoted teams got relegated right away. The quality of the league is certainly higher this season, and it feels like we're getting left behind.
 
   <p align="center">
-    <img src="./match-reviews/25-Matchweek-1/8-16-25-1.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-1.png" alt="4.4" width="75%" />
   </p>
 
-  City also attacked fairly centrally, especially compared to last time. Obviously this is because of Haaland returning vs City playing KDB up top before. Fairly even distribution in passing. Less action on the left / top wing from Doku as mentioned. Much deeper build up play compared to us, but tbf that's what you expect from a team like City.
+  We can see the difference in chances and progressiveness on these graphs. Wolves barely made any solid progress. Apart from the first 10 seconds of the game, nothing really happened. Tolu and Krejci looked good, so does Rodrigo Gomes and Hugo Bueno (always liked these two, feels like they're overlooked). 
 
   <p align="center">
-    <img src="./match-reviews/25-Matchweek-1/8-16-25-2.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-2.png" alt="4.4" width="75%" />
   </p>
-
-  I mean the results speak for themselves on the plot below. Our options on the bench aren't bad either: Mosquera, Hugo Bueno, Rodrigo Gomes, Arias, Lopez, as well as Tchatchoua coming in soon. Hopefully it will only be up from here and both Agbadou & Sa gets in the right mindset.
+  Newcastle made an insane amount of shots down the midle, and a handful of those right outside the box. A lot of passing play on the wing areas as well.
 
   <p align="center">
-    <img src="./match-reviews/25-Matchweek-1/8-16-25-3.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-3.png" alt="4.4" width="75%" />
   </p>
 
   <p align="center">
-    <img src="./match-reviews/25-Matchweek-1/8-16-25-4.png" alt="4.1" width="75%" />
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-4.png" alt="4.4" width="75%" />
   </p>
 
+  Was playing around with the data and viz and came up with this. These show the spatial differences between the two teams, showing which zones are more dominant in attack compared to the other.
+
+  <p align="center">
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-5.png" alt="4.4" width="75%" />
+  </p>
+
+  This does the same, except for passing and crosses.
+
+  <p align="center">
+    <img src="./match-reviews/25-Matchweek-4/9-13-25-6.png" alt="4.4" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>3.3 - Attacker Expected Goal Contributions</summary>
+
+  - **Code**: [project3-3.ipynb](./Project%203/Project%203.3/project3-3.ipynb)  
+  - **Summary**:
+    Inspired by [this post](https://x.com/fc_mossman/status/1967663639697195320) which showed the CAM/Winger final third efficiency. Basically how many final third touches does a player take vs expected goal contributions. Since I was doing a project on usage rates, I thought it would be a good idea to swap out final third touches with usage to see how it would change.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-1.png" alt="3.3" width="75%" />
+  </p>
+
+  I did the thing but with all recent attackers. I've covered Tolu's inflated shot volume at Belgium back in (section 2.8)[./Project%202/Project%202.8/stcomp.ipynb], so it makes sense why he stands out.
+
+  Other than that, Larsen, Kalajdzic, Jimenez, and Fer Lopez are among the most efficient, considering their usage rate. Also important to note Larsen's impressive shot ratios, which I also covered in 2.8. The difference is that Larsen performs way above his npxG, while Tolu does the opposite (despite scoring more).
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-2.png" alt="3.3" width="75%" />
+  </p>
+
+  We can see similar results to progressive actions too, with Cunha and Sarabia not only being progressive but contributing as well (but also having the ball a lot).
+
+  If we split it in between npxG and xA, the graph is fairly similar with npxG. But for xA, we see players like Fer Lopez and Bellegarde stand out as among the more creative playmakers, even without having the ball too much.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-3.png" alt="3.3" width="75%" />
+  </p>
 </details>
 
 <details>
@@ -101,31 +138,40 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
-  <summary>3.3 - Attacking Midfielder Progressive Actions</summary>
+  <summary>2.8 - Arokodare's Finishing Problem</summary>
 
-  - **Code**: [project3-3.ipynb](./Project%203/Project%203.3/project3-3.ipynb)  
+  - **Code**: [stcomp.ipynb](./Project%202/Project%202.8/stcomp.ipynb)  
   - **Summary**:
-    Beginning of this project I was trying to compare player actions with value but I've realised that it doesn't exactly work well with a metric like usage rates. For example, there could be someone that is valued at a lower price while having a high usage rate because he was the "main man" at their previous team, but it doesn't reflect their productivity well. However reflecting player actions with usage rates could prove useful. (Last subsection)[./Project%203/Project%203.2/project3-2.ipynb] I compared shot creating actions with CAMs, and in this one I will do the same but with Progressive Actions.
+  The other day while I was looking into [Arokodare](./player-dashboard/ST/Tolu-Arokodare.ipynb), I stumbled upon [this article](https://scoutedftbl.com/tolu-arokodare-goalscorer-cant-finish/). While on the surface his goals per 90 ratio is impressive, what's often overlook is how clinical he really is.
 
-    Progressive Actions are a combination of Progressive Carries, Passes, and Pass Receptions. It's a great insight, other than goal scoring threat metrics, that shows the value of an attacker that isn't necessarily directly involved with scoring goals.
-    
-    As previously mentioned, usage rates are measured based on miscontrolls, dispossessions, incomplete passes, failed take ons, and shots.
+  Let's take Larsen as an example. In a Wolves team that lacks creativity and chances, he really don't get flooded with opportunities to shoot. It's expected that his non penalty goals are 0.35, but in reality he overperforms by a lot, scoring 0.45 non penalty goal per game. Since his npxG < npG, he's doing better than expected. On the other hand, despite Arokodare scoring more, his expected goals (0.81) is far greater than his actual goals per game (0.62). This means that he's underperforming. Considering the amount of shots he took, he should've scored way more. Granted, Tolu Arokodare was given an insane amount of chances, basically with over 7.4 progressive passing receptions at Genk compared to 4.06 with Larsen.
 
-    Graphing these metrics can help clubs spot productive and wasteful players, or whether a player should be getting the ball as much as they do.
+  I'm a little worried that Wolves being not as progressive as Genk will mean that Tolu will suffer from the lack of opportunities, and when he does get them, have a much bigger chance of being less clinical than he should be.
 
   <p align="center">
-    <img src="./Project%203/Project%203.3/3-3-1.png" alt="3.3" width="75%" />
+    <img src="./Project%202/Project%202.8/2-8-1.png" alt="2.8" width="75%" />
   </p>
 
-  When plotted, it's easy to see who the most progressively efficient players are at the club. Players like Fer Lopez and Arias stand out. Obviously, they played in different and less demanding leagues, but this could be good insight to see what sort of value they can give should they get the ball more often. Players like Cunha or Sarabia would've had even better stats if they played in less challenging leagues.
+  Let's also take a look at Arokodare's number of shots per game, which is nearly 5 per 90. 32.7% of them are on target, and 12.4% of them are goals. On the other hand, Larsen has 60.7% shots on target and 23% of shots turn into goals. The numbers are quite telling when you put it out like that.
 
-  Fer Lopez stands out to me as someone who is very productive on the ball. We saw this in 3.2 with shot creating actions, and it's no suprise we see the same in usage rates. I won't be suprised if it's the same for npxG+xA either. He also has the best PrgC and PrgP, but that's also considering he didn't play as much as the other players on the chart.
+  <p align="center">
+    <img src="./Project%202/Project%202.8/2-8-2.png" alt="2.8" width="75%" />
+  </p>
 
-  This can also apply to wing backs or midfielders. The likes of Rodrigo Gomes and Hugo Bueno would undoubtedly be among the more progressive and efficient players at the club.
+  Interestingly enough, there's actually a correlation to this. [@ctwwfc](https://x.com/ctwwfc) suggested that the inflated amounts of shots could be related to the much higher goals prevented for GKs specifically in the Belgian league, as mentioned [on this post](https://x.com/wakocd_/status/1958854878572220442?s=46&t=53TKqHBsknak6IXfcVhk2g).
   
+  Lammens, who had just transferred to United, is one of those keepers, who has an unusually high goals prevented at 15.57 last season. While its easy for many to compare stats to the likes of Onana, its important to note that the difficulty of shots are often not accounted for in different leauges (Onana back in Ajax had similar numbers). So it's no doubt that Lammens' numbers will drop off at United.
+
+  Despite the high number of saves per 90, [Tolu actually scored a brace against him end of last year](https://fbref.com/en/matches/b4ea65cc/Antwerp-Genk-December-26-2024-Belgian-Pro-League). Arokodare registered 9 shots that game, 5 of them on target, and scoring 2. Lammens on the other hand faced 11 shots on target against (5 from Tolu) and conceding the only 2 against Tolu. The 81.8 save% is impressive, but is also a prime example of Tolu performing below his xG. The game ended 2-2, with Genk having an xG of 3.1.
+
+  Interested to see how Tolu and Lammens' numbers will pan out throughout the season, especially in the prem. Despite being in different positions, it's no question that the data draws parallel with one another. However it's no doubt that their numbers will drop. Tolu will have to be much more clinical than what he is now if he wants to make it in the prem.
+
   <p align="center">
-    <img src="./Project%203/Project%203.3/3-3-2.png" alt="3.3" width="75%" />
+    <img src="./Project%202/Project%202.8/2-8-3.png" alt="2.8" width="75%" />
   </p>
+
+  With the transfer window being closed, this marks the end of project 2 as well. Future rumors and links, new players and those of interest, will be broken down under the [Player Dashboard](#player-dashboard), which will be continuously updated, similar to the [Match Reviews](#match-reviews). For my next project I'm comparing various player on field actions with usage rates (how often the player has the ball). This will determine whether or not a player is productive / efficient with the ball and if the player deserves to have the ball as much as they do.
+
 </details>
 
 <details>
@@ -447,6 +493,34 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Comparing various player on field actions with usage rates (how often the player has the ball). This will determine whether or not a player is productive / efficient with the ball and if the player deserves to have the ball as much as they do. Heavily inspired by [this video](https://www.youtube.com/watch?v=iydcB3OM6EE).
 
 <details>
+  <summary>3.5 - Attacking Midfielder Progressive Actions</summary>
+
+  - **Code**: [project3-5.ipynb](./Project%203/Project%203.5/project3-5.ipynb)  
+  - **Summary**:
+    Beginning of this project I was trying to compare player actions with value but I've realised that it doesn't exactly work well with a metric like usage rates. For example, there could be someone that is valued at a lower price while having a high usage rate because he was the "main man" at their previous team, but it doesn't reflect their productivity well. However reflecting player actions with usage rates could prove useful. (Last subsection)[./Project%203/Project%203.2/project3-2.ipynb] I compared shot creating actions with CAMs, and in this one I will do the same but with Progressive Actions.
+
+    Progressive Actions are a combination of Progressive Carries, Passes, and Pass Receptions. It's a great insight, other than goal scoring threat metrics, that shows the value of an attacker that isn't necessarily directly involved with scoring goals.
+    
+    As previously mentioned, usage rates are measured based on miscontrolls, dispossessions, incomplete passes, failed take ons, and shots.
+
+    Graphing these metrics can help clubs spot productive and wasteful players, or whether a player should be getting the ball as much as they do.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.5/3-5-1.png" alt="3.5" width="75%" />
+  </p>
+
+  When plotted, it's easy to see who the most progressively efficient players are at the club. Players like Fer Lopez and Arias stand out. Obviously, they played in different and less demanding leagues, but this could be good insight to see what sort of value they can give should they get the ball more often. Players like Cunha or Sarabia would've had even better stats if they played in less challenging leagues.
+
+  Fer Lopez stands out to me as someone who is very productive on the ball. We saw this in 3.2 with shot creating actions, and it's no suprise we see the same in usage rates. I won't be suprised if it's the same for npxG+xA either. He also has the best PrgC and PrgP, but that's also considering he didn't play as much as the other players on the chart.
+
+  This can also apply to wing backs or midfielders. The likes of Rodrigo Gomes and Hugo Bueno would undoubtedly be among the more progressive and efficient players at the club.
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-5-2.png" alt="3.5" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>3.4 - Wing Back Progressive Actions</summary>
 
   - **Code**: [project3-4.ipynb](./Project%203/Project%203.4/project3-4.ipynb)  
@@ -469,30 +543,30 @@ Click on the arrows to select and expand each project for more details!
 </details>
 
 <details>
-  <summary>3.3 - Attacking Midfielder Progressive Actions</summary>
+  <summary>3.3 - Attacker Expected Goal Contributions</summary>
 
   - **Code**: [project3-3.ipynb](./Project%203/Project%203.3/project3-3.ipynb)  
   - **Summary**:
-    Beginning of this project I was trying to compare player actions with value but I've realised that it doesn't exactly work well with a metric like usage rates. For example, there could be someone that is valued at a lower price while having a high usage rate because he was the "main man" at their previous team, but it doesn't reflect their productivity well. However reflecting player actions with usage rates could prove useful. (Last subsection)[./Project%203/Project%203.2/project3-2.ipynb] I compared shot creating actions with CAMs, and in this one I will do the same but with Progressive Actions.
-
-    Progressive Actions are a combination of Progressive Carries, Passes, and Pass Receptions. It's a great insight, other than goal scoring threat metrics, that shows the value of an attacker that isn't necessarily directly involved with scoring goals.
-    
-    As previously mentioned, usage rates are measured based on miscontrolls, dispossessions, incomplete passes, failed take ons, and shots.
-
-    Graphing these metrics can help clubs spot productive and wasteful players, or whether a player should be getting the ball as much as they do.
+    Inspired by [this post](https://x.com/fc_mossman/status/1967663639697195320) which showed the CAM/Winger final third efficiency. Basically how many final third touches does a player take vs expected goal contributions. Since I was doing a project on usage rates, I thought it would be a good idea to swap out final third touches with usage to see how it would change.
 
   <p align="center">
     <img src="./Project%203/Project%203.3/3-3-1.png" alt="3.3" width="75%" />
   </p>
 
-  When plotted, it's easy to see who the most progressively efficient players are at the club. Players like Fer Lopez and Arias stand out. Obviously, they played in different and less demanding leagues, but this could be good insight to see what sort of value they can give should they get the ball more often. Players like Cunha or Sarabia would've had even better stats if they played in less challenging leagues.
+  I did the thing but with all recent attackers. I've covered Tolu's inflated shot volume at Belgium back in (section 2.8)[./Project%202/Project%202.8/stcomp.ipynb], so it makes sense why he stands out.
 
-  Fer Lopez stands out to me as someone who is very productive on the ball. We saw this in 3.2 with shot creating actions, and it's no suprise we see the same in usage rates. I won't be suprised if it's the same for npxG+xA either. He also has the best PrgC and PrgP, but that's also considering he didn't play as much as the other players on the chart.
-
-  This can also apply to wing backs or midfielders. The likes of Rodrigo Gomes and Hugo Bueno would undoubtedly be among the more progressive and efficient players at the club.
+  Other than that, Larsen, Kalajdzic, Jimenez, and Fer Lopez are among the most efficient, considering their usage rate. Also important to note Larsen's impressive shot ratios, which I also covered in 2.8. The difference is that Larsen performs way above his npxG, while Tolu does the opposite (despite scoring more).
   
   <p align="center">
     <img src="./Project%203/Project%203.3/3-3-2.png" alt="3.3" width="75%" />
+  </p>
+
+  We can see similar results to progressive actions too, with Cunha and Sarabia not only being progressive but contributing as well (but also having the ball a lot).
+
+  If we split it in between npxG and xA, the graph is fairly similar with npxG. But for xA, we see players like Fer Lopez and Bellegarde stand out as among the more creative playmakers, even without having the ball too much.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-3.png" alt="3.3" width="75%" />
   </p>
 </details>
 
