@@ -553,7 +553,7 @@ Click on the arrows to select and expand each project for more details!
     <img src="./Project%203/Project%203.3/3-3-1.png" alt="3.3" width="75%" />
   </p>
 
-  I did the thing but with all recent attackers. I've covered Tolu's inflated shot volume at Belgium back in (section 2.8)[./Project%202/Project%202.8/stcomp.ipynb], so it makes sense why he stands out.
+  I did the thing but with all recent attackers. I've covered Tolu's inflated shot volume at Belgium back in [section 2.8](./Project%202/Project%202.8/stcomp.ipynb), so it makes sense why he stands out.
 
   Other than that, Larsen, Kalajdzic, Jimenez, and Fer Lopez are among the most efficient, considering their usage rate. Also important to note Larsen's impressive shot ratios, which I also covered in 2.8. The difference is that Larsen performs way above his npxG, while Tolu does the opposite (despite scoring more).
   
