@@ -414,6 +414,20 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Recurring project to scout and analyze players with various metrics and visualizations.
 
 <details>
+  <summary>Santiago Bueno</summary>
+
+  - **Code**: [Santiago-Bueno.ipynb](./player-dashboard/CB/Santiago-Bueno.ipynb)  
+  - **Summary**:
+    In light of recent performances, especially against spurs, he has to keep starting. Great partnership with Krejci in a back 3 or 4. Krejci makes up for his lack of progression, and miles above Agbadou this season.
+
+    Against Tottenham he had the most duels won (12), most tackles (8), and the most interceptions (3). As well as his first PL goal to top it all off. His stats really just speak for themselves
+
+  <p align="center">
+    <img src="./player-dashboard/CB/Santiago-Bueno.png" alt="Santiago-Bueno" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>Rodrigo Gomes</summary>
 
   - **Code**: [Rodrigo-Gomes.ipynb](./player-dashboard/WB/Rodrigo-Gomes.ipynb)  
