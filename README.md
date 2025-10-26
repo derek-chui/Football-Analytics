@@ -511,7 +511,7 @@ Click on the arrows to select and expand each project for more details!
 
   - **Code**: [project3-5.ipynb](./Project%203/Project%203.5/project3-5.ipynb)  
   - **Summary**:
-    Beginning of this project I was trying to compare player actions with value but I've realised that it doesn't exactly work well with a metric like usage rates. For example, there could be someone that is valued at a lower price while having a high usage rate because he was the "main man" at their previous team, but it doesn't reflect their productivity well. However reflecting player actions with usage rates could prove useful. (Last subsection)[./Project%203/Project%203.2/project3-2.ipynb] I compared shot creating actions with CAMs, and in this one I will do the same but with Progressive Actions.
+    Beginning of this project I was trying to compare player actions with value but I've realised that it doesn't exactly work well with a metric like usage rates. For example, there could be someone that is valued at a lower price while having a high usage rate because he was the "main man" at their previous team, but it doesn't reflect their productivity well. However reflecting player actions with usage rates could prove useful. [Last subsection](./Project%203/Project%203.2/project3-2.ipynb) I compared shot creating actions with CAMs, and in this one I will do the same but with Progressive Actions.
 
     Progressive Actions are a combination of Progressive Carries, Passes, and Pass Receptions. It's a great insight, other than goal scoring threat metrics, that shows the value of an attacker that isn't necessarily directly involved with scoring goals.
     
