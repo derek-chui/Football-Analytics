@@ -610,6 +610,29 @@ Click on the arrows to select and expand each project for more details!
   <p align="center">
     <img src="./Project%203/Project%203.3/3-3-3.png" alt="3.3" width="75%" />
   </p>
+
+  Figured I could make a quick minor update on 3-3
+
+  There's been several changes in data between GW 1 and GW 11, so here it is.
+
+  Tolu's npxG dropped a bit, but that's expected since he's not in the EPL instead of Belgium.
+
+  Arias' usage dropped but his npxG is similar. He's not really the main man at Wolves compared to in Brazil.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-4.png" alt="3.3" width="75%" />
+  </p>
+
+  We can see the same shift in Arias' performance: lower usage and lower xA.
+
+  Again, Tolu's xA is going down as well, even with the same usage rates.
+
+  Lastly, Fer Lopez has increased usage and xA, even in the EPL. Looking forward to how this reflects at the end of this season.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.3/3-3-5.png" alt="3.3" width="75%" />
+  </p>
+
 </details>
 
 <details>
