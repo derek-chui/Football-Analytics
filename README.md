@@ -507,6 +507,34 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Comparing various player on field actions with usage rates (how often the player has the ball). This will determine whether or not a player is productive / efficient with the ball and if the player deserves to have the ball as much as they do. Heavily inspired by [this video](https://www.youtube.com/watch?v=iydcB3OM6EE).
 
 <details>
+  <summary>3.6 - Midfielder Progressive Actions</summary>
+
+  - **Code**: [project3-6.ipynb](./Project%203/Project%203.6/project3-6.ipynb)  
+  - **Summary**:
+    Back at it with more analysis 11 gameweeks in. Hopefully with more time over thanksgiving and christmas break I'm able to finish project 3.
+
+    Graph below shows Bellegarde and Joao Gomes being among the more productive midfielders at Wolves even recently.
+
+    Matheus Nunes stands out the most in his last season at Wolves, with high progression even with fair usage. Joao Moutinho as well.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.6/3-6-1.png" alt="3.6" width="75%" />
+  </p>
+
+  I recall seeing a post about how even current Moutinho would start over anyone at Wolves. The graph certainly shows that.
+
+  Moutinho is probably the only one we can consider very productive, with fair usage yet high amounts of progressive actions as well.
+
+  Interesting to see how Bellegarde stands out in many categories, even in previous projects.
+
+  Notice how more attacking midfielders have higher progressive receptions, while others have higher ratios of progressive passes.
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.6/3-6-2.png" alt="3.6" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>3.5 - Attacking Midfielder Progressive Actions</summary>
 
   - **Code**: [project3-5.ipynb](./Project%203/Project%203.5/project3-5.ipynb)  
@@ -530,7 +558,7 @@ Click on the arrows to select and expand each project for more details!
   This can also apply to wing backs or midfielders. The likes of Rodrigo Gomes and Hugo Bueno would undoubtedly be among the more progressive and efficient players at the club.
   
   <p align="center">
-    <img src="./Project%203/Project%203.3/3-5-2.png" alt="3.5" width="75%" />
+    <img src="./Project%203/Project%203.5/3-5-2.png" alt="3.5" width="75%" />
   </p>
 </details>
 
