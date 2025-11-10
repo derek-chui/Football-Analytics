@@ -439,6 +439,16 @@ Click on the arrows to select and expand each project for more details!
   <p align="center">
     <img src="./player-dashboard/WB/Rodrigo-Gomes.png" alt="Rodrigo Gomes" width="75%" />
   </p>
+
+  Since it's currently GW 11 I've updated Rodrigo Gomes' player dashboard.
+
+  The stats show that this season he's more progressive and attacking than before.
+
+  He spends 4.5% more time with the ball in the attacking 3rd, and all his progressive stats have gone up (despite being already high).
+
+  <p align="center">
+    <img src="./player-dashboard/WB/Rodrigo-Gomes-2.png" alt="Rodrigo Gomes" width="75%" />
+  </p>
 </details>
 
 <details>
