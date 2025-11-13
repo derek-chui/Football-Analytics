@@ -517,6 +517,90 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Comparing various player on field actions with usage rates (how often the player has the ball). This will determine whether or not a player is productive / efficient with the ball and if the player deserves to have the ball as much as they do. Heavily inspired by [this video](https://www.youtube.com/watch?v=iydcB3OM6EE).
 
 <details>
+  <summary>3.9 - Center Back Possessions Disrupted</summary>
+
+  - **Code**: [project3-9.ipynb](./Project%203/Project%203.9/project3-9.ipynb)  
+  - **Summary**:
+    I wasn't expecting Santiago Bueno to be this efficient. Lowest usage of all yet putting up 4+ possessions disrupted on average per 90.
+
+    Also we see the exact same shift in quality I was mentioning with wing backs. All our current center backs are towards the bottom of the chart (other than Santiago Bueno of course).
+
+    Boly, Collins, Kilman, Dawson, are all players that we never really paid much attention to when they were here. Yet our current players make their numbers look great.
+
+    Also, these players have the highest possessions disrupted rates especially Boly and Saiss, who is further down just because of his higher usage.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.9/3-9-1.png" alt="3.9" width="75%" />
+  </p>
+
+  The good is that just like with the wing backs, the most tackles won are current players, but this time in Toti and Santiago Bueno once again. Collins and Boly with the most blocks.
+
+  This is the last section of project 3. With the data and graphs we're able to see the player types Wolves are missing (and that have previously been proven to be vital in the system).
+
+  From this we can mark down these attributes and scout players with outstanding metrics in these area while being of good value. I'll be referring back to this as I look for potential prospects for the winter transfer window for sure.
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.9/3-9-2.png" alt="3.9" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>3.8 - Midfielders Possessions Disrupted</summary>
+
+  - **Code**: [project3-8.ipynb](./Project%203/Project%203.8/project3-8.ipynb)  
+  - **Summary**:
+    Since there's a wide variety of midfielders the graph is sort of all over the place. Can see the difference between ball playing CMs or progressive types.
+
+    Many already expected this but I didn't expect Andre to stand out this much. 4.55 possessions disrupted while having the lowest usage rates. He's definitely a player I'll look further into.
+    
+    Surely there are other players just like him in Europe that are overlooked as well.
+
+    Note how Bellegarde has the highest usage but almost the lowest possessions disrupted. That doesn't mean he's a bad player at all. He was among the best when it came to progression and SCA earlier in this project.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.8/3-8-1.png" alt="3.8" width="75%" />
+  </p>
+
+  Another player I'd like to emphasize is Boubacar Traore. He's out on loan right now but 2.53 tackles won per 90 is impressive for Wolves.
+
+  Neves on the other hand had the most blocks and interceptions. Maybe this is the type of player we're missing.
+
+  Lemina is a fair shout as well.
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.8/3-8-2.png" alt="3.8" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>3.7 - Wing Back Possessions Disrupted</summary>
+
+  - **Code**: [project3-7.ipynb](./Project%203/Project%203.7/project3-7.ipynb)  
+  - **Summary**:
+    Sad to see the decline in the quality of the squad over the past few years. Not just in the eye test but in actual data. 
+
+    All our departed wing backs are situated above the regression line.
+    
+    On the other hand you could argue our current wing backs are much more progressive now (so higher usage).
+
+    Hugo Bueno is the only current player with efficient defensive rates. Plus the quality he brings offensively compared to other players we have right now. Unfortunately like the rest of the squad he isn't implemented properly.
+
+  <p align="center">
+    <img src="./Project%203/Project%203.7/3-7-1.png" alt="3.7" width="75%" />
+  </p>
+
+  Previous players like Jonny or Marcal may have had their data overlooked, both being defensively efficient.
+
+  What suprised me is that Rodrigo Gomes and Hoever had the most tackles won on average at around 1.77 per 90.
+
+  But overall the shift in quality is evident and it shows in the data.
+  
+  <p align="center">
+    <img src="./Project%203/Project%203.7/3-7-2.png" alt="3.7" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>3.6 - Midfielder Progressive Actions</summary>
 
   - **Code**: [project3-6.ipynb](./Project%203/Project%203.6/project3-6.ipynb)  
