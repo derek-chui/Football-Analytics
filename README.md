@@ -12,7 +12,7 @@ Click on the arrows to select and expand each project for more details!
 - [Player Dashboard](#player-dashboard)
 
 ### Featured Projects
-- [(In Progress) Project 3 - Players Actions v Usage Rates](#3---player-actions-v-usage-rates)
+- [Project 3 - Players Actions v Usage Rates](#3---player-actions-v-usage-rates)
 - [Project 2 - 2025 Summer Squad Assessment](#2---2025-summer-squad-assessment)
 - [Project 1 - Progression Analysis (24/25)](#1---progression-analysis-2425)
 
