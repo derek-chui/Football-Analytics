@@ -7,6 +7,7 @@ Click on the arrows to select and expand each project for more details!
 ## Contents
 
 ### Regularly Updated
+- [Case Studies](#case-studies)
 - [Match Reviews](#match-reviews)
 - [Player Dashboard](#player-dashboard)
 
@@ -204,22 +205,69 @@ Click on the arrows to select and expand each project for more details!
 
 
 
+## Case Studies
 
+- **Source(s)**: [FBref](https://fbref.com/en/)
+- **Folder**: [case-studies](./case-studies/)
+- **Summary**: Detailed analysis and player comparisons, extended version of threads posted on X. Code drawn from tools developed in other projects.
 
+<details>
+  <summary>Case Study 2: Right Wing Back Dilemma</summary>
 
+  - **Summary**:  
 
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-1.png" alt="cs2-1" width="75%" />
+  </p>
 
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-2.png" alt="cs2-2" width="75%" />
+  </p>
 
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-3.png" alt="cs2-3" width="75%" />
+  </p>
 
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-4.png" alt="cs2-4" width="75%" />
+  </p>
 
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-5.png" alt="cs2-5" width="75%" />
+  </p>
 
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-6.png" alt="cs2-6" width="75%" />
+  </p>
 
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-7.png" alt="cs2-7" width="75%" />
+  </p>
 
+</details>
 
+<details>
+  <summary>Case Study 1: Krejci & Saiss</summary>
 
+  - **Summary**:  
 
+  <p align="center">
+    <img src="./case-studies/cs1/cs1-1.png" alt="cs1-1" width="75%" />
+  </p>
 
+  <p align="center">
+    <img src="./case-studies/cs1/cs1-2.png" alt="cs1-2" width="75%" />
+  </p>
 
+  <p align="center">
+    <img src="./case-studies/cs1/cs1-3.png" alt="cs1-3" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs1/cs1-4.png" alt="cs1-4" width="75%" />
+  </p>
+
+</details>
 
 ## Match Reviews
 
