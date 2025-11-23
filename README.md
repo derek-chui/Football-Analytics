@@ -209,7 +209,33 @@ Click on the arrows to select and expand each project for more details!
 
 - **Source(s)**: [FBref](https://fbref.com/en/)
 - **Folder**: [case-studies](./case-studies/)
-- **Summary**: Detailed analysis and player comparisons, extended version of threads posted on X. Code drawn from tools developed in other projects.
+- **Summary**: Detailed analysis and player comparisons. Extended version of threads posted on X. Code drawn from tools developed in other projects.
+
+<details>
+  <summary>Case Study 3: Tolu & Larsen</summary>
+
+  - **Summary**:  
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-1.png" alt="cs3-1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-2.png" alt="cs3-2" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-3.png" alt="cs3-3" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-4.png" alt="cs3-4" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-5.png" alt="cs3-5" width="75%" />
+  </p>
+</details>
 
 <details>
   <summary>Case Study 2: Right Wing Back Dilemma</summary>
@@ -485,7 +511,7 @@ Click on the arrows to select and expand each project for more details!
     He's among the best in goal threat for wing backs, great at receiving the ball and passing it off into the box. If he gets his defensive abilities up to premier league standards, he would surely play a key role in the squad.
 
   <p align="center">
-    <img src="./player-dashboard/WB/Rodrigo-Gomes.png" alt="Rodrigo Gomes" width="75%" />
+    <img src="./player-dashboard/WB/Rodrigo-Gomes-25261.png" alt="Rodrigo Gomes" width="75%" />
   </p>
 
   Since it's currently GW 11 I've updated Rodrigo Gomes' player dashboard.
@@ -495,7 +521,7 @@ Click on the arrows to select and expand each project for more details!
   He spends 4.5% more time with the ball in the attacking 3rd, and all his progressive stats have gone up (despite being already high).
 
   <p align="center">
-    <img src="./player-dashboard/WB/Rodrigo-Gomes-2.png" alt="Rodrigo Gomes" width="75%" />
+    <img src="./player-dashboard/WB/Rodrigo-Gomes-252611.png" alt="Rodrigo Gomes" width="75%" />
   </p>
 </details>
 
