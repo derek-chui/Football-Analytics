@@ -6,15 +6,15 @@ Click on the arrows to select and expand each project for more details!
 
 ## Contents
 
-### Regularly Updated
-- [Case Studies](#case-studies)
-- [Match Reviews](#match-reviews)
-- [Player Dashboard](#player-dashboard)
-
 ### Featured Projects
 - [Project 3 - Players Actions v Usage Rates](#3---player-actions-v-usage-rates)
 - [Project 2 - 2025 Summer Squad Assessment](#2---2025-summer-squad-assessment)
 - [Project 1 - Progression Analysis (24/25)](#1---progression-analysis-2425)
+
+### Regularly Updated
+- [Case Studies](#case-studies)
+- [Match Reviews](#match-reviews)
+- [Player Dashboard](#player-dashboard)
 
 ### Personal Favorites
 <details>
@@ -210,6 +210,28 @@ Click on the arrows to select and expand each project for more details!
 - **Source(s)**: [FBref](https://fbref.com/en/)
 - **Folder**: [case-studies](./case-studies/)
 - **Summary**: Detailed analysis and player comparisons. Extended version of threads posted on X. Code drawn from tools developed in other projects.
+
+<details>
+  <summary>Case Study 4: All Phase Players & Hero Ball</summary>
+
+  - **Summary**:  
+
+  <p align="center">
+    <img src="./case-studies/cs4/cs4-1.png" alt="cs4-1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs4/cs4-2.png" alt="cs4-2" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs4/cs4-3.png" alt="cs4-3" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs4/cs4-4.png" alt="cs4-4" width="75%" />
+  </p>
+</details>
 
 <details>
   <summary>Case Study 3: Tolu & Larsen</summary>
