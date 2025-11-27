@@ -212,6 +212,32 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Detailed analysis and player comparisons. Extended version of threads posted on X. Code drawn from tools developed in other projects.
 
 <details>
+  <summary>Case Study 5: Hugo Bueno in Midfield?</summary>
+
+  - **Summary**:  
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-1.png" alt="cs5-1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-2.png" alt="cs5-2" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-3.png" alt="cs5-3" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-4.png" alt="cs5-4" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-5.png" alt="cs5-5" width="75%" />
+  </p>
+</details>
+
+<details>
   <summary>Case Study 4: All Phase Players & Hero Ball</summary>
 
   - **Summary**:  
