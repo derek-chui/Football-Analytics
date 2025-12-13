@@ -327,23 +327,43 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>Hugo Bueno in Midfield?</summary>
 
-  - **Summary**:  
+  - **Summary**:
+
+  Applying the same logic from the previous [case study](./case-studies/cs4/cs4.ipynb), I'd argue that [Hugo Bueno](./player-dashboard/WB/Hugo-Bueno.ipynb) could be implemented as a midfielder, similar to Alfie Doughty back at Luton.
+
+  Notice the similarities between the two in metrics.
 
   <p align="center">
     <img src="./case-studies/cs5/cs5-1.png" alt="cs5-1" width="75%" />
   </p>
 
+ Similar progressive output as well. Progressive Carries, attacking third touches, crosses into pen.
+
   <p align="center">
     <img src="./case-studies/cs5/cs5-2.png" alt="cs5-2" width="75%" />
   </p>
+
+  Using visuals from my [usage rate project](#3---player-actions-v-usage-rates), it's no suprise that both their metrics regarding progressive actions and disruptions are very similar.
+
+  Also wanted to mention that Barkley (on top of being an all phase player), played as a LWB from time to time at Luton.
+
+  He essentially swapped roles with Doughty, who played as a midfielder.
+
+  Some of Luton's biggest results had some variation of this.
 
   <p align="center">
     <img src="./case-studies/cs5/cs5-3.png" alt="cs5-3" width="75%" />
   </p>
 
+  Doughty, who is conventionally a left wing back, played as a right center mid a fair bit.
+
+  And given his similarities with Hugo Bueno, could we see him playing as a midfielder as well?
+
   <p align="center">
     <img src="./case-studies/cs5/cs5-4.png" alt="cs5-4" width="75%" />
   </p>
+
+  The hero ball test shows that both players are capable of this as well. At the same time, could Bellegarde have the potential of playing as a LWB, similar to what Barkley did?
 
   <p align="center">
     <img src="./case-studies/cs5/cs5-5.png" alt="cs5-5" width="75%" />
@@ -353,19 +373,44 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>All Phase Players & Hero Ball</summary>
 
-  - **Summary**:  
+  - **Code**: [cs4.ipynb](./case-studies/cs4/cs4.ipynb) 
+  - **Summary**:
+
+  This case study was heavily inspired by a conversation with [@ctwwfc](https://x.com/ctwwfc) after finishing [project 3](#3---player-actions-v-usage-rates).
+
+  He suggested that there are some players at Wolves, that could potentially be hero ball players (players involved in all three phases of play).
+
+  For example, Rob Edwards allowed the likes of Hackney and Barkley to have an unlimited license and flexibility to connect play.
+
+  When we use these two as examples, we can see how they're both involved in all thirds of the pitch (all phase players).
+
+  This can be visualized by splitting metrics up into 3 phases: build up, connecting play, and outcome creation.
 
   <p align="center">
     <img src="./case-studies/cs4/cs4-1.png" alt="cs4-1" width="75%" />
   </p>
 
+  We can then sum these up into a sort of readiness metric, which determines whether a player is capable of being an all phase player.
+
+  Then hero ball is influenced by their role in possession as well as 3rd phase outcomes specifically.
+
+  We've seen something similar with Cunha. Like the other two, they're also prominent figures in all thirds by data. In other words, everything goes through these players.
+
   <p align="center">
     <img src="./case-studies/cs4/cs4-2.png" alt="cs4-2" width="75%" />
   </p>
 
+  The best candidates for hero ball would then be Fer Lopez or Bellegarde. I'm sure many Wolves fans that have watched these players could agree in some way.
+
+  For example, Barkley started out as a 10 but at Luton took on this deeper all action role.
+
+  I would hope to see Edwards implementing something similar in either players.
+
   <p align="center">
     <img src="./case-studies/cs4/cs4-3.png" alt="cs4-3" width="75%" />
   </p>
+
+  Both players have the potential to be solid all phase players, as seen below.
 
   <p align="center">
     <img src="./case-studies/cs4/cs4-4.png" alt="cs4-4" width="75%" />
@@ -376,22 +421,48 @@ Click on the arrows to select and expand each project for more details!
   <summary>Tolu & Larsen</summary>
 
   - **Summary**:  
+  
+  Wanted to revisit a [project](./Project%202/Project%202.8/stcomp.ipynb) I worked on back in August in this case study.
+
+  Tolu Arokodare and JSL had very polarizing stats when it came to shot efficiency, especially in the beginning of this season.
+
+  Larsen on one hand made very little shots, but is very efficienct when he does.
+
+  Tolu on the other hand made a lot of shots (in Belgium), but not so efficient.
+
+  Also a slight correlation to Lemmens who also played in Belgium, with an unusual amount of shots saved.
+
+  Graph below shows Larsen and Tolu being at opposite ends in percentiles for shot on target % 
 
   <p align="center">
     <img src="./case-studies/cs3/cs3-1.png" alt="cs3-1" width="75%" />
   </p>
 
+  Over this season we began to see the gap in expected shot output for both players closing in.
+
+  A decline in Larsen's performances and Tolu's league change are the main contributors.
+
   <p align="center">
     <img src="./case-studies/cs3/cs3-2.png" alt="cs3-2" width="75%" />
   </p>
+
+  This is something we can see here as well, with clear changes in npG-npxG for both players.
 
   <p align="center">
     <img src="./case-studies/cs3/cs3-3.png" alt="cs3-3" width="75%" />
   </p>
 
+  This isn't to say Larsen is a worse player compared to Tolu (similar to Hoever & Tchatchoua).
+
   <p align="center">
     <img src="./case-studies/cs3/cs3-4.png" alt="cs3-4" width="75%" />
   </p>
+
+  Following the previous case studying, comparing the two with strikers Rob Edwards have managed.
+
+  Elijah Adebayo was actually very efficient during his time in the prem. If Tolu is able to replicate these metrics I can see him doing well under Edwards.
+
+  Same thing with Larsen, who have similar characteristics to the likes of Tommy Conway and Carlton Morris.
 
   <p align="center">
     <img src="./case-studies/cs3/cs3-5.png" alt="cs3-5" width="75%" />
@@ -402,30 +473,50 @@ Click on the arrows to select and expand each project for more details!
   <summary>Right Wing Back Dilemma</summary>
 
   - **Summary**:  
+  
+  When Rob Edwards took charge there was a right back dilemma as mentioned by [@ConceptScouting](https://x.com/ConceptScouting/status/1991476736282775600). Interesting though that now he's actually decided to start Doherty ahead of both against Arsenal.
+
+  Both Ki Jana Hoever and Tchatchoua, for many fans, aren't great picks. It's almost like deciding who's less bad rather than who's better.
+
+  But initially I was inspired to look compare them to two players. Callum Brittain and Issa Kabore, both right wing backs that played under Rob Edwards. By doing so I was able to compare their attributes to see what type of wing backs Rob Edwards is familiar with. 
 
   <p align="center">
     <img src="./case-studies/cs2/cs2-1.png" alt="cs2-1" width="75%" />
   </p>
 
+  Under Rob Edwards, both had high successful take on percentiles, above average progressive rates, as well as solid actions into the penalty area.
+
   <p align="center">
     <img src="./case-studies/cs2/cs2-2.png" alt="cs2-2" width="75%" />
   </p>
+
+  If we apply what we know to our current options, we're sort of able to see which player Rob Edwards might pick.
 
   <p align="center">
     <img src="./case-studies/cs2/cs2-3.png" alt="cs2-3" width="75%" />
   </p>
 
+  Can also see here how Tchatchoua has similar metrics / scheme compared to Brittain and Kabore.
+
   <p align="center">
     <img src="./case-studies/cs2/cs2-4.png" alt="cs2-4" width="75%" />
   </p>
+
+  For many, the eye test revealed that Hoever seems to be weaker than Tchatchoua defensively, but the stats themselves show otherwise. IMO it's a testament that numbers sometimes do lie and to not take data literally.
+
+  Tchatchoua seems to be better in the eye test compared to Hoever, but Hoever has better metrics in general.
 
   <p align="center">
     <img src="./case-studies/cs2/cs2-5.png" alt="cs2-5" width="75%" />
   </p>
 
+  Tchatchoua however isn't great at using the ball, with minimal progressive passes, something very important in Rob Edward's play style.
+
   <p align="center">
     <img src="./case-studies/cs2/cs2-6.png" alt="cs2-6" width="75%" />
   </p>
+
+  Not suprising to see what most of their touches are in the middle third.
 
   <p align="center">
     <img src="./case-studies/cs2/cs2-7.png" alt="cs2-7" width="75%" />
@@ -437,18 +528,32 @@ Click on the arrows to select and expand each project for more details!
   <summary>Krejci & Saiss</summary>
 
   - **Summary**:  
+  
+  A recent conversation with [@molineuxmusings](https://x.com/molineuxmusings/status/1990889278960816330) after wrapping up [project 3](#3---player-actions-v-usage-rates) heavily inspired this case study.
+
+  Can argue that Krejci "should be used someway towards how Saiss was, but isn't". In a way, his strengths aren't being implemented properly.
+
+  Viz below shows how Saiss had might higher defensive rates, which I believe Krejci could replicated by having the freedom to be more aggressive.
 
   <p align="center">
     <img src="./case-studies/cs1/cs1-1.png" alt="cs1-1" width="75%" />
   </p>
 
+  While doing so, Saiss' progressive attributes were solid as well. With similar progressive receptions and shot creating actions.
+
   <p align="center">
     <img src="./case-studies/cs1/cs1-2.png" alt="cs1-2" width="75%" />
   </p>
 
+  Comparing [Krejci](./player-dashboard/CB/Ladislav-Krejčí.ipynb) to the beginning of this season (when he was at Girona), there's been a decrease in his progressive attributes due to his time at Wolves. Despite spending more time in the attacking third.
+
+  It's reasonable now to think that Krejci might work better when used in possession. Interesting enough, that's what Rob Edwards seems to be trying right now, playing Krejci in a midfield three along with Andre and Joao Gomes.
+
   <p align="center">
     <img src="./case-studies/cs1/cs1-3.png" alt="cs1-3" width="75%" />
   </p>
+
+  However, much of Krejci's defensive stats stay the same. IMO he could benefit with being more aggressive and it makes sense for Rob Edwards to be trying something like that
 
   <p align="center">
     <img src="./case-studies/cs1/cs1-4.png" alt="cs1-4" width="75%" />
@@ -932,8 +1037,7 @@ Overall I would say Hugo Bueno and Tchatchoua should be starting wingbacks. I re
 
 <details>
   <summary>Ladislav Krejčí</summary>
-
-  - **Code**: [Ladislav-Krejčí.ipynb](./player-dashboard/CB/Ladislav-Krejčí.ipynb)  
+  - **Code**: [Ladislav-Krejčí.ipynb](./player-dashboard/CB/Ladislav-Krejčí.ipynb)
   - **Summary**:
     It's been a fairly busy week on the transfer window for Wolves' standards, with the likes of Krejci and Uche having genuine agreements with both the club and the player, rather than being used as bait for bigger clubs (ahem, Pubill & Sanchez).
 
