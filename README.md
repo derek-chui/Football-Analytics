@@ -298,6 +298,177 @@ Click on the arrows to select and expand each project for more details!
 
 </details>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Case Studies
+
+- **Source(s)**: [FBref](https://fbref.com/en/)
+- **Folder**: [case-studies](./case-studies/)
+- **Summary**: Detailed analysis and player comparisons. Extended version of threads posted on X. Some code drawn from tools developed in other projects.
+
+<details>
+  <summary>Hugo Bueno in Midfield?</summary>
+
+  - **Summary**:  
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-1.png" alt="cs5-1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-2.png" alt="cs5-2" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-3.png" alt="cs5-3" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-4.png" alt="cs5-4" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs5/cs5-5.png" alt="cs5-5" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>All Phase Players & Hero Ball</summary>
+
+  - **Summary**:  
+
+  <p align="center">
+    <img src="./case-studies/cs4/cs4-1.png" alt="cs4-1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs4/cs4-2.png" alt="cs4-2" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs4/cs4-3.png" alt="cs4-3" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs4/cs4-4.png" alt="cs4-4" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>Tolu & Larsen</summary>
+
+  - **Summary**:  
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-1.png" alt="cs3-1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-2.png" alt="cs3-2" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-3.png" alt="cs3-3" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-4.png" alt="cs3-4" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs3/cs3-5.png" alt="cs3-5" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>Right Wing Back Dilemma</summary>
+
+  - **Summary**:  
+
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-1.png" alt="cs2-1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-2.png" alt="cs2-2" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-3.png" alt="cs2-3" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-4.png" alt="cs2-4" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-5.png" alt="cs2-5" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-6.png" alt="cs2-6" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs2/cs2-7.png" alt="cs2-7" width="75%" />
+  </p>
+
+</details>
+
+<details>
+  <summary>Krejci & Saiss</summary>
+
+  - **Summary**:  
+
+  <p align="center">
+    <img src="./case-studies/cs1/cs1-1.png" alt="cs1-1" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs1/cs1-2.png" alt="cs1-2" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs1/cs1-3.png" alt="cs1-3" width="75%" />
+  </p>
+
+  <p align="center">
+    <img src="./case-studies/cs1/cs1-4.png" alt="cs1-4" width="75%" />
+  </p>
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 2 - 2025 Summer Squad Assessment
 
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
@@ -666,143 +837,7 @@ Overall I would say Hugo Bueno and Tchatchoua should be starting wingbacks. I re
 
 </details>
 
-## Case Studies
 
-- **Source(s)**: [FBref](https://fbref.com/en/)
-- **Folder**: [case-studies](./case-studies/)
-- **Summary**: Detailed analysis and player comparisons. Extended version of threads posted on X. Some code drawn from tools developed in other projects.
-
-<details>
-  <summary>Hugo Bueno in Midfield?</summary>
-
-  - **Summary**:  
-
-  <p align="center">
-    <img src="./case-studies/cs5/cs5-1.png" alt="cs5-1" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs5/cs5-2.png" alt="cs5-2" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs5/cs5-3.png" alt="cs5-3" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs5/cs5-4.png" alt="cs5-4" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs5/cs5-5.png" alt="cs5-5" width="75%" />
-  </p>
-</details>
-
-<details>
-  <summary>All Phase Players & Hero Ball</summary>
-
-  - **Summary**:  
-
-  <p align="center">
-    <img src="./case-studies/cs4/cs4-1.png" alt="cs4-1" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs4/cs4-2.png" alt="cs4-2" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs4/cs4-3.png" alt="cs4-3" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs4/cs4-4.png" alt="cs4-4" width="75%" />
-  </p>
-</details>
-
-<details>
-  <summary>Tolu & Larsen</summary>
-
-  - **Summary**:  
-
-  <p align="center">
-    <img src="./case-studies/cs3/cs3-1.png" alt="cs3-1" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs3/cs3-2.png" alt="cs3-2" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs3/cs3-3.png" alt="cs3-3" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs3/cs3-4.png" alt="cs3-4" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs3/cs3-5.png" alt="cs3-5" width="75%" />
-  </p>
-</details>
-
-<details>
-  <summary>Right Wing Back Dilemma</summary>
-
-  - **Summary**:  
-
-  <p align="center">
-    <img src="./case-studies/cs2/cs2-1.png" alt="cs2-1" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs2/cs2-2.png" alt="cs2-2" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs2/cs2-3.png" alt="cs2-3" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs2/cs2-4.png" alt="cs2-4" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs2/cs2-5.png" alt="cs2-5" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs2/cs2-6.png" alt="cs2-6" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs2/cs2-7.png" alt="cs2-7" width="75%" />
-  </p>
-
-</details>
-
-<details>
-  <summary>Krejci & Saiss</summary>
-
-  - **Summary**:  
-
-  <p align="center">
-    <img src="./case-studies/cs1/cs1-1.png" alt="cs1-1" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs1/cs1-2.png" alt="cs1-2" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs1/cs1-3.png" alt="cs1-3" width="75%" />
-  </p>
-
-  <p align="center">
-    <img src="./case-studies/cs1/cs1-4.png" alt="cs1-4" width="75%" />
-  </p>
-
-</details>
 
 
 
