@@ -325,6 +325,66 @@ Click on the arrows to select and expand each project for more details!
 - **Summary**: Detailed analysis and player comparisons. Extended version of threads posted on X. Some code drawn from tools developed in other projects.
 
 <details>
+  <summary>System vs Maverick</summary>
+
+  - **Code**: [cs6.ipynb](./case-studies/cs6/cs6.ipynb) 
+  - **Summary**:
+
+  This idea is heavily inspired by [this video](https://www.youtube.com/watch?v=4CpNVfN6Yg0&list=LL&index=4).
+
+  It argues that recent years have seen individual brilliance (maverick type players) being overshadowed by obedience to a system. Favoring tactics, systems, and game models instead of randomness and chaos during analysis. "This tension between individual and system causes much dispute between fans and coaches" is something that I resonate with.
+
+  For example, the recent Ballon D'or saw Rodri (control, discipline, structure) vs Vinicious Jr (unpredictable difference maker). Two very different types of players. But two players that represents very different footballing ideology. IMO the best way is to have certain set of predictable structures, but incorporate randomness into the system from time to time that makes things unpredictable.
+
+  This sort of randomness is what makes football exciting and worth watching. Too much data makes it predictable and not fun to watch. This tension means a type of player that defies the system, or a Maverick. They're players that acts in an independent or unexpected way.
+
+  A bit ironic but I tried to turn this idea of a maverick into data. We can plot players into two categories: maverick (Doku) and system (Rodri). But how do we approach these metrics?
+
+  Maverick metrics can be decided via usage, individual action bias, direct threat rates, and risk.
+
+  On the other hand, the system score can be made via attempted passes, pass completion %, progressive contributions, as well as structural defensive metrics.
+
+  We can then plot the two and graph these metrics.
+
+  Graph below shows Rodri's style and his obedience to a system. Considering factors like control, discipline and structure, we can sort of see Andre being a similar "system player".
+
+  On the other hand we have Doku, who without a suprise, thrives as a Maverick despite playing in Pep's system. We also see Fer Lopez being somewhat similar and less predictable. 
+
+  <p align="center">
+    <img src="./case-studies/cs6/cs6-1.png" alt="cs6-1" width="75%" />
+  </p>
+
+  Tolu tops the table in being the most maverick like. Perhaps he could be the type of player that makes the difference later in the game, along with Matheus Mane (as we saw in today's goal against Arsenal).
+
+  Players like Andre, Joao Gomes, and Krejci are among the more system oriented players, which makes sense in a midfield role. Similarly Fer Lopez, similar to Doku, have impressive metrics on both ends of the graph.
+
+  <p align="center">
+    <img src="./case-studies/cs6/cs6-2.png" alt="cs56-2" width="75%" />
+  </p>
+
+  Below we then plot possession ending shares along with pass involvement. This shows us who prefers to end possession and who would be more inclined to pass.
+
+  We see Cunha and Doku finishing more attacks, which makes sense. Fer Lopez seems to be working his way towards there as well.
+
+  On the other hand, those that are more involved in passing play, like Rodri, Krejci, and Andre are towards the bottom right.
+
+  <p align="center">
+    <img src="./case-studies/cs6/cs6-3.png" alt="cs6-3" width="75%" />
+  </p>
+
+  The following plots a player's willingness to take risks against pass completitions or ball security. It's easy to see a similar trend, with more conservative passers grouped together. Conversely, higher risk players (doesn't mean they're inefficient) seem to lean towards the left.
+
+  Important to note that Doku, Fer Lopez, and Arias are among the most balanced in risks and completions. This could show players that make appropriate choices in when to play it safe and when it gamble with the ball.
+
+  <p align="center">
+    <img src="./case-studies/cs6/cs6-4.png" alt="cs6-4" width="75%" />
+  </p>
+
+</details>
+
+
+
+<details>
   <summary>Hugo Bueno in Midfield?</summary>
 
   - **Summary**:
