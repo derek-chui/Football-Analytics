@@ -1223,6 +1223,7 @@ Overall I would say Hugo Bueno and Tchatchoua should be starting wingbacks. I re
 
 <details>
   <summary>Ladislav Krejčí</summary>
+  
   - **Code**: [Ladislav-Krejčí.ipynb](./player-dashboard/CB/Ladislav-Krejčí.ipynb)
   - **Summary**:
     It's been a fairly busy week on the transfer window for Wolves' standards, with the likes of Krejci and Uche having genuine agreements with both the club and the player, rather than being used as bait for bigger clubs (ahem, Pubill & Sanchez).
