@@ -26,7 +26,7 @@ Click on the arrows to select and expand each project for more details!
   - [Metric Spreadsheet](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
   - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
 - **Source(s)**: Catapult, Vald (Forcedecks, Nordbord) Databases
-- **Summary**: Player & team dashboards with Catapult and VALD data for SCU Soccer. Injury Prevention, workload changes, strength asymmetries, potential risk flags, and more. Spreadsheet data are fake and made up since it's just an example.
+- **Summary**: Player & team visualizations and spreadsheets with Catapult and VALD data for SCU Soccer. Injury Prevention, workload changes, strength asymmetries, potential risk flags, and more. Spreadsheet data are fake and made up since it's just an example.
 
 <details>
   <summary>Overview</summary>
