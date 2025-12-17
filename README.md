@@ -6,15 +6,268 @@ Click on the arrows to select and expand each project for more details!
 
 ## Contents
 
-### Latest Projects (In Progress)
-- [Project 3 - Players Actions v Usage Rates](#3---player-actions-v-usage-rates)
-- [Case Studies](#case-studies)
+### Current Projects (In Progress)
+- [Santa Clara University Soccer](#santa-clara-university-soccer)
 
 ### Completed Projects
+- [Project 3 - Players Actions v Usage Rates](#3---player-actions-v-usage-rates)
+- [Case Studies](#case-studies)
 - [Project 2 - 2025 Summer Squad Assessment](#2---2025-summer-squad-assessment)
-- [Project 1 - Progression Analysis (24/25)](#1---progression-analysis-2425)
 - [Player Dashboard](#player-dashboard)
+- [Project 1 - Progression Analysis (24/25)](#1---progression-analysis-2425)
 - [Match Reviews](#match-reviews)
+
+
+## Santa Clara University Soccer
+
+- **Final Results**:
+  - [Metric Visualizations](./scu-soc/complete/reports/metric_visualizations.pdf)
+  - [Player Visualizations](./scu-soc/complete/reports/player_visualizations.pdf)
+  - [Metric Spreadsheet](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
+  - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
+- **Source(s)**: Catapult, Vald (Forcedecks, Nordbord) Databases
+- **Summary**: Player & team dashboards with Catapult and VALD data for SCU Soccer. Injury Prevention, workload changes, strength asymmetries, potential risk flags, and more. Spreadsheet data are fake and made up since it's just an example.
+
+<details>
+  <summary>Overview</summary>
+
+  A few months back I had the opportunity to work with the soccer teams at SCU on a data visualization project in a group.
+  
+  All my previous projects were based on numbers taken from online databases, so this was my first time working with real in person data, especially at the college level.
+  On top of that, data I've worked with were only based on in game stats like shot creating actions, expected metrics, progressive passes, etc.
+  I initially wanted to do something similar, but realised college and professional teams already had advanced tools like Hudl Wyscout. So a project revolving that wasn't neccessary.
+  In turn, we figured out a few things that need to be visualized: mainly catapult and vald data.
+
+  Catapult are essentially vests players wear during games and practices that track distances, accelerations, player loads, and more.
+  You've likely seen them if players take their shirts off after a game or in training videos.
+
+  Vald consists of a collection of many different machines, usually situated in weight rooms. This includes forcedecks (dual force plate systems) and nordbord (hamstring testing).
+  These machines are able to track player jump heights, forces applied, impulses, imbalances, and many more.
+
+  Every week, loads of numbers and metrics of these machines for many players are uploaded into those databases. Unfortunately, they're hard to read and data is stored all over the place.
+  This means that a ton of tracked data remains untouched and a missed opportunity to be optimized.
+
+  So our project was several fold. First we had to collect data across catapult and vald into one clean spreadsheet.
+  This was by far the most challenging part due to inconsistent data that needs to be filtered out and having to figure out the ids for different activities and events across different mediums of tracking.
+  For example, catapult would track players walking around on the sidelines or walking off the pitch into the dressing room. Can't really work with data like that.
+  [Will Degasparis](https://github.com/31WD) was able to figure this out after several weeks of digging into catapult and vald trenches. Without him I wouldn't have been able to get any of the data I needed.
+
+  As a result, I'm able to take data from his csv outputs, clean them, and combine them into one big file with all the players along with their valid metrics (recent and averages).
+  Using the cleaned file I'm able to report metrics in detail and in many different ways. Coaches and trainers can then look at these metrics and see outliers that might be concerning.
+
+  For our case, were able to get the latest period's metric as well as the average. Then we can compare those two to see if a player is above, within, or below average load and notice outliers.
+
+  The completed PDF & spreadsheet reports for this project can be found here:
+  - [Metric Visualizations](./scu-soc/complete/reports/metric_visualizations.pdf)
+  - [Player Visualizations](./scu-soc/complete/reports/player_visualizations.pdf)
+  - [Metric Spreadsheet](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
+  - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
+
+  Details of these visualizations can be seen in the next section "Complete".
+
+</details>
+
+<details>
+  <summary>Complete</summary>
+
+  - **Code**: [COMPLETE.ipynb](./scu-soc/complete/COMPLETE.ipynb)  
+  - **Summary**:
+
+  The completed PDF & spreadsheet reports for this project can be found here:
+  - [Metric Visualizations](./scu-soc/complete/reports/metric_visualizations.pdf)
+  - [Player Visualizations](./scu-soc/complete/reports/player_visualizations.pdf)
+  - [Metric Spreadsheet](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
+  - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
+
+  This project takes in 4 csv data outputs drawn from catapult and vald databases:
+  1) [catapult_profiles.csv](./scu-soc/complete/catapult_profiles.csv) - player averages for various catapult metrics
+  2) [catapult_report.csv](./scu-soc/complete/catapult_report.csv) - player most recent recording of various catapult metrics
+  3) [forcedecks_profiles.csv](./scu-soc/complete/forcedecks_profiles.csv) - player average and most recent recording of forcedecks metrics
+  4) [nordbord_profiles.csv](./scu-soc/complete/nordbord_profiles.csv) - player average and most recent recording of nordbord metrics
+
+  And creates several output files through multiple steps:
+  - STEP 1 [complete_data.csv](./scu-soc/complete/complete_data.csv)
+    - Clean all four files into one file called complete_data.csv
+    - Each column: player_name | metric1_avg | metric1_recent | metric2_avg | metric2_recent | ...
+  - STEP 2 [reports/metric_visualizations.pdf](./scu-soc/complete/reports/metric_visualizations.pdf)
+    - METRIC RANKINGS: Identify metrics with the most outliers
+    - METRIC DASHBOARDS: Identify outliers for each metric
+  - STEP 3 [reports/player_visualizations.pdf](./scu-soc/complete/reports/player_visualizations.pdf)
+    - PLAYER RANKINGS: Identify players with most outliers
+    - PLAYER DASHBOARDS: Identify outliers for each player
+  - STEP 4 [reports/metric_spreadsheets.xlsx](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
+    - Same as metric visualizations but in spreadsheet form
+  - STEP 5 [reports/player_spreadsheets.xlsx](./scu-soc/complete/reports/player_spreadsheets.xlsx)
+    - Same as player visualizations but in spreadsheet form
+
+  These reports can prove to be incredibly useful tools in optimizing player performance.
+
+  Next we'll break these reports down.
+
+  First let's take a look at the metric visualizations:
+
+  There are plenty of metrics across catapult and vald, so as an example, we'll look into nordbord (vald) asymmetry metrics.
+
+  This is a metric that I calculated by finding the difference between left and right sides of recent and average nordbord metrics.
+
+  We can rank them by number of outliers, then look into one specific metric that might stand out.
+
+  For example, average force (avg), second last in the second row, has 3 outliers. All three of them have significant imbalances in the right side in terms of force. Specifically there's one that's reall far away from the shaded band threshold.
+
+  How could we look into that? This is where the metric dashboard visualization could be helpful.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/metric_ranking_visualization.png" width="75%" />
+  </p>
+
+  Let's look into that specific average force (avg) metric. Looking at the dashboard, notice there are 3 outliers: players 37, 14, and 15
+  
+  We can see that the one player I wanted to look into was actually player 15, who has a +40.3% asymmetry to the right.
+
+  Obviously these are fake players with made up numbers, but it's a good indicator that the player is possibly recovering from injury on their left side.
+
+  Next let's look into player visualizations:
+  
+  <p align="center">
+    <img src="./scu-soc/complete/images/metric_dashboard_visualization.png" width="75%" />
+  </p>
+
+  First off we can see that players 15 and 17 have the most outlier metrics at 14. Interesting enough, we've already flagged player 15 for being potentially injured.
+
+  Now we can look into player 15's dashboard visualization.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/player_ranking_visualization.png" width="75%" />
+  </p>
+
+  Here we can clearly see and break down player 15's metrics.
+
+  An increase in acceleration efforts under catapult might suggest that they're going through rehab and just started to get back on the field (I don't actually know I was never a PT).
+
+  Forcedecks look good, but nordbord reveals that their left side metrics have significantly decreased in recent weeks, which further shows that they're having problems with their left side.
+
+  Then the asymmetry metrics show that as well. Their recent tests show that their right side is far stronger than the left. The average agrees with it as well. This could mean that they've been working on their injury for a while.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/player_dashboard_visualization.png" width="75%" />
+  </p>
+
+  Ok now that we've went through all the visualization, I also took the time to create basically the same thing, but in spreadsheet form:
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/metric_ranking_spreadsheet.png" width="75%" />
+  </p>
+
+  Metric rankings on spreadsheets can be seen above. We can see that high speed distances have the most outlier players, or players performing far above or below their average.
+
+  I've also added a notes column to add context to these numbers.
+
+  So being aware of this we can look into high speed distances.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/metric_dashboard_spreadsheet.png" width="75%" />
+  </p>
+
+  Above we can see that when we look into high speed distances, most of these are doing much less high speed distances than normal.
+
+  This could mean that it's near an end of a season so most of the squad isn't running as much.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/metric_dashboard_spreadsheet2.png" width="75%" />
+  </p>
+
+  We can also decide to sort players by average high speed distances. Here we can see that player 9 has the most high speed distances on average. It wouldn't be a suprise that player 9 is a winger or wing back in a 352 since they have to do a lot of sprints (I think).
+
+  Next we can look into the same thing but for players.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/player_ranking_spreadsheet.png" width="75%" />
+  </p>
+
+  As we already know, player 15 is the top player for outlier metrics.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/player_dashboard_spreadsheet.png" width="75%" />
+  </p>
+
+  Above shows the same thing as the player dashboard on the visualization pdf for player 15, but in a spreadsheet format.
+
+  What I've realised is that my job as an analyst is not to draw conclusions for the coaches. I don't know the context or what the player plays like better than the coaches, and so with the right context, they could agree or disagree with these stats. It's up to them to make those conclusions and figure out what to do from then on.
+
+  An analyst at Wolves I emailed earlier this year (Edward Maw) wrote back to me saying "The goal with coaches is to make their job easier and help them spot trends they may otherwise miss - not to tell them how they should be coaching a team!".
+  
+  I think this really resonated with me and so started to apply this into my work.
+
+</details>
+
+<details>
+  <summary>Catapult</summary>
+
+  - **Code**: [CATAPULT.ipynb](./scu-soc/catapult/CATAPULT.ipynb)  
+  - **Summary**:
+
+  Before I had the chance to work on everything above I only had catapult metrics. Will wasn't able figure out the VALD data at the time since it's much more inconsistent and hard to retrieve compared to catapult.
+
+  So using what I had at the time, I first cleaned the two catapult files:
+  1) [catapult_profiles.csv](./scu-soc/catapult/catapult_profiles.csv) - player averages for various catapult metrics
+  2) [catapult_report.csv](./scu-soc/catapult/catapult_report.csv) - player most recent recording of various catapult metrics
+
+  These files are then cleaned into [catapult_data.csv](./scu-soc/catapult/catapult_data.csv) for visuals next.
+
+  Next I created visuals for various metrics. Instead of generating all of them, you can pick what metric you want to visualize as well as the threshold.
+
+  So in this example I visualized the fatigue index (index I created that averages the ratio of all metrics for a player) that shows which player has the highest load ratio across all metrics. In this case, it's also player 15.
+
+  Above the threshold of 1.0, three players are flagged.
+
+  <p align="center">
+    <img src="./scu-soc/catapult/catapult.png" width="75%" />
+  </p>
+
+  We can also plot them to see where they're flagged relative to the rest of the players.
+
+  <p align="center">
+    <img src="./scu-soc/catapult/catapult2.png" width="75%" />
+  </p>
+
+  Lastly a dashboard that breaks down the load ratio of the players that are above the fatigue index.
+
+  <p align="center">
+    <img src="./scu-soc/catapult/catapult3.png" width="75%" />
+  </p>
+
+  This way, we're able to quickly identify players that might possibly be fatigued.
+</details>
+
+<details>
+  <summary>First Tests</summary>
+
+  - **Code**: [player_profiles.ipynb](./scu-soc/firstTests/player_profiles.ipynb)
+  - **Summary**:
+
+  This part of the project includes my first tests. Initially we only had [player_profiles.csv](./scu-soc/firstTests/player_profiles.csv) which is the equivalent of [catapult_profiles.csv](./scu-soc/catapult/catapult_profiles.csv) in later sections. These are the player's average catapult metrics over many weeks.
+
+  I started off just plotting metrics against each other to figure out a few correlations. For example I plotted total distance with high speed distance. Then highlighted players with the highest and lowest ratio of high speed distances per meter.
+
+  It's not a suprise that the bottom 4: players 12, 18, 27, and 31 are goalkeepers (randomly generated). Also, player 34 is running a lot of high speed distances compared to their total distance.
+
+  <p align="center">
+    <img src="./scu-soc/firstTests/image.png" width="75%" />
+  </p>
+
+  Then I tried adding a % max velocity color scale on the side. It's not suprising that players with more high speed distances tend to reach more of their % max velocity. Since they have more chances to do so when running.
+
+  <p align="center">
+    <img src="./scu-soc/firstTests/image2.png" width="75%" />
+  </p>
+
+  Using these three metrics we can plot a fatigue ranking, with player 30 having the highest total average load with all three metrics considered (normalized via z score that I learned in AMTH 108).
+
+  <p align="center">
+    <img src="./scu-soc/firstTests/image3.png" width="75%" />
+  </p>
+
+</details>
 
 ## 3 - Player Actions v Usage Rates
 
@@ -297,6 +550,7 @@ Click on the arrows to select and expand each project for more details!
   </p>
 
 </details>
+
 
 
 
@@ -880,6 +1134,126 @@ Overall I would say Hugo Bueno and Tchatchoua should be starting wingbacks. I re
 
 </details>
 
+
+
+
+
+
+
+
+
+
+
+
+## Player Dashboard
+
+- **Source(s)**: [FBref](https://fbref.com/en/), [Sofascore](https://www.sofascore.com/), [Fotmob](https://www.fotmob.com/)
+- **Folder**: [player-dashboard](./player-dashboard/)
+- **Summary**: Recurring project to scout and analyze players with various metrics and visualizations.
+
+<details>
+  <summary>Santiago Bueno</summary>
+
+  - **Code**: [Santiago-Bueno.ipynb](./player-dashboard/CB/Santiago-Bueno.ipynb)  
+  - **Summary**:
+    In light of recent performances, especially against spurs, he has to keep starting. Great partnership with Krejci in a back 3 or 4. Krejci makes up for his lack of progression, and miles above Agbadou this season.
+
+    Against Tottenham he had the most duels won (12), most tackles (8), and the most interceptions (3). As well as his first PL goal to top it all off. His stats really just speak for themselves
+
+  <p align="center">
+    <img src="./player-dashboard/CB/Santiago-Bueno.png" alt="Santiago-Bueno" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>Rodrigo Gomes</summary>
+
+  - **Code**: [Rodrigo-Gomes.ipynb](./player-dashboard/WB/Rodrigo-Gomes.ipynb)  
+  - **Summary**:
+    Similar to Hugo Bueno, Rodrigo Gomes is definitely underutilized. While I wouldn't say he's overlooked, the attacking quality he provides is hard to pass. If Tchatchoua fails to perform, I would give Rodrigo the starting role over him.
+
+    He's among the best in goal threat for wing backs, great at receiving the ball and passing it off into the box. If he gets his defensive abilities up to premier league standards, he would surely play a key role in the squad.
+
+  <p align="center">
+    <img src="./player-dashboard/WB/Rodrigo-Gomes-25261.png" alt="Rodrigo Gomes" width="75%" />
+  </p>
+
+  Since it's currently GW 11 I've updated Rodrigo Gomes' player dashboard.
+
+  The stats show that this season he's more progressive and attacking than before.
+
+  He spends 4.5% more time with the ball in the attacking 3rd, and all his progressive stats have gone up (despite being already high).
+
+  <p align="center">
+    <img src="./player-dashboard/WB/Rodrigo-Gomes-252611.png" alt="Rodrigo Gomes" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>Hugo Bueno</summary>
+
+  - **Code**: [Hugo-Bueno.ipynb](./player-dashboard/WB/Hugo-Bueno.ipynb)  
+  - **Summary**:
+    The first few month of this new season made me genuinely believe that Hugo Bueno is the most overlooked player in the Wolves squad. Incredibly progressive, while being solid defensively.
+
+    Many of his top attributes: crosses into penalty area, progressive carries, and interceptions, are crutial in the wing back role Pereira is trying to play. His successful take ons are also among the best with wing backs.
+
+    [Project 3.4](Project%203.4/project3-4.ipynb) backs this up as a testament to his progression.
+
+    I won't be suprised if he leaves for a huge fee a few years down the line, much like Ait-Nouri.
+
+  <p align="center">
+    <img src="./player-dashboard/WB/Hugo-Bueno.png" alt="Hugo Bueno" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>Tolu Arokodare</summary>
+
+  - **Code**: [Tolu-Arokodare.ipynb](./player-dashboard/ST/Tolu-Arokodare.ipynb)  
+  - **Summary**:
+    With Uche's transfer seemingly being called off, Arokodare has been a focal point for the past few days. With a fee of around 20 to 25m with add ons, this could be a deal especially with Fabio Silva leaving for a similar amount. The eye test shows that Tolu has elite stats compared to many strikers. Things like shot and goal creating actions, expected goal involvements, and aerial wins. With him and JSL up front, with Hugo Bueno and Tchatchoua crossing in, and Arias providing threaded passes through the middle, there's no doubt that Wolves will be safe from relegation this season. With the likes of Kalajdzic, Lopez, Hwang, and Rodrigo Gomes as supersubs, there can be further chances later in the game
+
+    One main concern is the amount of missed chances. Personally I think this is one of those things that we'll have to figure out when he plays.
+
+  <p align="center">
+    <img src="./player-dashboard/ST/Tolu-Arokodare.png" alt="Tolu Arokodare" width="75%" />
+  </p>
+</details>
+
+<details>
+  <summary>Ladislav Krejčí</summary>
+  - **Code**: [Ladislav-Krejčí.ipynb](./player-dashboard/CB/Ladislav-Krejčí.ipynb)
+  - **Summary**:
+    It's been a fairly busy week on the transfer window for Wolves' standards, with the likes of Krejci and Uche having genuine agreements with both the club and the player, rather than being used as bait for bigger clubs (ahem, Pubill & Sanchez).
+
+    With Krejci very close to signing with Wolves at 35m, many question whether it's worth the hefty price (Wolves usually sign 10m-20m players) and who he will replace. While most set out to find a backup LCB (like Renan), with Toti, Agbadou, and Doc/Mosquera as the [backline](./Project%202/Project%202.4/project2-4.ipynb). But with Krejci coming in, he surely is starting quality. I'm thinking Toti, Krejci, and Agbadou on the right. The interesting thing is, Wolves really are in need of such a progressive center back. Other than Doherty, there isn't really another one at the club, so I understand this sort of signing.
+
+    Krejci has great distributions and if deployed on the left, I'm sure will pair very well with Hugo Bueno, who as I've mentioned, really impressed despite our [1-0 lost against Bournemouth yesterday](./match-reviews/25-Matchweek-2/8-23-2025.ipynb). His 96th percentile in progressive carrying distance really stands out for my case. Despite being a center back, he has more touches on average in the middle third (49.5%, or almost half) than defensive (46.7%). Therefore t's no suprise that he's a ball playing defender as well.
+
+    However, he does lack a lot of defensive workrates. 4th percentile in passes blocked, 5th percentile in dribblers tackled, and 8th for tackles in general. That doesn't mean he don't make quality challenges, but it isn't frequent for a center back. Funny thing is, we did see it in full display today with his game against Villareal, with Tajon Buchanan scoring a hattrick and a 5 - 0 loss while having Krejci as the LCB in a back four.
+
+  <p align="center">
+    <img src="./player-dashboard/CB/Ladislav-Krejčí.png" alt="Ladislav Krejčí" width="75%" />
+  </p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 1 - Progression Analysis (24/25)
 
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
@@ -1019,98 +1393,6 @@ Overall I would say Hugo Bueno and Tchatchoua should be starting wingbacks. I re
 
 
 
-## Player Dashboard
-
-- **Source(s)**: [FBref](https://fbref.com/en/), [Sofascore](https://www.sofascore.com/), [Fotmob](https://www.fotmob.com/)
-- **Folder**: [player-dashboard](./player-dashboard/)
-- **Summary**: Recurring project to scout and analyze players with various metrics and visualizations.
-
-<details>
-  <summary>Santiago Bueno</summary>
-
-  - **Code**: [Santiago-Bueno.ipynb](./player-dashboard/CB/Santiago-Bueno.ipynb)  
-  - **Summary**:
-    In light of recent performances, especially against spurs, he has to keep starting. Great partnership with Krejci in a back 3 or 4. Krejci makes up for his lack of progression, and miles above Agbadou this season.
-
-    Against Tottenham he had the most duels won (12), most tackles (8), and the most interceptions (3). As well as his first PL goal to top it all off. His stats really just speak for themselves
-
-  <p align="center">
-    <img src="./player-dashboard/CB/Santiago-Bueno.png" alt="Santiago-Bueno" width="75%" />
-  </p>
-</details>
-
-<details>
-  <summary>Rodrigo Gomes</summary>
-
-  - **Code**: [Rodrigo-Gomes.ipynb](./player-dashboard/WB/Rodrigo-Gomes.ipynb)  
-  - **Summary**:
-    Similar to Hugo Bueno, Rodrigo Gomes is definitely underutilized. While I wouldn't say he's overlooked, the attacking quality he provides is hard to pass. If Tchatchoua fails to perform, I would give Rodrigo the starting role over him.
-
-    He's among the best in goal threat for wing backs, great at receiving the ball and passing it off into the box. If he gets his defensive abilities up to premier league standards, he would surely play a key role in the squad.
-
-  <p align="center">
-    <img src="./player-dashboard/WB/Rodrigo-Gomes-25261.png" alt="Rodrigo Gomes" width="75%" />
-  </p>
-
-  Since it's currently GW 11 I've updated Rodrigo Gomes' player dashboard.
-
-  The stats show that this season he's more progressive and attacking than before.
-
-  He spends 4.5% more time with the ball in the attacking 3rd, and all his progressive stats have gone up (despite being already high).
-
-  <p align="center">
-    <img src="./player-dashboard/WB/Rodrigo-Gomes-252611.png" alt="Rodrigo Gomes" width="75%" />
-  </p>
-</details>
-
-<details>
-  <summary>Hugo Bueno</summary>
-
-  - **Code**: [Hugo-Bueno.ipynb](./player-dashboard/WB/Hugo-Bueno.ipynb)  
-  - **Summary**:
-    The first few month of this new season made me genuinely believe that Hugo Bueno is the most overlooked player in the Wolves squad. Incredibly progressive, while being solid defensively.
-
-    Many of his top attributes: crosses into penalty area, progressive carries, and interceptions, are crutial in the wing back role Pereira is trying to play. His successful take ons are also among the best with wing backs.
-
-    [Project 3.4](Project%203.4/project3-4.ipynb) backs this up as a testament to his progression.
-
-    I won't be suprised if he leaves for a huge fee a few years down the line, much like Ait-Nouri.
-
-  <p align="center">
-    <img src="./player-dashboard/WB/Hugo-Bueno.png" alt="Hugo Bueno" width="75%" />
-  </p>
-</details>
-
-<details>
-  <summary>Tolu Arokodare</summary>
-
-  - **Code**: [Tolu-Arokodare.ipynb](./player-dashboard/ST/Tolu-Arokodare.ipynb)  
-  - **Summary**:
-    With Uche's transfer seemingly being called off, Arokodare has been a focal point for the past few days. With a fee of around 20 to 25m with add ons, this could be a deal especially with Fabio Silva leaving for a similar amount. The eye test shows that Tolu has elite stats compared to many strikers. Things like shot and goal creating actions, expected goal involvements, and aerial wins. With him and JSL up front, with Hugo Bueno and Tchatchoua crossing in, and Arias providing threaded passes through the middle, there's no doubt that Wolves will be safe from relegation this season. With the likes of Kalajdzic, Lopez, Hwang, and Rodrigo Gomes as supersubs, there can be further chances later in the game
-
-    One main concern is the amount of missed chances. Personally I think this is one of those things that we'll have to figure out when he plays.
-
-  <p align="center">
-    <img src="./player-dashboard/ST/Tolu-Arokodare.png" alt="Tolu Arokodare" width="75%" />
-  </p>
-</details>
-
-<details>
-  <summary>Ladislav Krejčí</summary>
-  - **Code**: [Ladislav-Krejčí.ipynb](./player-dashboard/CB/Ladislav-Krejčí.ipynb)
-  - **Summary**:
-    It's been a fairly busy week on the transfer window for Wolves' standards, with the likes of Krejci and Uche having genuine agreements with both the club and the player, rather than being used as bait for bigger clubs (ahem, Pubill & Sanchez).
-
-    With Krejci very close to signing with Wolves at 35m, many question whether it's worth the hefty price (Wolves usually sign 10m-20m players) and who he will replace. While most set out to find a backup LCB (like Renan), with Toti, Agbadou, and Doc/Mosquera as the [backline](./Project%202/Project%202.4/project2-4.ipynb). But with Krejci coming in, he surely is starting quality. I'm thinking Toti, Krejci, and Agbadou on the right. The interesting thing is, Wolves really are in need of such a progressive center back. Other than Doherty, there isn't really another one at the club, so I understand this sort of signing.
-
-    Krejci has great distributions and if deployed on the left, I'm sure will pair very well with Hugo Bueno, who as I've mentioned, really impressed despite our [1-0 lost against Bournemouth yesterday](./match-reviews/25-Matchweek-2/8-23-2025.ipynb). His 96th percentile in progressive carrying distance really stands out for my case. Despite being a center back, he has more touches on average in the middle third (49.5%, or almost half) than defensive (46.7%). Therefore t's no suprise that he's a ball playing defender as well.
-
-    However, he does lack a lot of defensive workrates. 4th percentile in passes blocked, 5th percentile in dribblers tackled, and 8th for tackles in general. That doesn't mean he don't make quality challenges, but it isn't frequent for a center back. Funny thing is, we did see it in full display today with his game against Villareal, with Tajon Buchanan scoring a hattrick and a 5 - 0 loss while having Krejci as the LCB in a back four.
-
-  <p align="center">
-    <img src="./player-dashboard/CB/Ladislav-Krejčí.png" alt="Ladislav Krejčí" width="75%" />
-  </p>
-</details>
 
 
 
