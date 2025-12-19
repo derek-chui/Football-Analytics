@@ -26,7 +26,7 @@ Click on the arrows to select and expand each project for more details!
   - [Metric Spreadsheet](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
   - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
 - **Source(s)**: Catapult, Vald (Forcedecks, Nordbord) Databases
-- **Summary**: Player & team visualizations and spreadsheets with Catapult and VALD data for SCU Soccer. Injury Prevention, workload changes, strength asymmetries, potential risk flags, and more. Spreadsheet data are fake and made up since it's just an example.
+- **Summary**: Reports with Catapult and VALD data to surface workload trends, asymmetries, and injury risks for SCU Soccer. Makes complex athlete monitoring data accessible so coaches can quickly spot meaningful outliers and trends.
 
 <details>
   <summary>Overview</summary>
@@ -273,7 +273,7 @@ Click on the arrows to select and expand each project for more details!
 
 - **Source(s)**: [FBref](https://fbref.com/en/), [Transfermarkt](https://www.transfermarkt.com/)
 - **Folder**: [Project 3](./Project%203/)
-- **Summary**: Comparing various player on field actions with usage rates (how often the player has the ball). This will determine whether or not a player is productive / efficient with the ball and if the player deserves to have the ball as much as they do. Heavily inspired by [this video](https://www.youtube.com/watch?v=iydcB3OM6EE).
+- **Summary**: Identify who is genuinely productive with the ball versus overused or underutilized players. Revealed efficiency driven profiles across positions to inform smarter squad building and scouting decisions. Heavily inspired by [this video](https://www.youtube.com/watch?v=iydcB3OM6EE).
 
 <details>
   <summary>3.9 - Center Back Possessions Disrupted</summary>
@@ -892,7 +892,7 @@ Click on the arrows to select and expand each project for more details!
 
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
 - **Folder**: [Project 2](./Project%202/)
-- **Summary**: I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles. This project will consist of developing a system to scout rumoured, linked, and new Wolves players for the upcoming season, comparing them to current or recently departed players.
+- **Summary**: Compare rumored and new signings against current and recently departed Wolves players. Highlight positional needs and quantify fit, strengths, and risk flags during the 2025 summer window. I've just finished the [3rd chapter of soccermatics](https://soccermatics.readthedocs.io/en/latest/lesson3/ScoutingPlayers.html) so it made sense for me to play around with the likes of radar plots & percentiles.
 
 <details>
   <summary>2.8 - Arokodare's Finishing Problem</summary>
@@ -1259,7 +1259,7 @@ Overall I would say Hugo Bueno and Tchatchoua should be starting wingbacks. I re
 
 - **Source(s)**: [FBref](https://fbref.com/en/squads/8cec06e1/2024-2025/Wolverhampton-Wanderers-Stats)
 - **Folder**: [Project 1](./Project%201/)
-- **Summary**: For my first project and being a fan I decided to analyse data from Wolves. I was already familiar with the squad and its problems so this was a natural starting point.
+- **Summary**: High progression at Wolves is largely a byproduct of chasing games rather than effective control. Lower possession with more selective progression is more strongly associated with positive results. For my first project and being a fan I decided to analyse data from Wolves. I was already familiar with the squad and its problems so this was a natural starting point.
 
 <details>
   <summary>1.6 - Progressive Passes by Game State</summary>
