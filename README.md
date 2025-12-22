@@ -25,7 +25,7 @@ Click on the arrows to select and expand each project for more details!
   - [Player Visualizations](./scu-soc/complete/reports/player_visualizations.pdf)
   - [Metric Spreadsheet](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
   - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
-- **Source(s)**: Catapult, Vald (Forcedecks, Nordbord) Databases
+- **Source(s)**: Catapult, VALD (Forcedecks, Nordbord) Databases
 - **Summary**: Reports with Catapult and VALD data to surface workload trends, asymmetries, and injury risks for SCU Soccer. Makes complex athlete monitoring data accessible so coaches can quickly spot meaningful outliers and trends.
 
 <details>
@@ -191,6 +191,8 @@ Click on the arrows to select and expand each project for more details!
   </p>
 
   Above shows the same thing as the player dashboard on the visualization pdf for player 15, but in a spreadsheet format.
+
+  I was suprised with the amount of regex I needed to use in this project, which I learned from Prof. Atkinson's unix scripting and automation class (failed the final midterm though). Things like removing and cleaning up symbols, spaces, illegal filename characters, etc.
 
   What I've realised is that my job as an analyst is not to draw conclusions for the coaches. I don't know the context or what the player plays like better than the coaches, and so with the right context, they could agree or disagree with these stats. It's up to them to make those conclusions and figure out what to do from then on.
 
