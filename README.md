@@ -70,7 +70,6 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>Complete</summary>
 
-  - **Code**: [COMPLETE.ipynb](./scu-soc/complete/COMPLETE.ipynb)  
   - **Summary**:
 
   The completed PDF & spreadsheet reports for this project can be found here:
