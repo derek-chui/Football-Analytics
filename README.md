@@ -204,7 +204,6 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>Catapult</summary>
 
-  - **Code**: [CATAPULT.ipynb](./scu-soc/catapult/CATAPULT.ipynb)  
   - **Summary**:
 
   Before I had the chance to work on everything above I only had catapult metrics. Will wasn't able figure out the VALD data at the time since it's much more inconsistent and hard to retrieve compared to catapult.
@@ -243,7 +242,6 @@ Click on the arrows to select and expand each project for more details!
 <details>
   <summary>First Tests</summary>
 
-  - **Code**: [player_profiles.ipynb](./scu-soc/firstTests/player_profiles.ipynb)
   - **Summary**:
 
   This part of the project includes my first tests. Initially we only had [player_profiles.csv](./scu-soc/firstTests/player_profiles.csv) which is the equivalent of [catapult_profiles.csv](./scu-soc/catapult/catapult_profiles.csv) in later sections. These are the player's average catapult metrics over many weeks.
