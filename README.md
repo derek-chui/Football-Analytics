@@ -7,7 +7,8 @@ Click on the arrows to select and expand each project for more details!
 ## Contents
 
 ### Current Projects (In Progress)
-- [Santa Clara University Soccer](#santa-clara-university-soccer)
+- [Matchday for Hudl Wyscout](#matchday-for-hudl-wyscout)
+- [Player Performance Outliers](#player-performance-outliers)
 
 ### Completed Projects
 - [Project 3 - Players Actions v Usage Rates](#3---player-actions-v-usage-rates)
@@ -17,14 +18,20 @@ Click on the arrows to select and expand each project for more details!
 - [Project 1 - Progression Analysis (24/25)](#1---progression-analysis-2425)
 - [Match Reviews](#match-reviews)
 
+## Matchday for Hudl Wyscout
+- **Final Results**: [matchdayscu.streamlit.app](https://matchdayscu.streamlit.app/)
+- **Source(s)**: Hudl Wyscout
+- **Summary**: Only works if you have access to a Hudl Wyscout account. This app is able to take match report pdf(s) from wyscout and scrape it into a spreadsheet with every player per row and their metrics per column. The spreadsheet is then visualized in many different forms, including comprehensive player dashboards with percentiles, usage rates for efficiency, shooting funnels, and much more.
 
-## Santa Clara University Soccer
+## Player Performance Outliers
 
 - **Final Results**:
   - [Metric Visualizations](./scu-soc/complete/reports/metric_visualizations.pdf)
   - [Player Visualizations](./scu-soc/complete/reports/player_visualizations.pdf)
   - [Metric Spreadsheet](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
   - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
+  - [Training Prescriptions PDF](./scu-soc/complete/reports/training_prescriptions.pdf)
+  - [Training Prescriptions Spreadsheet](./scu-soc/complete/reports/training_prescriptions.xlsx)
 - **Source(s)**: Catapult, VALD (Forcedecks, Nordbord) Databases
 - **Summary**: Reports with Catapult and VALD data to surface workload trends, asymmetries, and injury risks for SCU Soccer. Makes complex athlete monitoring data accessible so coaches can quickly spot meaningful outliers and trends.
 
@@ -62,6 +69,8 @@ Click on the arrows to select and expand each project for more details!
   - [Player Visualizations](./scu-soc/complete/reports/player_visualizations.pdf)
   - [Metric Spreadsheet](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
   - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
+  - [Training Prescriptions PDF](./scu-soc/complete/reports/training_prescriptions.pdf)
+  - [Training Prescriptions Spreadsheet](./scu-soc/complete/reports/training_prescriptions.xlsx)
 
   Details of these visualizations can be seen in the next section "Complete".
 
@@ -77,6 +86,8 @@ Click on the arrows to select and expand each project for more details!
   - [Player Visualizations](./scu-soc/complete/reports/player_visualizations.pdf)
   - [Metric Spreadsheet](./scu-soc/complete/reports/metric_spreadsheets.xlsx)
   - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
+  - [Training Prescriptions PDF](./scu-soc/complete/reports/training_prescriptions.pdf)
+  - [Training Prescriptions Spreadsheet](./scu-soc/complete/reports/training_prescriptions.xlsx)
 
   This project takes in 4 csv data outputs drawn from catapult and vald databases:
   1) [catapult_profiles.csv](./scu-soc/complete/catapult_profiles.csv) - player averages for various catapult metrics
@@ -198,6 +209,56 @@ Click on the arrows to select and expand each project for more details!
   An analyst at Wolves I emailed earlier this year (Edward Maw) wrote back to me saying "The goal with coaches is to make their job easier and help them spot trends they may otherwise miss - not to tell them how they should be coaching a team!".
   
   I think this really resonated with me and so started to apply this into my work.
+
+  A few weeks after the initial completed pipeline, I started to think about implementing machine learning into this system. The inspiration came from my research in 6G networks, where I had to implement Q Learning as an algorithm for optimization. I figured that I could be able to use it for this project as well.
+
+  Right now we're able to identify if a player is performing above or below average in their metrics. But what if we could prescribe or recommend next steps to optimize future results? And use Q Learning as a sort of predictive model while doing so?
+
+  The idea of Q Learning is to have an agent with states, actions, and rewards. For state, we could use it as the distance from baseline. Then actions would be to adjust the recent by how much, then updating what applying the action would do to the recent value. Therefore, the reward would be designed to prefer getting inside the band, not taking giant steps, and not being wildly far from baseline. This would graduately adjust over multiple periods so players are as optimal as possible.
+
+  Q Learning is then updated via the Bellman equation. Since training data is synthetic, we're not learning from real match or training sequences. Rather, we simulate tons of random starting values, then practice and train. Once trained, the final prescription is computed. I've also set up XGBoost as an optional tool that I could use when I have more data to train it in the future.
+
+  Therefore, the next part takes [complete_data.csv](./scu-soc/complete/complete_data.csv) from above
+
+  And creates two output files:
+  - [reports/training_prescriptions.pdf](./scu-soc/complete/reports/training_prescriptions.pdf)
+    - Start on Team Summary to identify the highest risk players first
+    - Then open the player's page to see next period's suggested targets for each metric
+    - Apply context on top of suggestions and plan the next period accordingly
+  - [reports/training_prescriptions.xlsx](./scu-soc/complete/reports/training_prescriptions.xlsx)
+    - Same as the PDF but in spreadsheet form
+
+    Let's break down how these output files could be useful
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/training_prescriptions_PDF.png" width="75%" />
+  </p>
+
+  The first image above reveals the team summary, sorted by risk scores of each player, allowing us to see who we should pay attention to first. Risk scores are calculated through overload, underload, and asymmetries, revealing how severe a player's risk might be.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/training_prescriptions_PDF2.png" width="75%" />
+  </p>
+
+  We can then move on to the players themselves. Under the player name, it recommends that the player increases running volume due to last week being a low volume week. Obviously, without context, this could be dangerous. These are recommendations after all, and so shouldn't be trusted completely without appropriate context.
+
+  For each metric, we can look at the recommended target for the next period, then make adjustments accordingly to reach that goal. An optimal range is also displayed on the far right as well.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/training_prescriptions_spreadsheet.png" width="75%" />
+  </p>
+
+  As usual I've also made a spreadsheet version, where coaches can add notes and sort columns however they like.
+
+  <p align="center">
+    <img src="./scu-soc/complete/images/training_prescriptions_spreadsheet2.png" width="75%" />
+  </p>
+
+  This wraps up part 2. In the future I'll look into feeding real data to train my agent rather than simulated data. I wasn't able to get my hands on data from previous periods which made that unrealistic. So hopefully next time I'd get my hands on not just the most recent and average numbers, but also a collection of numbers from previous periods, and a system that allows new periods to be appending to the collection.
+
+  I'd also like to start incorporating other aspects of football analytics, from the Hudl product suits, video software, game analysis, and natural language processing for players to reveal their personalities. Putting them all together into one system would make predicting future events much easier, and provide valuable insights.
+
+  Quick update: We've just started implementing Output, which tracks bar speed, into this system. Therefore these illustrations aren't up to date and may be missing a few metrics.
 
 </details>
 
