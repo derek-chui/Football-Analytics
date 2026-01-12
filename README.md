@@ -33,7 +33,7 @@ Click on the arrows to select and expand each project for more details!
   - [Player Spreadsheet](./scu-soc/complete/reports/player_spreadsheets.xlsx)
   - [Training Prescriptions PDF](./scu-soc/complete/reports/training_prescriptions.pdf)
   - [Training Prescriptions Spreadsheet](./scu-soc/complete/reports/training_prescriptions.xlsx)
-- **Source(s)**: Catapult, VALD (Forcedecks, Nordbord) Databases
+- **Source(s)**: Catapult, VALD (Forcedecks, Nordbord), Output Databases
 - **Summary**: Reports with Catapult and VALD data to surface workload trends, asymmetries, and injury risks for SCU Soccer. Makes complex athlete monitoring data accessible so coaches can quickly spot meaningful outliers and trends.
 
 <details>
