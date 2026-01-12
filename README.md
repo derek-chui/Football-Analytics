@@ -11,6 +11,7 @@ Click on the arrows to select and expand each project for more details!
 - [Player Performance Outliers](#player-performance-outliers)
 
 ### Completed Projects
+- [Premier League Scouting](#premier-league-scouting)
 - [Project 3 - Players Actions v Usage Rates](#3---player-actions-v-usage-rates)
 - [Case Studies](#case-studies)
 - [Project 2 - 2025 Summer Squad Assessment](#2---2025-summer-squad-assessment)
@@ -328,6 +329,11 @@ Click on the arrows to select and expand each project for more details!
   </p>
 
 </details>
+
+## Premier League Scouting
+- **Final Results**: [plscout.streamlit.app](https://plscout.streamlit.app/)
+- **Source(s)**: FPL, Understat
+- **Summary**: Premier League scouting streamlit app based on public FPL and Understat databases. Automatically updates every season, can filter by minimum minutes, position, and sort by metrics. Select club or search player. Data is shown for the player, including the raw spreadsheet, overview, percentile chart, comparisons, and more.
 
 ## 3 - Player Actions v Usage Rates
 
