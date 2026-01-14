@@ -2,7 +2,7 @@
 
 Projects, tools, and resources for football data analysis & visualisation. Commonly used tools include Python, Web Scraping, NumPy, Pandas, Matplotlib, Seaborn, and Jupyter Notebook. Several visuals from various projects can also be found on Twitter ([@thatderekchui](https://x.com/thatderekchui)).
 
-Click on the arrows to select and expand each project for more details!
+Click on the arrows to select and expand each project for more details.
 
 ## Contents
 
