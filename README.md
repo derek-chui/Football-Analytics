@@ -259,7 +259,7 @@ Click on the arrows to select and expand each project for more details!
 
   I'd also like to start incorporating other aspects of football analytics, from the Hudl product suits, video software, game analysis, and natural language processing for players to reveal their personalities. Putting them all together into one system would make predicting future events much easier, and provide valuable insights.
 
-  Quick update: We've just started implementing Output, which tracks bar speed, into this system. Therefore these illustrations aren't up to date and may be missing a few metrics.
+  Quick update: We've just started implementing Output, which tracks bar speed, into this system. Also new thresholds with outliers still being 20+, but now risk at 10-20 as well. Therefore these illustrations aren't up to date and may be missing a few metrics.
 
 </details>
 
