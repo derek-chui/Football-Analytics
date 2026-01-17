@@ -20,7 +20,6 @@ Click on the arrows to select and expand each project for more details.
 - [Match Reviews](#match-reviews)
 
 ## Matchday for Hudl Wyscout
-- **Final Results**: [matchdayscu.streamlit.app](https://matchdayscu.streamlit.app/)
 - **Source(s)**: Hudl Wyscout
 - **Summary**: Only works if you have access to a Hudl Wyscout account. This app is able to take match report pdf(s) from wyscout and scrape it into a spreadsheet with every player per row and their metrics per column. The spreadsheet is then visualized in many different forms, including comprehensive player dashboards with percentiles, usage rates for efficiency, shooting funnels, and much more.
 
