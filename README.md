@@ -21,7 +21,7 @@ Click on the arrows to select and expand each project for more details.
 
 ## Matchday for Hudl Wyscout
 - **Source(s)**: Hudl Wyscout
-- **Summary**: Only works if you have access to a Hudl Wyscout account. This app is able to take match report pdf(s) from wyscout and scrape it into a spreadsheet with every player per row and their metrics per column. The spreadsheet is then visualized in many different forms, including comprehensive player dashboards with percentiles, usage rates for efficiency, shooting funnels, and much more.
+- **Summary**: Match report PDF(s) from any club Wyscout has access to can be uploaded to generate manager friendly player and team dashboards in minutes. The app handles aggregation over a season as well, making it very easy to spot game trends, create opposition analysis, or scouting. It shows patterns sitting right in front of you that are often overlooked. Insights even other teams don't know about themselves.
 
 ## Player Performance Outliers
 
