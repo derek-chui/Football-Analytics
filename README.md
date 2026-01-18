@@ -7,7 +7,8 @@ Click on the arrows to select and expand each project for more details.
 ## Contents
 
 ### Current Projects (In Progress)
-- [Matchday for Hudl Wyscout](#matchday-for-hudl-wyscout)
+- [Matchday](#matchday)
+- [Hudl Wyscout Match Report Extension](#hudl-wyscout-match-report-extension)
 - [Player Performance Outliers](#player-performance-outliers)
 
 ### Completed Projects
@@ -19,7 +20,11 @@ Click on the arrows to select and expand each project for more details.
 - [Project 1 - Progression Analysis (24/25)](#1---progression-analysis-2425)
 - [Match Reviews](#match-reviews)
 
-## Matchday for Hudl Wyscout
+## Matchday
+- **Source(s)**: Hudl Wyscout, Catapult, VALD (Forcedecks, Nordbord), Output Databases
+- **Summary**: Subscription based app that ties common coaching and performance tools together.
+
+## Hudl Wyscout Match Report Extension
 - **Source(s)**: Hudl Wyscout
 - **Summary**: Match report PDF(s) from any club Wyscout has access to can be uploaded to generate manager friendly player and team dashboards in minutes. The app handles aggregation over a season as well, making it very easy to spot game trends, create opposition analysis, or scouting. It shows patterns sitting right in front of you that are often overlooked. Insights even other teams don't know about themselves.
 
