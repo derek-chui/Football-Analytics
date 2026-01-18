@@ -22,7 +22,7 @@ Click on the arrows to select and expand each project for more details.
 
 ## Matchday
 - **Source(s)**: Hudl Wyscout, Catapult, VALD (Forcedecks, Nordbord), Output Databases
-- **Summary**: Subscription based app that ties common coaching and performance tools together.
+- **Summary**: Private account app that ties common coaching and performance tools together.
 
 ## Hudl Wyscout Match Report Extension
 - **Source(s)**: Hudl Wyscout
