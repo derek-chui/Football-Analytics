@@ -1,17 +1,17 @@
 # Football Analytics
 
-Projects, tools, and resources for football data analysis & visualisation. Commonly used tools include Python, Web Scraping, NumPy, Pandas, Matplotlib, Seaborn, and Jupyter Notebook. Several visuals from various projects can also be found on Twitter ([@thatderekchui](https://x.com/thatderekchui)).
+[Football Analytics Website](https://derekchui.com/football/). Projects, tools, and resources for football data analysis & visualisation. Commonly used tools include Python, Web Scraping, NumPy, Pandas, Matplotlib, Seaborn, and Jupyter Notebook. Several visuals from various projects can also be found on Twitter ([@thatderekchui](https://x.com/thatderekchui)).
 
 Click on the arrows to select and expand each project for more details.
 
 ## Contents
 
 ### Current Projects (In Progress)
-- [Matchday](#matchday)
-- [Hudl Wyscout Match Report Extension](#hudl-wyscout-match-report-extension)
-- [Player Performance Outliers](#player-performance-outliers)
+- [matchdays.app](#matchday)
 
 ### Completed Projects
+- [Hudl Wyscout Match Report Extension](#hudl-wyscout-match-report-extension)
+- [Player Performance Outliers](#player-performance-outliers)
 - [Premier League Scouting](#premier-league-scouting)
 - [Project 3 - Players Actions v Usage Rates](#3---player-actions-v-usage-rates)
 - [Case Studies](#case-studies)
@@ -21,12 +21,14 @@ Click on the arrows to select and expand each project for more details.
 - [Match Reviews](#match-reviews)
 
 ## Matchday
-- **Source(s)**: Hudl Wyscout, Catapult, VALD (Forcedecks, Nordbord), Output Databases
+- **Final Results**: [matchdays.app](https://matchdays.app/about)
+- **Source(s)**: Hudl Wyscout, Impect, Catapult, VALD (Forcedecks, Nordbord), Output, 1080, Ledsreact Databases
 - **Summary**: Private account app that ties common coaching and performance tools together.
 
 ## Hudl Wyscout Match Report Extension
+- **Final Results**: [matchdayscu.streamlit.app](https://matchdayscu.streamlit.app/)
 - **Source(s)**: Hudl Wyscout
-- **Summary**: Match report PDF(s) from any club Wyscout has access to can be uploaded to generate manager friendly player and team dashboards in minutes. The app handles aggregation over a season as well, making it very easy to spot game trends, create opposition analysis, or scouting. It shows patterns sitting right in front of you that are often overlooked. Insights even other teams don't know about themselves.
+- **Summary**: Match report PDF(s) from any club Wyscout has access to can be uploaded to generate manager friendly player and team dashboards in minutes. The app handles aggregation over a season as well, making it very easy to spot game trends, create opposition analysis, or scouting.
 
 ## Player Performance Outliers
 
