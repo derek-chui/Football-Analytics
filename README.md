@@ -6,8 +6,8 @@ Click on the arrows to select and expand each project for more details.
 
 ## Contents
 
-### Current Projects (In Progress)
-- [matchdays.app](#matchday)
+### Current Projects
+- [matchdays.app](#matchdaysapp)
 
 ### Completed Projects
 - [Hudl Wyscout Match Report Extension](#hudl-wyscout-match-report-extension)
@@ -20,10 +20,10 @@ Click on the arrows to select and expand each project for more details.
 - [Project 1 - Progression Analysis (24/25)](#1---progression-analysis-2425)
 - [Match Reviews](#match-reviews)
 
-## Matchday
+## matchdays.app
 - **Final Results**: [matchdays.app](https://matchdays.app/about)
 - **Source(s)**: Hudl Wyscout, Impect, Catapult, VALD (Forcedecks, Nordbord), Output, 1080, Ledsreact Databases
-- **Summary**: Private account app that ties common coaching and performance tools together.
+- **Summary**: Private account app that ties common coaching and performance tools together. Previous projects are work that eventually became the building blocks of this app.
 
 ## Hudl Wyscout Match Report Extension
 - **Final Results**: [matchdayscu.streamlit.app](https://matchdayscu.streamlit.app/)
