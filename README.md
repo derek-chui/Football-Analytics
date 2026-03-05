@@ -1,6 +1,6 @@
 # Football Analytics
 
-[Football Analytics Website](https://derekchui.com/football/). Projects, tools, and resources for football data analysis & visualisation. Commonly used tools include Python, Web Scraping, NumPy, Pandas, Matplotlib, Seaborn, and Jupyter Notebook. Several visuals from various projects can also be found on Twitter ([@thatderekchui](https://x.com/thatderekchui)).
+[Website](https://derekchui.com/). Projects, tools, and resources for football data analysis & visualisation. Commonly used tools include Python, Web Scraping, NumPy, Pandas, Matplotlib, Seaborn, and Jupyter Notebook. Several visuals from various projects can also be found on Twitter ([@thatderekchui](https://x.com/thatderekchui)).
 
 Click on the arrows to select and expand each project for more details.
 
@@ -337,7 +337,7 @@ Click on the arrows to select and expand each project for more details.
 </details>
 
 ## Premier League Scouting
-- **Final Results**: [plscout.streamlit.app](https://plscout.streamlit.app/)
+- **Final Results**: [Video Walkthrough](https://cap.so/s/nnffkwdkwnare2w)
 - **Source(s)**: FPL, Understat
 - **Summary**: Premier League scouting streamlit app based on public FPL and Understat databases. Automatically updates every season, can filter by minimum minutes, position, and sort by metrics. Select club or search player. Data is shown for the player, including the raw spreadsheet, overview, percentile chart, comparisons, and more.
 
