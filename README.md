@@ -337,9 +337,9 @@ Click on the arrows to select and expand each project for more details.
 </details>
 
 ## Premier League Scouting
-- **Final Results**: [Video Walkthrough](https://cap.so/s/nnffkwdkwnare2w)
+- **Final Results**: [Video Walkthrough](https://drive.google.com/file/d/1xs6IoX54xfnAZZ-fy95Ot02tuMm1_UqH/view?usp=sharing)
 - **Source(s)**: FPL, Understat
-- **Summary**: Premier League scouting streamlit app based on public FPL and Understat databases. Automatically updates every season, can filter by minimum minutes, position, and sort by metrics. Select club or search player. Data is shown for the player, including the raw spreadsheet, overview, percentile chart, comparisons, and more.
+- **Summary**: Flask based EPL analytics web app that pulls data from the FPL and Understat APIs. Player stats, team analysis, visualizations. Dashboard with radial charts, leaderboards, fixtures/FDR calendar, squad optimizer, watchlists.
 
 ## 3 - Player Actions v Usage Rates
 
