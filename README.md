@@ -1,15 +1,14 @@
 # Football Analytics
 
-[Website](https://derekchui.com/). Projects, tools, and resources for football data analysis & visualisation. Commonly used tools include Python, Web Scraping, NumPy, Pandas, Matplotlib, Seaborn, and Jupyter Notebook. Several visuals from various projects can also be found on Twitter ([@thatderekchui](https://x.com/thatderekchui)).
+This repo is archived and no longer updated to reflect my latest work.
+
+[Website linked here](https://derekchui.com/). Projects, tools, and resources for football data analysis & visualisation. Commonly used tools include Python, Web Scraping, NumPy, Pandas, Matplotlib, Seaborn, and Jupyter Notebook. Several visuals from various projects can also be found on Twitter ([@thatderekchui](https://x.com/thatderekchui)).
 
 Click on the arrows to select and expand each project for more details.
 
 ## Contents
 
-### Current Projects
 - [matchdays.app](#matchdaysapp)
-
-### Completed Projects
 - [Hudl Wyscout Match Report Extension](#hudl-wyscout-match-report-extension)
 - [Player Performance Outliers](#player-performance-outliers)
 - [Premier League Scouting](#premier-league-scouting)
